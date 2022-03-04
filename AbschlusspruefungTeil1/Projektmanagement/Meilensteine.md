@@ -1,12 +1,13 @@
 # Meilensteine im Projektmanagement
-[Website](https://projekte-leicht-gemacht.de/blog/projektmanagement/klassisch/projektplanung/definition-meilensteine)  
-
-- Sind im klassischen Projektmangement vorhanden
-- Stellen wichtige / markante Punkte in der Projektablauf dar
-- Sowas ist zum Beispiel ein Release (Alpha, Beta...)
+- Bestandteil des klassichen Projektmanagements
+- Stellen wichtige / markante Punkte im Projektablauf dar
+- Beispiel: Ein Release (Alpha, Beta...)
 - Etappenziel
 
 ## Was bewirken Meilensteine?
-- sie motivieren
-- sie wirken qualitätssichernd
-- sie geben Struktur
+- Sie motivieren
+- Sie wirken qualitätssichernd
+- Sie geben Struktur
+
+## Links
+[Projekte leicht gemacht: Meilensteine](https://projekte-leicht-gemacht.de/blog/projektmanagement/klassisch/projektplanung/definition-meilensteine)  

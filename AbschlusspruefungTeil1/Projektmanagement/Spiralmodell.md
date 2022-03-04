@@ -1,9 +1,7 @@
 # Spiralmodell
 
-![Spiralmodell](./Gallery/Spiralmodel.png)
-
 - Inkrementell
-- Hat Vier Phasen (Im Bild die Zahlen)
+- Hat Vier Phasen
 - Klassisches Projektmanagementmodell
 
 ## Vorteile

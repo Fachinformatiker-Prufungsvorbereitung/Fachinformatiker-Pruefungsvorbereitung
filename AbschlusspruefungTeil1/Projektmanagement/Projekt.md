@@ -1,7 +1,9 @@
 # Was ist ein Projekt?
 - Bestimmter Anfang und Ende / Zeitliche Begrenzung
-- In der Regel ist ein Projekt Komplex
+- In der Regel ist ein Projekt komplex
 - Projekt hat ein Endresultat / Ziel
+
+<br>
 
 ## Projektauftraggeber
 - Erteilt den Auftrag für ein Projekt

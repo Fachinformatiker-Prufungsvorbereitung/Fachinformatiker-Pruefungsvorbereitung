@@ -1,15 +1,12 @@
 # SMART-Ziele
-![SMART](./Gallery/smart.png)
-
-Smart sind die Kriterien die ein Ziel erfüllen muss
+- Wird benutzt um Ziele zu definieren
+- Jedes Ziel sollte diese eigenschaften beinhalten
 
 <br>
 
 Smart Kriterien:
-- Spezifisch
-- Messbar
-- Attraktiv / Akzeptiert
-- Realistisch
-- Terminiert
-
-Der attraktive terminator Parzifisch ist essbar und elastisch ~ Einfach nicht fragen
+- S --> Spezifisch
+- M --> Messbar
+- A --> Attraktiv / Akzeptiert
+- R --> Realistisch
+- T --> Terminiert

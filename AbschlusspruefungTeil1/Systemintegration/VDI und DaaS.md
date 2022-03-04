@@ -7,7 +7,7 @@
 
 ## DaaS - Deskop as a Service
 - Virtualisierung in der Cloud
-- Voll gemanaged
+- Voll gemanageder Desktop
 
 ## Links
 [VDI vs. Desktop as a Service (DaaS) - Explaining the Advantages & Disadvantages](https://www.youtube.com/watch?v=lvFFa57dCsA)  

@@ -1,7 +1,4 @@
 # Phasen der Teamentwicklung
-- Teamuhr nach Tuckman
-
-![Phasenmodell nach Tuckman](./Gallery/phasenmodell.png)
 
 ## Forming
 - Das Team bildet sich
@@ -11,7 +8,7 @@
 - Teamleiter agiert als Gastgeber und unterstützt den Kennenlernprozess
 
 ## Storming
-- Man kommt sich näher
+- Das Team kommt sich näher
 - Konfliktphase
 - Konflikte bilden sich
 - Grüppchenbildung

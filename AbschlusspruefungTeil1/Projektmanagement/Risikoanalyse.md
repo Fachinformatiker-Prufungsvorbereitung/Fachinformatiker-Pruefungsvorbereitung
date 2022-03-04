@@ -1,6 +1,6 @@
 # Risikoanalyse
-- Risiken treten zu einer bestimmten Wahrscheinlichkeit auf => Eintrittswarscheinlichkeit
-- Risiken lösen Schaden aus => Tragweite
+- Risiken treten zu einer bestimmten Wahrscheinlichkeit auf --> Eintrittswarscheinlichkeit
+- Risiken lösen Schaden aus --> Tragweite
 
 ## Links
 [Risikoanalyse einfach erklärt: Der Risikowert im Projektmanagement](https://www.youtube.com/watch?v=ire2x4HLDws)  
