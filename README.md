@@ -3,13 +3,13 @@
 ## Abschlussprüfung Teil 1
 
 ### Projektmanagement
-- [Agiles vs klassisches Projektmanagement](./AbschlusspruefungTeil1/Projektmanagement/Agiles%20vs%20Klassisches%20Projektmanagement.md)
-- [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/Extreme%20Programming.md)
+- [Agiles vs klassisches Projektmanagement](./AbschlusspruefungTeil1/Projektmanagement/AgilesVsKlassischesProjektmanagement.md)
+- [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/ExtremeProgramming.md)
 - [Gantt](./AbschlusspruefungTeil1/Projektmanagement/Gantt.md)
 - [Kanban](./AbschlusspruefungTeil1/Projektmanagement/Kanban.md)
 - [Lastenheft und Pflichtenheft](./AbschlusspruefungTeil1/Projektmanagement/LastenheftUndPflichtenheft.md)
 - [Meilensteine](./AbschlusspruefungTeil1/Projektmanagement/Meilensteine.md)
-- [Phasen der Teamentwicklung](./AbschlusspruefungTeil1/Projektmanagement/Phasen%20der%20Teamentwicklung.md)
+- [Phasen der Teamentwicklung](./AbschlusspruefungTeil1/Projektmanagement/PhasenDerTeamentwicklung.md)
 - [Projekt](./AbschlusspruefungTeil1/Projektmanagement/Projekt.md)
 - [Risikoanalyse](./AbschlusspruefungTeil1/Projektmanagement/Risikoanalyse.md)
 - [Scrum](./AbschlusspruefungTeil1/Projektmanagement/Scrum.md)
@@ -22,8 +22,8 @@
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
 - [Datenbanksysteme](./AbschlusspruefungTeil1/Systemintegration/Datenbanksystem.md)
 - [DSL](./AbschlusspruefungTeil1/Systemintegration/DSL.md)
-- [Thin client Arten](./AbschlusspruefungTeil1/Systemintegration/Thin%20Client%20Arten.md)
-- [VDI und DaaS](./AbschlusspruefungTeil1/Systemintegration/VDI%20und%20DaaS.md)
+- [Thin client Arten](./AbschlusspruefungTeil1/Systemintegration/ThinClientArten.md)
+- [VDI und DaaS](./AbschlusspruefungTeil1/Systemintegration/VdiUndDaaS.md)
 - [VLAN](./AbschlusspruefungTeil1/Systemintegration/VLAN.md)
 
 ### Datenschutz
@@ -34,7 +34,7 @@
 
 ### Wirtschaft
 - [Kosten Nutzen](./AbschlusspruefungTeil1/Wirtschaft/KostenNutzen.md)
-- [Make or Buy](./AbschlusspruefungTeil1/Wirtschaft/Make%20or%20Buy.md)
+- [Make or Buy](./AbschlusspruefungTeil1/Wirtschaft/MakeOrBuy.md)
 - [ROI](./AbschlusspruefungTeil1/Wirtschaft/ROI.md)
 - [Ratendarlehen](./AbschlusspruefungTeil1/Wirtschaft/Ratendarlehen.md)
 - [Angebotsvergleich](./AbschlusspruefungTeil1/Wirtschaft/Angebotsvergleich.md)
