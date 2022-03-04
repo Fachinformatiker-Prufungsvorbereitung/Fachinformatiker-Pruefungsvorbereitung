@@ -12,4 +12,4 @@
 <br>
 
 ## Links
-(GANTT Diagramm erstellen für phänomenales Projektmanagement (einfache Erklärung) 📊🚀)[https://www.youtube.com/watch?v=rpUsuZQsiFs]
+[GANTT Diagramm erstellen für phänomenales Projektmanagement (einfache Erklärung) 📊🚀](https://www.youtube.com/watch?v=rpUsuZQsiFs)
