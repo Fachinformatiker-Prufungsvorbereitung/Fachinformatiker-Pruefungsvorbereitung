@@ -2,7 +2,14 @@
 
 ## Abschlussprüfung Teil 1
 
-### Projektmanagement
+### Themen
+Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen Übersicht - Stefan Macke](https://it-berufe-podcast.de/pruefungsvorbereitung-auf-teil-1-der-gestreckten-abschlusspruefung-der-it-berufe-it-berufe-podcast-168/)
+
+<br>
+
+### Zusammenfassungen zum Lernen
+
+#### Projektmanagement
 - [Agiles vs klassisches Projektmanagement](./AbschlusspruefungTeil1/Projektmanagement/AgilesVsKlassischesProjektmanagement.md)
 - [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/ExtremeProgramming.md)
 - [Gantt](./AbschlusspruefungTeil1/Projektmanagement/Gantt.md)
@@ -18,7 +25,7 @@
 - [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
 - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
 
-### Systemintegration
+#### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
 - [Datenbanksysteme](./AbschlusspruefungTeil1/Systemintegration/Datenbanksystem.md)
 - [DSL](./AbschlusspruefungTeil1/Systemintegration/DSL.md)
@@ -26,13 +33,13 @@
 - [VDI und DaaS](./AbschlusspruefungTeil1/Systemintegration/VdiUndDaaS.md)
 - [VLAN](./AbschlusspruefungTeil1/Systemintegration/VLAN.md)
 
-### Datenschutz
+#### Datenschutz
 - [Betroffenenrechte](./AbschlusspruefungTeil1/Datenschutz/Betroffenenrechte.md)
 
-### Zahlensysteme
+#### Zahlensysteme
 - [Umrechnungen](./AbschlusspruefungTeil1/Zahlensysteme/Umrechnungen.md)
 
-### Wirtschaft
+#### Wirtschaft
 - [Kosten Nutzen](./AbschlusspruefungTeil1/Wirtschaft/KostenNutzen.md)
 - [Make or Buy](./AbschlusspruefungTeil1/Wirtschaft/MakeOrBuy.md)
 - [ROI](./AbschlusspruefungTeil1/Wirtschaft/ROI.md)
@@ -41,7 +48,9 @@
 - [Bezugskalkulation](./AbschlusspruefungTeil1/Wirtschaft/Bezugskalkulation.md)
 - [Nutzwertanalyse](./AbschlusspruefungTeil1/Wirtschaft/Nutzwertanalyse.md)
 - [Amortisationsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Amortisationsrechnung.md)
-- [Rentabilitätsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Rentabilit%C3%A4tsrechnung.md)
+- [Rentabilitätsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Rentabilitaetsrechnung.md)
+
+<br>
 
 ## Abschlussprüfung Teil 2
 
