@@ -1,7 +1,12 @@
 # Was ist ein Projekt?
-- Bestimmter Anfang und Ende / Zeitliche Begrenzung
-- In der Regel ist ein Projekt komplex
-- Projekt hat ein Endresultat / Ziel
+
+## Eigenschaften eines Projekts
+- Neuartig und einmalig
+- Konktrete Zielvorgaben
+- Zeitbegrenzung
+- Ressourcenbegrenzung
+- Komplexität und Größe
+- Projektspezifische Organisationsform
 
 <br>
 

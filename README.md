@@ -24,6 +24,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Spiralmodell](./AbschlusspruefungTeil1/Projektmanagement/Spiralmodell.md)
 - [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
 - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
+- [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
 
 #### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
