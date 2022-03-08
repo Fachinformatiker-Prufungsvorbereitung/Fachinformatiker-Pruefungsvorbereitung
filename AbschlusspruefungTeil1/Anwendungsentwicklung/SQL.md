@@ -22,6 +22,7 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 |VARCHAR(s)|Zeichenfolge mit Maximal-Länge s, ggf. auch kürzer|
 |TEXT|Sehr große Texte|
 
+<br>
 
 ## Datenbanken verwalten
 ### Datenbank anlegen
@@ -60,3 +61,15 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 
 ### Tabelle löschen
     DROP TABLE <Tabellenname>;
+
+<br>
+
+## Bestehende Tabellen ändern
+### Spalte hinzufügen
+    ALTER TABLE <Tabellenname> ADD <Attributdefinition>;
+
+### Spalte löschen
+    ALTER TABLE <Tabellenname> DROP <Attributnamen>;
+
+### Spalte ändern
+    ALTER TABLE <Tabellenname> MODIFY <Attributdefinition>;
