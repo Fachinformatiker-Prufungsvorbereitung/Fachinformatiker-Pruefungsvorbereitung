@@ -26,6 +26,12 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
 - [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
 
+#### Anwendungsentwicklung
+- [Datenbanken](./AbschlusspruefungTeil1/Anwendungsentwicklung/Datenbanken.md)
+- [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)
+- [Normalisierung](./AbschlusspruefungTeil1/Anwendungsentwicklung/Normalisierung.md)
+- [SQL](./AbschlusspruefungTeil1/Anwendungsentwicklung/SQL.md)
+
 #### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
 - [Datenbanksysteme](./AbschlusspruefungTeil1/Systemintegration/Datenbanksystem.md)

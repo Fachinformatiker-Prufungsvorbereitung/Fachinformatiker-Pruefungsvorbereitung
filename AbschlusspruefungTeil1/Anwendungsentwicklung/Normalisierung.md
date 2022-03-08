@@ -1,0 +1,3 @@
+# Normalisierung
+
+TODO
