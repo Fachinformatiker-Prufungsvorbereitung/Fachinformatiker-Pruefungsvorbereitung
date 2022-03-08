@@ -27,6 +27,11 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
 - [Projektplan](./AbschlusspruefungTeil1/Projektmanagement/Projektplan.md)
 
+#### Anwendungsentwicklung
+- [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)
+- [Normalisierung](./AbschlusspruefungTeil1/Anwendungsentwicklung/Normalisierung.md)
+- [SQL](./AbschlusspruefungTeil1/Anwendungsentwicklung/SQL.md)
+
 #### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
 - [Datenbanksysteme](./AbschlusspruefungTeil1/Systemintegration/Datenbanksystem.md)
@@ -52,8 +57,23 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Amortisationsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Amortisationsrechnung.md)
 - [Rentabilitätsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Rentabilitaetsrechnung.md)
 
+#### Elektrotechnische Grundlagen
+- [Elektrotechnik](./AbschlusspruefungTeil1/ElektrotechnischeGrundlagen/Elektrotechnik.md)
+- [Schaltungen](./AbschlusspruefungTeil1/ElektrotechnischeGrundlagen/Schaltungen.md)
+
 <br>
 
 ## Abschlussprüfung Teil 2
 
 Coming soon
+
+<br>
+
+## Projektarbeit
+
+Coming soon
+
+<br>
+
+## Berufsschule
+- [Python](./Berufsschule/Python.md)
