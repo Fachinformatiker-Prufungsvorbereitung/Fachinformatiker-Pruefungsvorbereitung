@@ -48,6 +48,7 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 
 ### Tabelle anlegen
     CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
+
 #### Attributdefinition
     <Attributname> <Datentyp> [PRIMARY KEY] [AUTO_INCREMENT] 
 	[NOT NULL] [DEFAULT <Wert>];
