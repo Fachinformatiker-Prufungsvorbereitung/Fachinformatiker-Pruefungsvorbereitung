@@ -4,6 +4,7 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 <br>
 
 ## Datentypen
+
 |Typ|Beschreibung|
 |---|------------|
 |INT, INTEGER|Ganze Zahlen, 32 Bit, -2 Mrd. bis +2 Mrd.|
@@ -49,6 +50,7 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 #### Attributdefinition
     <Attributname> <Datentyp> [PRIMARY KEY] [AUTO_INCREMENT] 
 	[NOT NULL] [DEFAULT <Wert>];
+
 |Option|Beschreibung|
 |------|------------|
 |NOT NULL|Pflichtfeld, Wert darf nicht NULL sein|
