@@ -26,28 +26,42 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 
 ## Datenbanken verwalten
 ### Datenbank anlegen
-    CREATE DATABASE [IF NOT EXISTS] <Datenbankname>;
+```sql
+CREATE DATABASE [IF NOT EXISTS] <Datenbankname>;
+```
 
 ### Datenbank auswählen
-    USE <Datenbankname>;
+```sql
+USE <Datenbankname>;
+```
 
 ### Datenbanken auflisten
-    SHOW DATABASES;
+```sql
+SHOW DATABASES;
+```
 
 ### Datenbank löschen
-    DROP DATABASE <Datenbankname>;
+```sql
+DROP DATABASE <Datenbankname>;
+```
 
 <br>
 
 ## Tabellen verwalten
 ### Tabellen auflisten
-    SHOW TABLES;
+```sql
+SHOW TABLES;
+```
 
 ### Tabellenaufbau anzeigen
-    DESC <Tabellenname>;
+```sql
+DESC <Tabellenname>;
+```
 
 ### Tabelle anlegen
-    CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
+```sql
+CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
+```
 
 #### Attributdefinition
     <Attributname> <Datentyp> [PRIMARY KEY] [AUTO_INCREMENT] 
@@ -61,32 +75,45 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 |DEFAULT|Der Standartwert für dieses Feld wird auf "Wert" gesetzt.|
 
 ### Tabelle löschen
-    DROP TABLE <Tabellenname>;
+```sql
+DROP TABLE <Tabellenname>;
+```
 
 <br>
 
 ## Bestehende Tabellen ändern
 ### Spalte hinzufügen
-    ALTER TABLE <Tabellenname> ADD <Attributdefinition>;
+```sql
+ALTER TABLE <Tabellenname> ADD <Attributdefinition>;
+```
 
 ### Spalte löschen
-    ALTER TABLE <Tabellenname> DROP <Attributnamen>;
+```sql
+ALTER TABLE <Tabellenname> DROP <Attributnamen>;
+```
 
 ### Spalte ändern
-    ALTER TABLE <Tabellenname> MODIFY <Attributdefinition>;
+```sql
+ALTER TABLE <Tabellenname> MODIFY <Attributdefinition>;
+```
 
 <br>
 
 ## Daten bearbeiten
 ### Daten einfügen
-    INSERT INTO <Tabellenname> (Attributliste) VALUES (Wertliste);
+```sql
+INSERT INTO <Tabellenname> (Attributliste) VALUES (Wertliste);
+```
 
 ### Daten löschen
-    DELETE FROM <Tabellenname>;
+```sql
+DELETE FROM <Tabellenname>;
+```
 
 ### Daten aktualisieren
-    UPDATE <Tabellenname> SET <Datenfeld1>=<neuer Wert1>, <Datenfeld2>=<neuer Wert2>;
-
+```sql
+UPDATE <Tabellenname> SET <Datenfeld1>=<neuer Wert1>, <Datenfeld2>=<neuer Wert2>;
+```
 <br>
 
 ## Where Bedingungen
@@ -98,3 +125,16 @@ Where kann an die meisten Befehle angehangen werden und sorgt so dafür, dass nu
     Bereichsoperator:	            BETWEEN x AND y
     Mengenvergleich:	            IN(wert1, wert2, …)
 
+<br>
+
+## Einfache Datenabfragen
+
+```sql
+SELECT * | spaltenliste | berechnung [TOP anzahl] 
+FROM tabelle(n)
+[WHERE bedingung]
+[GROUP BY spalten(n)]
+[HAVING bedingung]
+[ORDER BY spalte(n) [ASC | DESC]]
+[LIMIT anzahl | start, anzahl];
+```
