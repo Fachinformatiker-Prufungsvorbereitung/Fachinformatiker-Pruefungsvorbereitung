@@ -144,6 +144,7 @@ FROM tabelle(n)
 ## Funktionen in Abfragen
 
 ### Normale Funktionen
+
 |Funktion|Beschreibung|
 |--------|------------|
 |CURDATE()|Gibt das aktuelle Datum zurück|
