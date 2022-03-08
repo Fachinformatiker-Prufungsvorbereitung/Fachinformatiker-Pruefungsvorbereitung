@@ -138,3 +138,36 @@ FROM tabelle(n)
 [ORDER BY spalte(n) [ASC | DESC]]
 [LIMIT anzahl | start, anzahl];
 ```
+
+<br>
+
+## Funktionen in Abfragen
+
+### Normale Funktionen
+|Funktion|Beschreibung|
+|--------|------------|
+|CURDATE()|Gibt das aktuelle Datum zurück|
+|DATEDIFF(datum1, datum2)|Berechnet die Datumsdifferenz in Tagen|
+|YEAR(datum)|Gibt das Jahr zurück|
+|MONTH(datum)|Gibt das Monat zurück|
+|DAY(datum)|Gibt den Tag zurück|
+|DATE_ADD(datum, intervall)|Addiert das Intervall zum Datum|
+
+
+### Aggregatsfunktionen
+Sie berechnen ein Ergebnis aus den Werten einer Spalte (mehrere Datensätze).
+
+|Funktion|Beschreibung|
+|--------|------------|
+|COUNT(<feld>)|Zählt alle nicht-null-Werte innerhalb einer Spalte|
+|COUNT(*)|Zählt die Datensätze/Zeilen|
+|SUM(<feld>)|Berechnet die Summe einer ganze Spalte|
+|AVG(<feld>)|Berechnet den Durchschnitt einer ganze Spalte (NULL-Werte zählen nicht mit)|
+|MIN(<feld>)|Sucht den kleinsten Wert einer ganzen Spalte.|
+|MAX(<feld>)|Sucht den größten Wert einer ganzen Spalte.|
+
+## Gruppierungen 
+TODO
+
+## Abfragen über mehrere Tabellen (Joins)
+TODO
