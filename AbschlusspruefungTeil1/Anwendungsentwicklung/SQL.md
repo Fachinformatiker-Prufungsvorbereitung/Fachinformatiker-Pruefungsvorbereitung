@@ -74,3 +74,27 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 
 ### Spalte ändern
     ALTER TABLE <Tabellenname> MODIFY <Attributdefinition>;
+
+<br>
+
+## Daten bearbeiten
+### Daten einfügen
+    INSERT INTO <Tabellenname> (Attributliste) VALUES (Wertliste);
+
+### Daten löschen
+    DELETE FROM <Tabellenname>;
+
+### Daten aktualisieren
+    UPDATE <Tabellenname> SET <Datenfeld1>=<neuer Wert1>, <Datenfeld2>=<neuer Wert2>;
+
+<br>
+
+## Where Bedingungen
+Where kann an die meisten Befehle angehangen werden und sorgt so dafür, dass nur bestimmte Datensätze angesprochen werden.
+
+    Mathematische Operationen:	    =, !=, >, <, >=, <=, +, -, *, /
+    Boolesche Operatoren:	        AND, OR, NOT
+    Textmustervergleich:	        LIKE mit % für beliebige Zeichenkette (auch leer) und _ für einzelnes Zeichen z.B.: name LIKE "H%"
+    Bereichsoperator:	            BETWEEN x AND y
+    Mengenvergleich:	            IN(wert1, wert2, …)
+
