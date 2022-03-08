@@ -160,12 +160,12 @@ Sie berechnen ein Ergebnis aus den Werten einer Spalte (mehrere Datensätze).
 
 |Funktion|Beschreibung|
 |--------|------------|
-|COUNT(<feld>)|Zählt alle nicht-null-Werte innerhalb einer Spalte|
+|COUNT(feld)|Zählt alle nicht-null-Werte innerhalb einer Spalte|
 |COUNT(*)|Zählt die Datensätze/Zeilen|
-|SUM(<feld>)|Berechnet die Summe einer ganze Spalte|
-|AVG(<feld>)|Berechnet den Durchschnitt einer ganze Spalte (NULL-Werte zählen nicht mit)|
-|MIN(<feld>)|Sucht den kleinsten Wert einer ganzen Spalte.|
-|MAX(<feld>)|Sucht den größten Wert einer ganzen Spalte.|
+|SUM(feld)|Berechnet die Summe einer ganze Spalte|
+|AVG(feld)|Berechnet den Durchschnitt einer ganze Spalte (NULL-Werte zählen nicht mit)|
+|MIN(feld)|Sucht den kleinsten Wert einer ganzen Spalte.|
+|MAX(feld)|Sucht den größten Wert einer ganzen Spalte.|
 
 ## Gruppierungen 
 TODO
