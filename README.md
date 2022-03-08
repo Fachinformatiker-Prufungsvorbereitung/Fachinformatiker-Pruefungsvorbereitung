@@ -27,7 +27,6 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
 
 #### Anwendungsentwicklung
-- [Datenbanken](./AbschlusspruefungTeil1/Anwendungsentwicklung/Datenbanken.md)
 - [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)
 - [Normalisierung](./AbschlusspruefungTeil1/Anwendungsentwicklung/Normalisierung.md)
 - [SQL](./AbschlusspruefungTeil1/Anwendungsentwicklung/SQL.md)
