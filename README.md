@@ -25,6 +25,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
 - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
 - [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
+- [Projektplan](./AbschlusspruefungTeil1/Projektmanagement/Projektplan.md)
 
 #### Anwendungsentwicklung
 - [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)
