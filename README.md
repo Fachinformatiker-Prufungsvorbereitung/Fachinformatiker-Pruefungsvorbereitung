@@ -71,8 +71,3 @@ Coming soon
 ## Projektarbeit
 
 Coming soon
-
-<br>
-
-## Berufsschule
-- [Python](./Berufsschule/Python.md)
