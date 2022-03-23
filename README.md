@@ -57,10 +57,6 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Amortisationsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Amortisationsrechnung.md)
 - [Rentabilitätsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Rentabilitaetsrechnung.md)
 
-#### Elektrotechnische Grundlagen
-- [Elektrotechnik](./AbschlusspruefungTeil1/ElektrotechnischeGrundlagen/Elektrotechnik.md)
-- [Schaltungen](./AbschlusspruefungTeil1/ElektrotechnischeGrundlagen/Schaltungen.md)
-
 <br>
 
 ## Abschlussprüfung Teil 2
