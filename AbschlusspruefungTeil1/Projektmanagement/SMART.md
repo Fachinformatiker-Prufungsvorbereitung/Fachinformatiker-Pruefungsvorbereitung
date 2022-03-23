@@ -1,10 +1,10 @@
 # SMART-Ziele
 - Wird benutzt um Ziele zu definieren
-- Jedes Ziel sollte diese eigenschaften beinhalten
+- Jedes Ziel sollte diese Eigenschaften beinhalten
 
 <br>
 
-Smart Kriterien:
+SMART Kriterien:
 - S --> Spezifisch
 - M --> Messbar
 - A --> Attraktiv / Akzeptiert

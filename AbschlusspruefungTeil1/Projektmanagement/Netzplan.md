@@ -32,4 +32,5 @@ Der kritische Pfad ist der Weg vom ersten bis zum letzten Vorgang eines Netzplan
 <br>
 
 ## Links
-[Was ist ein Netzplan?](https://www.inloox.de/projektmanagement-glossar/netzplan/)
+[Was ist ein Netzplan?](https://www.inloox.de/projektmanagement-glossar/netzplan/)  
+[Netzplantechnik einfach erklärt + Beispiel mit kritischem Pfad!](https://www.youtube.com/watch?v=OfrfVY-eYQY)
