@@ -168,7 +168,12 @@ Sie berechnen ein Ergebnis aus den Werten einer Spalte (mehrere Datensätze).
 |MAX(feld)|Sucht den größten Wert einer ganzen Spalte.|
 
 ## Gruppierungen 
-TODO
+### Beispiel
+```sql
+SELECT ort, COUNT(ort) FROM kunde GROUP BY ort;
+
+SELECT ort, COUNT(ort) FROM kunde GROUP BY ort HAVING COUNT(ort) > 100;
+```
 
 ## Abfragen über mehrere Tabellen (Joins)
 TODO

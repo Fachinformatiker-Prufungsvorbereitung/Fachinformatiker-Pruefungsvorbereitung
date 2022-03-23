@@ -1,7 +1,7 @@
 # Wasserfallmodell
-- Klassisches Prjektmanagement
+- Klassisches Projektmanagement
 - Die Phasen im Projekt Verlaufen hintereinander
-- Es können keine Phasen Paralelle laufen
+- Es können keine Phasen parallele laufen
 - Die Phasen sind dadurch klar abgegrenzt
 - Meilensteine können eingesetzt werden
 
