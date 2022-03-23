@@ -48,6 +48,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 
 #### Datenschutz
 - [Betroffenenrechte](./AbschlusspruefungTeil1/Datenschutz/Betroffenenrechte.md)
+- [Cyberbedrohungen](./AbschlusspruefungTeil1/Datenschutz/Cyberbedrohungen.md)
 
 #### Zahlensysteme
 - [Umrechnungen](./AbschlusspruefungTeil1/Zahlensysteme/Umrechnungen.md)
