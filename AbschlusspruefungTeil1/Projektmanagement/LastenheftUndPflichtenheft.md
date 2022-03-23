@@ -6,9 +6,13 @@
 - Grobe Idee
 
 ### Inhalte eines Lastenhefts
-- Zieldefinition
-- Verwendungszweck
-- Genaue Beschreibung
+- Definition der Projektziele
+- Beschreibung der Ausgangssituation
+- Sicherheitsrelevante Anforderungen
+- Funktionale Anforderungen
+- Nicht funktionale Anforderungen
+- Zeitliche Rahmenbedingung
+- Kurzvorstellung des Auftraggebers
 
 <br>
 

@@ -2,6 +2,8 @@
 
 ## Abschlussprüfung Teil 1
 
+Die Abschlussprüfung Teil 1 ist für alle IT-Berufe identisch.
+
 ### Themen
 Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen Übersicht - Stefan Macke](https://it-berufe-podcast.de/pruefungsvorbereitung-auf-teil-1-der-gestreckten-abschlusspruefung-der-it-berufe-it-berufe-podcast-168/)
 
@@ -39,6 +41,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Thin client Arten](./AbschlusspruefungTeil1/Systemintegration/ThinClientArten.md)
 - [VDI und DaaS](./AbschlusspruefungTeil1/Systemintegration/VdiUndDaaS.md)
 - [VLAN](./AbschlusspruefungTeil1/Systemintegration/VLAN.md)
+- [RAID](./AbschlusspruefungTeil1/Systemintegration/RAID.md)
 
 #### Datenschutz
 - [Betroffenenrechte](./AbschlusspruefungTeil1/Datenschutz/Betroffenenrechte.md)
