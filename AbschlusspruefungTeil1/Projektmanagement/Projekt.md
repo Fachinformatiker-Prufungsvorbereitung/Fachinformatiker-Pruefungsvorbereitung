@@ -2,7 +2,7 @@
 
 ## Eigenschaften eines Projekts
 - Neuartig und einmalig
-- Konktrete Zielvorgaben
+- Konkrete Zielvorgaben
 - Zeitbegrenzung
 - Ressourcenbegrenzung
 - Komplexität und Größe
@@ -17,11 +17,11 @@
 
 ## Projektleiter
 - Der Projektleiter ist für die Steuerung des Projektes verantwortlich
-- Der Projekleiter ist auch für die Erreichung von bestimmten Zielen verantwortlich
-- Er legt aber auch Ziel und Resourcen für die Erreichung dieser fest
+- Der Projekteiter ist auch für die Erreichung von bestimmten Zielen verantwortlich
+- Er legt aber auch Ziel und Ressourcen für die Erreichung dieser fest
 
 ## Projektsteuerkreis
-- Setzt sich aus Projektauftraggeber und eventuellen Stakholdern zusammen
+- Setzt sich aus Projektauftraggeber und eventuellen Stakeholdern zusammen
 
 ## Projektmitarbeiter
 - Ein normaler Arbeiter der das Projekt umsetzt
@@ -29,4 +29,4 @@
 ## Stakeholder
 - Sind die Personen die Anspruch auf ein Projekt haben
 - Sie wollen bestimmte Dinge im Projekt umgesetzt haben
-- Sie haben Interessen / sind Interessensvertreter 
+- Sie haben Interessen / sind Interessenvertreter 
