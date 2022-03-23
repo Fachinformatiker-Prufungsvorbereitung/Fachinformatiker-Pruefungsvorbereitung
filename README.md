@@ -30,6 +30,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
 - [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
 - [Projektplan](./AbschlusspruefungTeil1/Projektmanagement/Projektplan.md)
+- [Ticket Systeme](./AbschlusspruefungTeil1/Projektmanagement/TicketSysteme.md)
 
 #### Anwendungsentwicklung
 - [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)

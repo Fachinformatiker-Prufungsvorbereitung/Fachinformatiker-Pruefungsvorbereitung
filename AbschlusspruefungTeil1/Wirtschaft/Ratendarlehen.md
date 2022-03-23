@@ -1,6 +1,6 @@
 # Das Ratendarlehen
 
-    Zinsen = Schulden * Zinsstz  
+    Zinsen = Schulden * Zinssatz  
 
     Tilgung pro Jahr = Schulden / Laufzeitlänge 
 
