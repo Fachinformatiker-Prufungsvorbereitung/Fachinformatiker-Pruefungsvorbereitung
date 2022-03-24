@@ -15,6 +15,16 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 
 ### Zusammenfassungen zum Lernen
 
+#### Anwendungsentwicklung
+- [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)
+- [Normalisierung](./AbschlusspruefungTeil1/Anwendungsentwicklung/Normalisierung.md)
+- [SQL](./AbschlusspruefungTeil1/Anwendungsentwicklung/SQL.md)
+- [UML](./AbschlusspruefungTeil1/Anwendungsentwicklung/UML.md)
+
+#### Datenschutz
+- [Betroffenenrechte](./AbschlusspruefungTeil1/Datenschutz/Betroffenenrechte.md)
+- [Cyberbedrohungen](./AbschlusspruefungTeil1/Datenschutz/Cyberbedrohungen.md)
+
 #### Projektmanagement
 - [Agiles vs klassisches Projektmanagement](./AbschlusspruefungTeil1/Projektmanagement/AgilesVsKlassischesProjektmanagement.md)
 - [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/ExtremeProgramming.md)
@@ -34,11 +44,6 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Projektplan](./AbschlusspruefungTeil1/Projektmanagement/Projektplan.md)
 - [Ticket Systeme](./AbschlusspruefungTeil1/Projektmanagement/TicketSysteme.md)
 
-#### Anwendungsentwicklung
-- [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)
-- [Normalisierung](./AbschlusspruefungTeil1/Anwendungsentwicklung/Normalisierung.md)
-- [SQL](./AbschlusspruefungTeil1/Anwendungsentwicklung/SQL.md)
-
 #### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
 - [Datenbanksysteme](./AbschlusspruefungTeil1/Systemintegration/Datenbanksystem.md)
@@ -48,13 +53,6 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [VLAN](./AbschlusspruefungTeil1/Systemintegration/VLAN.md)
 - [RAID](./AbschlusspruefungTeil1/Systemintegration/RAID.md)
 - [OSI - Modell](./AbschlusspruefungTeil1/Systemintegration/OSI.md)
-
-#### Datenschutz
-- [Betroffenenrechte](./AbschlusspruefungTeil1/Datenschutz/Betroffenenrechte.md)
-- [Cyberbedrohungen](./AbschlusspruefungTeil1/Datenschutz/Cyberbedrohungen.md)
-
-#### Zahlensysteme
-- [Umrechnungen](./AbschlusspruefungTeil1/Zahlensysteme/Umrechnungen.md)
 
 #### Wirtschaft
 - [Kosten Nutzen](./AbschlusspruefungTeil1/Wirtschaft/KostenNutzen.md)
@@ -66,6 +64,9 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Nutzwertanalyse](./AbschlusspruefungTeil1/Wirtschaft/Nutzwertanalyse.md)
 - [Amortisationsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Amortisationsrechnung.md)
 - [Rentabilitätsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Rentabilitaetsrechnung.md)
+
+#### Zahlensysteme
+- [Umrechnungen](./AbschlusspruefungTeil1/Zahlensysteme/Umrechnungen.md)
 
 <br>
 
