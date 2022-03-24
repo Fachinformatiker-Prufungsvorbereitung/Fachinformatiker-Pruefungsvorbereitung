@@ -1,4 +1,3 @@
-TODO
 # Das OSI Modell
 
 ## Die sieben Schichten des OSI-Modells
@@ -24,3 +23,4 @@ TODO
 
 ## Links
 [Wikipedia](https://de.wikipedia.org/wiki/OSI-Modell)  
+[OSI Modell - Was ist das?](https://www.youtube.com/watch?v=xiTr5B19Zd4)  
