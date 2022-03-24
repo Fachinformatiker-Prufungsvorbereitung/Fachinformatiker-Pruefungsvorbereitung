@@ -69,6 +69,9 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Nutzwertanalyse](./AbschlusspruefungTeil1/Wirtschaft/Nutzwertanalyse.md)
 - [Amortisationsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Amortisationsrechnung.md)
 - [Rentabilitätsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Rentabilitaetsrechnung.md)
+- ##### Verhandlungsmethoden
+  - [Win-Win-Strategie](./AbschlusspruefungTeil1/Wirtschaft/WinWin.md)
+  - [Harvard-Konzept](./AbschlusspruefungTeil1/Wirtschaft/HarvardKonzept.md)
 
 #### Zahlensysteme
 - [Umrechnungen](./AbschlusspruefungTeil1/Zahlensysteme/Umrechnungen.md)
