@@ -30,8 +30,9 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - ##### Agiles Projektmanagement
     - [Scrum](./AbschlusspruefungTeil1/Projektmanagement/Scrum.md)
     - [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/ExtremeProgramming.md)
-    - [Ticket Systeme](./AbschlusspruefungTeil1/Projektmanagement/TicketSysteme.md)
-- ##### Klassiches Projektmanagement
+    - [Kanban](./AbschlusspruefungTeil1/Projektmanagement/Kanban.md)
+
+- ##### Klassisches Projektmanagement
     - [Spiralmodell](./AbschlusspruefungTeil1/Projektmanagement/Spiralmodell.md)
     - [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
     - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
@@ -40,11 +41,11 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Projektplan](./AbschlusspruefungTeil1/Projektmanagement/Projektplan.md)
 - [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
 - [Gantt](./AbschlusspruefungTeil1/Projektmanagement/Gantt.md)
-- [Kanban](./AbschlusspruefungTeil1/Projektmanagement/Kanban.md)
 - [SMART](./AbschlusspruefungTeil1/Projektmanagement/SMART.md)
 - [Lastenheft und Pflichtenheft](./AbschlusspruefungTeil1/Projektmanagement/LastenheftUndPflichtenheft.md)
 - [Phasen der Teamentwicklung](./AbschlusspruefungTeil1/Projektmanagement/PhasenDerTeamentwicklung.md)
 - [Risikoanalyse](./AbschlusspruefungTeil1/Projektmanagement/Risikoanalyse.md)
+- [Ticket Systeme](./AbschlusspruefungTeil1/Projektmanagement/TicketSysteme.md)
 
 #### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
