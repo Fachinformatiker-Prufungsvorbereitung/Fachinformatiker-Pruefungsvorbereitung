@@ -47,7 +47,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [VDI und DaaS](./AbschlusspruefungTeil1/Systemintegration/VdiUndDaaS.md)
 - [VLAN](./AbschlusspruefungTeil1/Systemintegration/VLAN.md)
 - [RAID](./AbschlusspruefungTeil1/Systemintegration/RAID.md)
-- [OSI - Modell](./AbschlusspruefungTeil1/Systemintegration/DSL.md)
+- [OSI - Modell](./AbschlusspruefungTeil1/Systemintegration/OSI.md)
 
 #### Datenschutz
 - [Betroffenenrechte](./AbschlusspruefungTeil1/Datenschutz/Betroffenenrechte.md)
