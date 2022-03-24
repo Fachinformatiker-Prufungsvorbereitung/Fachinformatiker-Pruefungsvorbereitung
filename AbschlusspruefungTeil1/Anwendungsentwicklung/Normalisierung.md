@@ -15,6 +15,7 @@ Ein Relationstyp (Tabelle) befindet sich genau dann in der zweiten Normalform (2
 
 ### Stichpunkte
 - Setzt 1NF vorraus
+- Alle Attribute hängen vom Primary Key ab
 
 <br>
 
@@ -24,6 +25,7 @@ Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn 
 
 ### Stichpunkte
 - Setzt 2NF vorraus
+- Indirekt abhänge Attribute müssen in eine Tabelle ausgelagert werden
 
 <br>
 
