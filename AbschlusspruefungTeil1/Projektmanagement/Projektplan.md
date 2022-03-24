@@ -12,7 +12,7 @@
 
 <br>
 
-## Projektstrukturplan
+## Projektstrukturplan:
 Liefert eine Gliederung der zu erledigenden Aufgaben in Teilprojekte und Arbeitspakete.
 
 - ### Top-down-Ansatz
