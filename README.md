@@ -37,6 +37,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
     - [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
     - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
     - [Meilensteine](./AbschlusspruefungTeil1/Projektmanagement/Meilensteine.md)
+
 - [Projekt](./AbschlusspruefungTeil1/Projektmanagement/Projekt.md)
 - [Projektplan](./AbschlusspruefungTeil1/Projektmanagement/Projektplan.md)
 - [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
@@ -82,3 +83,5 @@ Coming soon
 ## Projektarbeit
 
 Coming soon
+
+[100 Punkte in der Projektdokumentation und Fachgespräch - So geht's!](https://www.youtube.com/watch?v=ybcbS15xVIw)
