@@ -47,6 +47,7 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Phasen der Teamentwicklung](./AbschlusspruefungTeil1/Projektmanagement/PhasenDerTeamentwicklung.md)
 - [Risikoanalyse](./AbschlusspruefungTeil1/Projektmanagement/Risikoanalyse.md)
 - [Ticket Systeme](./AbschlusspruefungTeil1/Projektmanagement/TicketSysteme.md)
+- [Magisches Dreieck](./AbschlusspruefungTeil1/Projektmanagement/MagischesDreieck.md)
 
 #### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
