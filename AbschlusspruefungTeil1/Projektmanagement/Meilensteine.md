@@ -1,5 +1,5 @@
 # Meilensteine im Projektmanagement
-- Bestandteil des klassichen Projektmanagements
+- Bestandteil des klassischen Projektmanagements
 - Stellen wichtige / markante Punkte im Projektablauf dar
 - Beispiel: Ein Release (Alpha, Beta...)
 - Etappenziel
