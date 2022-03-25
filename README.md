@@ -9,7 +9,9 @@ Die Abschlussprüfung Teil 1 ist für alle IT-Berufe identisch.
 <br>
 
 ### Themen
-Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen Übersicht - Stefan Macke](https://it-berufe-podcast.de/pruefungsvorbereitung-auf-teil-1-der-gestreckten-abschlusspruefung-der-it-berufe-it-berufe-podcast-168/)
+Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:  
+[Themen Übersicht - Stefan Macke 1](https://it-berufe-podcast.de/pruefungsvorbereitung-auf-teil-1-der-gestreckten-abschlusspruefung-der-it-berufe-it-berufe-podcast-168/)  
+[Themen Übersicht - Stefan Macke 2](https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/moegliche-themen-von-teil-1-der-gestreckten-abschlusspruefung-gap-in-den-it-berufen/?utm_source=newsletter&utm_medium=email&utm_content=textlink&utm_campaign=thementeil1)
 
 <br>
 
