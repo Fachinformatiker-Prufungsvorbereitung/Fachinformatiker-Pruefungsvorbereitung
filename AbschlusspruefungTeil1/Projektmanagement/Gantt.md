@@ -13,3 +13,5 @@
 
 ## Links
 [GANTT Diagramm erstellen für phänomenales Projektmanagement (einfache Erklärung) 📊🚀](https://www.youtube.com/watch?v=rpUsuZQsiFs)
+
+![GNATT Diagramm](https://cdn.vertex42.com/ExcelTemplates/Images/ganttchart/simple-gantt-chart.png)
