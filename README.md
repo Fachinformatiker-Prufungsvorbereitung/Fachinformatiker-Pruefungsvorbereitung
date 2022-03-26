@@ -9,7 +9,9 @@ Die Abschlussprüfung Teil 1 ist für alle IT-Berufe identisch.
 <br>
 
 ### Themen
-Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen Übersicht - Stefan Macke](https://it-berufe-podcast.de/pruefungsvorbereitung-auf-teil-1-der-gestreckten-abschlusspruefung-der-it-berufe-it-berufe-podcast-168/)
+Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:  
+[Themen Übersicht - Stefan Macke 1](https://it-berufe-podcast.de/pruefungsvorbereitung-auf-teil-1-der-gestreckten-abschlusspruefung-der-it-berufe-it-berufe-podcast-168/)  
+[Themen Übersicht - Stefan Macke 2](https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/moegliche-themen-von-teil-1-der-gestreckten-abschlusspruefung-gap-in-den-it-berufen/?utm_source=newsletter&utm_medium=email&utm_content=textlink&utm_campaign=thementeil1)
 
 <br>
 
@@ -27,22 +29,27 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 
 #### Projektmanagement
 - [Agiles vs klassisches Projektmanagement](./AbschlusspruefungTeil1/Projektmanagement/AgilesVsKlassischesProjektmanagement.md)
-- [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/ExtremeProgramming.md)
-- [Gantt](./AbschlusspruefungTeil1/Projektmanagement/Gantt.md)
-- [Kanban](./AbschlusspruefungTeil1/Projektmanagement/Kanban.md)
-- [Lastenheft und Pflichtenheft](./AbschlusspruefungTeil1/Projektmanagement/LastenheftUndPflichtenheft.md)
-- [Meilensteine](./AbschlusspruefungTeil1/Projektmanagement/Meilensteine.md)
-- [Phasen der Teamentwicklung](./AbschlusspruefungTeil1/Projektmanagement/PhasenDerTeamentwicklung.md)
+- ##### Agiles Projektmanagement
+    - [Scrum](./AbschlusspruefungTeil1/Projektmanagement/Scrum.md)
+    - [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/ExtremeProgramming.md)
+    - [Kanban](./AbschlusspruefungTeil1/Projektmanagement/Kanban.md)
+
+- ##### Klassisches Projektmanagement
+    - [Spiralmodell](./AbschlusspruefungTeil1/Projektmanagement/Spiralmodell.md)
+    - [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
+    - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
+    - [Meilensteine](./AbschlusspruefungTeil1/Projektmanagement/Meilensteine.md)
+
 - [Projekt](./AbschlusspruefungTeil1/Projektmanagement/Projekt.md)
-- [Risikoanalyse](./AbschlusspruefungTeil1/Projektmanagement/Risikoanalyse.md)
-- [Scrum](./AbschlusspruefungTeil1/Projektmanagement/Scrum.md)
-- [SMART](./AbschlusspruefungTeil1/Projektmanagement/SMART.md)
-- [Spiralmodell](./AbschlusspruefungTeil1/Projektmanagement/Spiralmodell.md)
-- [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
-- [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
-- [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
 - [Projektplan](./AbschlusspruefungTeil1/Projektmanagement/Projektplan.md)
+- [Netzplan](./AbschlusspruefungTeil1/Projektmanagement/Netzplan.md)
+- [Gantt](./AbschlusspruefungTeil1/Projektmanagement/Gantt.md)
+- [SMART](./AbschlusspruefungTeil1/Projektmanagement/SMART.md)
+- [Lastenheft und Pflichtenheft](./AbschlusspruefungTeil1/Projektmanagement/LastenheftUndPflichtenheft.md)
+- [Phasen der Teamentwicklung](./AbschlusspruefungTeil1/Projektmanagement/PhasenDerTeamentwicklung.md)
+- [Risikoanalyse](./AbschlusspruefungTeil1/Projektmanagement/Risikoanalyse.md)
 - [Ticket Systeme](./AbschlusspruefungTeil1/Projektmanagement/TicketSysteme.md)
+- [Magisches Dreieck](./AbschlusspruefungTeil1/Projektmanagement/MagischesDreieck.md)
 
 #### Systemintegration
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
@@ -64,6 +71,9 @@ Die möglichen Themen sind auf folgender Seite schön zusammengefasst: [Themen �
 - [Nutzwertanalyse](./AbschlusspruefungTeil1/Wirtschaft/Nutzwertanalyse.md)
 - [Amortisationsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Amortisationsrechnung.md)
 - [Rentabilitätsrechnung](./AbschlusspruefungTeil1/Wirtschaft/Rentabilitaetsrechnung.md)
+- ##### Verhandlungsmethoden
+  - [Win-Win-Strategie](./AbschlusspruefungTeil1/Wirtschaft/WinWin.md)
+  - [Harvard-Konzept](./AbschlusspruefungTeil1/Wirtschaft/HarvardKonzept.md)
 
 #### Zahlensysteme
 - [Umrechnungen](./AbschlusspruefungTeil1/Zahlensysteme/Umrechnungen.md)
@@ -79,3 +89,5 @@ Coming soon
 ## Projektarbeit
 
 Coming soon
+
+[100 Punkte in der Projektdokumentation und Fachgespräch - So geht's!](https://www.youtube.com/watch?v=ybcbS15xVIw)

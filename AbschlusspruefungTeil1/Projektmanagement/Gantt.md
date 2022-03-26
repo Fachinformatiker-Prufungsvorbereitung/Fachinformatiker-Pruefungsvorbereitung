@@ -9,6 +9,8 @@
 - Das Gantt Diagramm sollte wohl balanciert sein zwischen Übersicht und Detailgrad
 - Es neigt dazu bei großen Projekten unübersichtlich zu werden
 
+![GNATT Diagramm](../../Assets/AbschlusspruefungTeil1/GanttChart.svg)
+
 <br>
 
 ## Links

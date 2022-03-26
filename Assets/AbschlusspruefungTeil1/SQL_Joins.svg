@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="SQL_Joins.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3147016"
+     inkscape:cx="456.65943"
+     inkscape:cy="274.52089"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       id="g4994"
+       transform="matrix(0.5625,0,0,0.5625,360.64779,370.42184)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-4-0-1-9"
+         d="m 589.43797,192.73142 c -54.93714,0 -99.46875,44.56287 -99.46875,99.50001 0,54.93714 44.53161,99.46875 99.46875,99.46875 18.77905,0 36.32763,-5.20576 51.31251,-14.25 -28.85264,-17.41423 -48.125,-49.06065 -48.125,-85.21875 0,-36.1581 19.27236,-67.83577 48.125,-85.25 -14.98488,-9.04425 -32.53346,-14.25001 -51.31251,-14.25001 z"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-1-4"
+         d="m 640.75048,206.98143 c -28.85264,17.41423 -48.125,49.06065 -48.125,85.21875 0,36.1581 19.27236,67.83577 48.125,85.25 28.85264,-17.41423 48.15625,-49.0919 48.15625,-85.25 0,-36.1581 -19.30361,-67.80452 -48.15625,-85.21875 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-8-3-2"
+         d="m 692.09423,192.73142 c -18.77904,0 -36.35887,5.20576 -51.34375,14.25001 28.85264,17.41423 48.15625,49.0919 48.15625,85.25 0,36.1581 -19.30361,67.80452 -48.15625,85.21875 14.98488,9.04424 32.56471,14.25 51.34375,14.25 54.93715,0 99.46875,-44.53161 99.46875,-99.46875 0,-54.93714 -44.5316,-99.50001 -99.46875,-99.50001 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g5020"
+       transform="matrix(0.5625,0,0,0.5625,348.3876,315.79764)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-4-0-1-4"
+         d="m 698.41747,678.27985 c -54.93714,0 -99.46875,44.56287 -99.46875,99.50001 0,54.93714 44.53161,99.46875 99.46875,99.46875 18.77905,0 36.32763,-5.20576 51.31251,-14.25 -28.85264,-17.41423 -48.125,-49.06065 -48.125,-85.21875 0,-36.1581 19.27236,-67.83577 48.125,-85.25 -14.98488,-9.04424 -32.53346,-14.25001 -51.31251,-14.25001 z"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-1-8"
+         d="m 749.72998,692.52986 c -28.85264,17.41423 -48.125,49.06065 -48.125,85.21875 0,36.1581 19.27236,67.83577 48.125,85.25 28.85264,-17.41423 48.15625,-49.0919 48.15625,-85.25 0,-36.1581 -19.30361,-67.80452 -48.15625,-85.21875 z"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-8-3-7"
+         d="m 801.07373,678.27985 c -18.77904,0 -36.35887,5.20577 -51.34375,14.25001 28.85264,17.41423 48.15625,49.0919 48.15625,85.25 0,36.1581 -19.30361,67.80452 -48.15625,85.21875 14.98488,9.04424 32.56471,14.25 51.34375,14.25 54.93715,0 99.46875,-44.53161 99.46875,-99.46875 0,-54.93714 -44.5316,-99.50001 -99.46875,-99.50001 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g5015"
+       transform="matrix(0.5625,0,0,0.5625,383.197,271.34787)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-4-0-1-44"
+         d="m 389.00056,1073.3889 c -54.93714,0 -99.46875,44.5629 -99.46875,99.5 0,54.9371 44.53161,99.4688 99.46875,99.4688 18.77905,0 36.32763,-5.2058 51.31251,-14.25 -28.85264,-17.4143 -48.125,-49.0607 -48.125,-85.2188 0,-36.1581 19.27236,-67.8358 48.125,-85.25 -14.98488,-9.0442 -32.53346,-14.25 -51.31251,-14.25 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-1-45"
+         d="m 440.31307,1087.6389 c -28.85264,17.4142 -48.125,49.0607 -48.125,85.2188 0,36.1581 19.27236,67.8357 48.125,85.25 28.85264,-17.4143 48.15625,-49.0919 48.15625,-85.25 0,-36.1581 -19.30361,-67.8046 -48.15625,-85.2188 z"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-8-3-0"
+         d="m 491.65682,1073.3889 c -18.77904,0 -36.35887,5.2058 -51.34375,14.25 28.85264,17.4142 48.15625,49.0919 48.15625,85.25 0,36.1581 -19.30361,67.8045 -48.15625,85.2188 14.98488,9.0442 32.56471,14.25 51.34375,14.25 54.93715,0 99.46875,-44.5317 99.46875,-99.4688 0,-54.9371 -44.5316,-99.5 -99.46875,-99.5 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g5009"
+       transform="matrix(0.5625,0,0,0.5625,439.51272,271.86932)">
+      <g
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         transform="translate(363.74449,1049.876)"
+         id="g3875-7">
+        <path
+           style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -475.32813,18.877805 c -54.93714,0 -99.46875,44.562861 -99.46875,99.500005 0,54.93714 44.53161,99.46875 99.46875,99.46875 18.77905,0 36.32763,-5.20576 51.31251,-14.25 -28.85264,-17.41423 -48.125,-49.06065 -48.125,-85.21875 0,-36.158104 19.27236,-67.835774 48.125,-85.250004 -14.98488,-9.044241 -32.53346,-14.250001 -51.31251,-14.250001 z"
+           id="path2985-4-0-1-6"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -424.01562,33.127806 c -28.85264,17.41423 -48.125,49.06065 -48.125,85.218754 0,36.1581 19.27236,67.83577 48.125,85.25 28.85264,-17.41423 48.15625,-49.0919 48.15625,-85.25 0,-36.158104 -19.30361,-67.804524 -48.15625,-85.218754 z"
+           id="path2985-1-1"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m -372.67187,18.877805 c -18.77904,0 -36.35887,5.20576 -51.34375,14.250001 28.85264,17.41423 48.15625,49.0919 48.15625,85.250004 0,36.1581 -19.30361,67.80452 -48.15625,85.21875 14.98488,9.04424 32.56471,14.25 51.34375,14.25 54.93715,0 99.46875,-44.53161 99.46875,-99.46875 0,-54.937144 -44.5316,-99.500005 -99.46875,-99.500005 z"
+           id="path2985-8-3-3"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="g5004"
+       transform="matrix(0.5625,0,0,0.5625,473.92789,315.47333)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-4-0-1-5"
+         d="m -417.4962,681.16265 c -54.93714,0 -99.46875,44.56287 -99.46875,99.50001 0,54.93714 44.53161,99.46875 99.46875,99.46875 18.77905,0 36.32763,-5.20576 51.31251,-14.25 -28.85264,-17.41423 -48.125,-49.06065 -48.125,-85.21875 0,-36.1581 19.27236,-67.83577 48.125,-85.25 -14.98488,-9.04424 -32.53346,-14.25001 -51.31251,-14.25001 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-1-7"
+         d="m -366.18369,695.41266 c -28.85264,17.41423 -48.125,49.06065 -48.125,85.21875 0,36.1581 19.27236,67.83577 48.125,85.25 28.85264,-17.41423 48.15625,-49.0919 48.15625,-85.25 0,-36.1581 -19.30361,-67.80452 -48.15625,-85.21875 z"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-8-3-5"
+         d="m -314.83994,681.16265 c -18.77904,0 -36.35887,5.20577 -51.34375,14.25001 28.85264,17.41423 48.15625,49.0919 48.15625,85.25 0,36.1581 -19.30361,67.80452 -48.15625,85.21875 14.98488,9.04424 32.56471,14.25 51.34375,14.25 54.93715,0 99.46875,-44.53161 99.46875,-99.46875 0,-54.93714 -44.5316,-99.50001 -99.46875,-99.50001 z"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4999"
+       transform="matrix(0.5625,0,0,0.5625,461.6104,369.83049)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-4-0-1-8"
+         d="m -308.00744,197.98792 c -54.93714,0 -99.46875,44.56287 -99.46875,99.50001 0,54.93714 44.53161,99.46875 99.46875,99.46875 18.77905,0 36.32763,-5.20576 51.31251,-14.25 -28.85264,-17.41423 -48.125,-49.06065 -48.125,-85.21875 0,-36.1581 19.27236,-67.83577 48.125,-85.25 -14.98488,-9.04424 -32.53346,-14.25 -51.31251,-14.25 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-1-18"
+         d="m -256.69493,212.23793 c -28.85264,17.41423 -48.125,49.06065 -48.125,85.21875 0,36.1581 19.27236,67.83577 48.125,85.25 28.85264,-17.41423 48.15625,-49.0919 48.15625,-85.25 0,-36.1581 -19.30361,-67.80452 -48.15625,-85.21875 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-8-3-4"
+         d="m -205.35118,197.98792 c -18.77904,0 -36.35887,5.20576 -51.34375,14.25001 28.85264,17.41423 48.15625,49.0919 48.15625,85.25 0,36.1581 -19.30361,67.80452 -48.15625,85.21875 14.98488,9.04424 32.56471,14.25 51.34375,14.25 54.93715,0 99.46875,-44.53161 99.46875,-99.46875 0,-54.93714 -44.5316,-99.5 -99.46875,-99.5 z"
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g5569"
+       transform="matrix(1.25,0,0,1.25,-180.90729,-82.694787)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-4-0-1"
+         d="m 537.10102,371.61761 c -24.72171,0 -44.76094,20.05329 -44.76094,44.77501 0,24.72171 20.03923,44.76093 44.76094,44.76093 8.45057,0 16.34743,-2.34259 23.09063,-6.4125 -12.98369,-7.8364 -21.65625,-22.07729 -21.65625,-38.34843 0,-16.27115 8.67256,-30.5261 21.65625,-38.3625 -6.7432,-4.06991 -14.64006,-6.41251 -23.09063,-6.41251 z"
+         style="fill:none;stroke:#000000;stroke-width:0.89999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-1"
+         d="m 560.19165,378.03011 c -12.98369,7.83641 -21.65625,22.0773 -21.65625,38.34844 0,16.27115 8.67256,30.5261 21.65625,38.3625 12.98369,-7.8364 21.67031,-22.09135 21.67031,-38.3625 0,-16.27114 -8.68662,-30.51203 -21.67031,-38.34844 z"
+         style="fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.89999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2985-8-3"
+         d="m 583.29633,371.61761 c -8.45056,0 -16.36149,2.3426 -23.10468,6.41251 12.98369,7.8364 21.67031,22.09135 21.67031,38.3625 0,16.27114 -8.68662,30.51203 -21.67031,38.34843 6.74319,4.06991 14.65412,6.4125 23.10468,6.4125 24.72172,0 44.76094,-20.03922 44.76094,-44.76093 0,-24.72172 -20.03922,-44.77501 -44.76094,-44.77501 z"
+         style="fill:none;stroke:#000000;stroke-width:0.89999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4960"
+         y="427.98187"
+         x="515.46057"
+         style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32.40000153px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+           y="427.98187"
+           x="515.46057"
+           id="tspan4962"
+           sodipodi:role="line">A</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4960-0"
+         y="427.98187"
+         x="582.99487"
+         style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32.40000153px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+           y="427.98187"
+           x="582.99487"
+           id="tspan4962-2"
+           sodipodi:role="line">B</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="521.39166"
+       y="667.91559"
+       id="text4960-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-3"
+         x="521.39166"
+         y="667.91559"
+         style="font-size:97.19999695px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SQL</tspan><tspan
+         id="tspan5055"
+         sodipodi:role="line"
+         x="521.39166"
+         y="789.41559"
+         style="font-size:97.19999695px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">JOINS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="197.79201"
+       y="429.39349"
+       id="text4960-8-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-28-5"
+         x="197.79201"
+         y="429.39349"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SELECT &lt;fields&gt;</tspan><tspan
+         id="tspan5080"
+         sodipodi:role="line"
+         x="197.79201"
+         y="446.26849"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FROM TableA  A</tspan><tspan
+         id="tspan5082"
+         sodipodi:role="line"
+         x="197.79201"
+         y="463.14349"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">LEFT JOIN TableB  B</tspan><tspan
+         id="tspan5086"
+         sodipodi:role="line"
+         x="197.79201"
+         y="480.01849"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">ON A.key = B.key</tspan><tspan
+         id="tspan5084"
+         sodipodi:role="line"
+         x="197.79201"
+         y="496.89349"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5078"
+         sodipodi:role="line"
+         x="197.79201"
+         y="513.76849"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="109.93346"
+       y="752.81219"
+       id="text4960-8-1-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-28-5-9"
+         x="109.93346"
+         y="752.81219"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SELECT &lt;fields&gt;</tspan><tspan
+         id="tspan5080-4"
+         sodipodi:role="line"
+         x="109.93346"
+         y="769.68719"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FROM TableA  A</tspan><tspan
+         id="tspan5082-2"
+         sodipodi:role="line"
+         x="109.93346"
+         y="786.56219"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">LEFT JOIN TableB  B</tspan><tspan
+         id="tspan5086-6"
+         sodipodi:role="line"
+         x="109.93346"
+         y="803.43719"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">ON A.key = B.key</tspan><tspan
+         id="tspan5124"
+         sodipodi:role="line"
+         x="109.93346"
+         y="820.31219"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">WHERE B.key IS NULL</tspan><tspan
+         id="tspan5084-1"
+         sodipodi:role="line"
+         x="109.93346"
+         y="837.18719"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5078-7"
+         sodipodi:role="line"
+         x="109.93346"
+         y="854.06219"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="254.37114"
+       y="966.4801"
+       id="text4960-8-1-0-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-28-5-9-5"
+         x="254.37114"
+         y="966.4801"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SELECT &lt;fields&gt;</tspan><tspan
+         id="tspan5080-4-6"
+         sodipodi:role="line"
+         x="254.37114"
+         y="983.3551"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FROM TableA  A</tspan><tspan
+         id="tspan5082-2-6"
+         sodipodi:role="line"
+         x="254.37114"
+         y="1000.2301"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FULL OUTER JOIN TableB  B</tspan><tspan
+         id="tspan5086-6-0"
+         sodipodi:role="line"
+         x="254.37114"
+         y="1017.1051"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">ON A.key = B.key</tspan><tspan
+         id="tspan5124-7"
+         sodipodi:role="line"
+         x="254.37114"
+         y="1033.9801"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5084-1-6"
+         sodipodi:role="line"
+         x="254.37114"
+         y="1050.8551"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5078-7-3"
+         sodipodi:role="line"
+         x="254.37114"
+         y="1067.7301"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="781.2312"
+       y="961.91632"
+       id="text4960-8-1-0-8-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-28-5-9-5-7"
+         x="781.2312"
+         y="961.91632"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SELECT &lt;fields&gt;</tspan><tspan
+         id="tspan5080-4-6-8"
+         sodipodi:role="line"
+         x="781.2312"
+         y="978.79132"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FROM TableA  A</tspan><tspan
+         id="tspan5082-2-6-5"
+         sodipodi:role="line"
+         x="781.2312"
+         y="995.66632"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FULL OUTER JOIN TableB  B</tspan><tspan
+         id="tspan5086-6-0-5"
+         sodipodi:role="line"
+         x="781.2312"
+         y="1012.5413"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">ON A.key = B.key</tspan><tspan
+         id="tspan5204"
+         sodipodi:role="line"
+         x="781.2312"
+         y="1029.4164"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">WHERE A.key IS NULL</tspan><tspan
+         id="tspan5206"
+         sodipodi:role="line"
+         x="781.2312"
+         y="1046.2914"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">OR B.key IS NULL</tspan><tspan
+         id="tspan5124-7-0"
+         sodipodi:role="line"
+         x="781.2312"
+         y="1063.1664"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5084-1-6-0"
+         sodipodi:role="line"
+         x="781.2312"
+         y="1080.0414"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5078-7-3-3"
+         sodipodi:role="line"
+         x="781.2312"
+         y="1096.9164"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="925.65027"
+       y="755.14191"
+       id="text4960-8-1-0-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-28-5-9-3"
+         x="925.65027"
+         y="755.14191"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SELECT &lt;fields&gt;</tspan><tspan
+         id="tspan5080-4-4"
+         sodipodi:role="line"
+         x="925.65027"
+         y="772.01691"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FROM TableA  A</tspan><tspan
+         id="tspan5082-2-5"
+         sodipodi:role="line"
+         x="925.65027"
+         y="788.89191"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">RIGHT JOIN TableB  B</tspan><tspan
+         id="tspan5086-6-4"
+         sodipodi:role="line"
+         x="925.65027"
+         y="805.76691"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">ON A.key = B.key</tspan><tspan
+         id="tspan5124-2"
+         sodipodi:role="line"
+         x="925.65027"
+         y="822.64191"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">WHERE A.key IS NULL</tspan><tspan
+         id="tspan5084-1-63"
+         sodipodi:role="line"
+         x="925.65027"
+         y="839.51691"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5078-7-4"
+         sodipodi:role="line"
+         x="925.65027"
+         y="856.39191"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="852.87781"
+       y="430.82816"
+       id="text4960-8-1-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-28-5-1"
+         x="852.87781"
+         y="430.82816"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SELECT &lt;fields&gt;</tspan><tspan
+         id="tspan5080-6"
+         sodipodi:role="line"
+         x="852.87781"
+         y="447.70316"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FROM TableA  A</tspan><tspan
+         id="tspan5082-5"
+         sodipodi:role="line"
+         x="852.87781"
+         y="464.57816"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">RIGHT JOIN TableB  B</tspan><tspan
+         id="tspan5086-8"
+         sodipodi:role="line"
+         x="852.87781"
+         y="481.45316"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">ON A.key = B.key</tspan><tspan
+         id="tspan5084-5"
+         sodipodi:role="line"
+         x="852.87781"
+         y="498.32816"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5078-9"
+         sodipodi:role="line"
+         x="852.87781"
+         y="515.20319"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22.5px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="517.72253"
+       y="321.85553"
+       id="text4960-8-1-4-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4962-28-5-1-8"
+         x="517.72253"
+         y="321.85553"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">SELECT &lt;fields&gt;</tspan><tspan
+         id="tspan5080-6-2"
+         sodipodi:role="line"
+         x="517.72253"
+         y="338.73053"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">FROM TableA  A</tspan><tspan
+         id="tspan5082-5-6"
+         sodipodi:role="line"
+         x="517.72253"
+         y="355.60553"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">INNER JOIN TableB  B</tspan><tspan
+         id="tspan5086-8-9"
+         sodipodi:role="line"
+         x="517.72253"
+         y="372.48053"
+         style="font-size:13.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">ON A.key = B.key</tspan><tspan
+         id="tspan5084-5-6"
+         sodipodi:role="line"
+         x="517.72253"
+         y="389.35553"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /><tspan
+         id="tspan5078-9-6"
+         sodipodi:role="line"
+         x="517.72253"
+         y="406.23053"
+         style="font-size:40.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial" /></text>
+    <g
+       transform="matrix(0.59626367,0,0,0.59620176,-97.488572,1021.8091)"
+       id="g260"
+       inkscape:export-filename="/mnt/hgfs/Bov/Documents/Work/2007/cc/identity/srr buttons/big/by.png"
+       inkscape:export-xdpi="300.23013"
+       inkscape:export-ydpi="300.23013">
+      <path
+         id="path3817_1_"
+         nodetypes="ccccccc"
+         d="m 181.96579,0.51074 114.06396,0.20264 c 1.59375,0 3.01758,-0.23633 3.01758,3.18066 l -0.13965,37.56689 -119.82031,0 0,-37.70654 c 0,-1.68505 0.16309,-3.24365 2.87842,-3.24365 z"
+         style="fill:#aab2ab"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 297.29636,0 -116.229,0 c -1.24658,0 -2.26123,1.01416 -2.26123,2.26074 l 0,39.49658 c 0,0.28174 0.229,0.51025 0.51074,0.51025 l 119.73047,0 c 0.28174,0 0.51074,-0.22852 0.51074,-0.51025 l 0,-39.49658 C 299.55807,1.01416 298.54343,0 297.29636,0 z m -116.22901,1.02148 116.229,0 c 0.68408,0 1.24023,0.55566 1.24023,1.23926 0,0 0,15.94824 0,27.44971 l -83.34424,0 c -3.04492,5.50586 -8.91113,9.24414 -15.64355,9.24414 -6.73535,0 -12.6001,-3.73486 -15.64355,-9.24414 l -4.07764,0 c 0,-11.50146 0,-27.44971 0,-27.44971 1e-5,-0.68359 0.55616,-1.23926 1.23975,-1.23926 z"
+         id="path263"
+         inkscape:connector-curvature="0" />
+      <g
+         enable-background="new    "
+         id="g265">
+        <path
+           d="m 253.07761,32.95605 c 0.31738,0 0.60742,0.02832 0.87012,0.08398 0.26172,0.05566 0.48535,0.14746 0.67285,0.27539 0.18652,0.12695 0.33203,0.29688 0.43457,0.50781 0.10254,0.21191 0.1543,0.47266 0.1543,0.78418 0,0.33594 -0.0762,0.61523 -0.22949,0.83887 -0.15234,0.22461 -0.37891,0.40723 -0.67773,0.55078 0.41211,0.11816 0.71973,0.3252 0.92285,0.62109 0.20312,0.29589 0.30469,0.65234 0.30469,1.06934 0,0.33594 -0.0654,0.62695 -0.19629,0.87305 -0.13086,0.24512 -0.30762,0.44629 -0.52832,0.60156 -0.22168,0.15625 -0.47461,0.27148 -0.75781,0.3457 -0.28418,0.0752 -0.5752,0.1123 -0.875,0.1123 l -3.23635,0 0,-6.66406 3.14161,0 0,10e-6 z m -0.1875,2.69532 c 0.26172,0 0.47656,-0.0625 0.64551,-0.18652 0.16797,-0.12402 0.25195,-0.3252 0.25195,-0.60449 0,-0.15527 -0.0283,-0.2832 -0.084,-0.38184 -0.0566,-0.09961 -0.13086,-0.17676 -0.22461,-0.2334 -0.0937,-0.05566 -0.20117,-0.09473 -0.32227,-0.11621 -0.1211,-0.02148 -0.24805,-0.03223 -0.37793,-0.03223 l -1.37402,0 0,1.55469 1.48535,0 z m 0.0859,2.82812 c 0.14355,0 0.28027,-0.01367 0.41113,-0.04199 0.13086,-0.02832 0.24609,-0.0752 0.34668,-0.13965 0.0996,-0.06543 0.17871,-0.1543 0.23828,-0.2666 0.0596,-0.11133 0.0889,-0.25488 0.0889,-0.42871 0,-0.3418 -0.0967,-0.58594 -0.29004,-0.73242 -0.19336,-0.14551 -0.44922,-0.21875 -0.7666,-0.21875 l -1.59961,0 0,1.82812 1.57129,0 z"
+           id="path267"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 255.78854,32.95605 1.64355,0 1.56055,2.63184 1.55078,-2.63184 1.63379,0 -2.47363,4.10645 0,2.55762 -1.46875,0 0,-2.59473 -2.44629,-4.06934 z"
+           id="path269"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g5908_1_"
+         transform="matrix(0.872921,0,0,0.872921,50.12536,143.2144)">
+        <path
+           id="path5906_1_"
+           cx="296.35416"
+           ry="22.939548"
+           cy="264.3577"
+           type="arc"
+           rx="22.939548"
+           d="m 186.90065,-141.46002 c 0.006,8.68079 -7.02786,15.7215 -15.70808,15.72711 -8.68022,0.006 -15.72206,-7.02734 -15.7271,-15.70807 0,-0.006 0,-0.0123 0,-0.019 -0.005,-8.68079 7.02786,-15.7215 15.70808,-15.72656 8.68135,-0.006 15.72206,7.02734 15.7271,15.70813 0,0.006 0,0.0123 0,0.0184 z"
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g5706_1_"
+           transform="translate(-289.6157,99.0653)">
+          <path
+             id="path5708_1_"
+             d="m 473.57574,-253.32751 c 3.48541,3.48541 5.22839,7.75391 5.22839,12.80219 0,5.04938 -1.71277,9.27203 -5.13831,12.66791 -3.63531,3.5766 -7.93182,5.36432 -12.88947,5.36432 -4.89777,0 -9.11987,-1.77319 -12.66513,-5.31952 -3.54581,-3.54584 -5.31845,-7.78302 -5.31845,-12.71271 0,-4.92859 1.77264,-9.19598 5.31845,-12.80219 3.4552,-3.48651 7.67728,-5.22949 12.66513,-5.22949 5.0483,-10e-6 9.31404,1.74297 12.79939,5.22949 z m -23.11798,2.34484 c -2.94672,2.97638 -4.41953,6.46289 -4.41953,10.46234 0,3.99835 1.45828,7.45526 4.37424,10.37067 2.9165,2.9165 6.38849,4.37421 10.41705,4.37421 4.02856,0 7.53015,-1.47223 10.50653,-4.4184 2.82593,-2.73645 4.23944,-6.17706 4.23944,-10.32648 0,-4.11804 -1.43646,-7.61346 -4.30768,-10.48468 -2.87067,-2.87067 -6.34991,-4.30658 -10.43829,-4.30658 -4.0884,1e-5 -7.54638,1.44318 -10.37176,4.32892 z m 7.75449,8.70319 c -0.45029,-0.98169 -1.1243,-1.47284 -2.02322,-1.47284 -1.58917,0 -2.38345,1.07007 -2.38345,3.20911 0,2.13953 0.79428,3.2085 2.38345,3.2085 1.04938,0 1.79892,-0.52075 2.24866,-1.56451 l 2.20276,1.17297 c -1.04993,1.86548 -2.62509,2.79846 -4.72549,2.79846 -1.6199,0 -2.91763,-0.4967 -3.89206,-1.48901 -0.9761,-0.99341 -1.46274,-2.36273 -1.46274,-4.10852 0,-1.71503 0.50229,-3.07654 1.50748,-4.08502 1.00519,-1.00854 2.25702,-1.51257 3.75781,-1.51257 2.22012,0 3.80981,0.87488 4.77081,2.62286 l -2.38401,1.22057 z m 10.36337,0 c -0.45087,-0.98169 -1.11145,-1.47284 -1.98242,-1.47284 -1.62103,0 -2.43213,1.07007 -2.43213,3.20911 0,2.13953 0.8111,3.2085 2.43213,3.2085 1.05109,0 1.78717,-0.52075 2.20728,-1.56451 l 2.25201,1.17297 c -1.04828,1.86548 -2.62122,2.79846 -4.71771,2.79846 -1.61768,0 -2.9126,-0.4967 -3.88647,-1.48901 -0.97217,-0.99341 -1.45935,-2.36273 -1.45935,-4.10852 0,-1.71503 0.49445,-3.07654 1.48285,-4.08502 0.98785,-1.00854 2.2453,-1.51257 3.7735,-1.51257 2.21619,0 3.80365,0.87488 4.76129,2.62286 l -2.43098,1.22057 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g275">
+        <circle
+           cx="255.55124"
+           cy="15.31348"
+           r="10.80664"
+           id="circle277"
+           sodipodi:cx="255.55124"
+           sodipodi:cy="15.31348"
+           sodipodi:rx="10.80664"
+           sodipodi:ry="10.80664"
+           style="fill:#ffffff"
+           d="m 266.35788,15.31348 c 0,5.968343 -4.8383,10.80664 -10.80664,10.80664 -5.96834,0 -10.80664,-4.838297 -10.80664,-10.80664 0,-5.9683419 4.8383,-10.8066393 10.80664,-10.8066393 5.96834,0 10.80664,4.8382974 10.80664,10.8066393 z" />
+        <g
+           id="g279">
+          <path
+             d="m 258.67819,12.18701 c 0,-0.4165 -0.33789,-0.75391 -0.75293,-0.75391 l -4.77344,0 c -0.41504,0 -0.75293,0.3374 -0.75293,0.75391 l 0,4.77295 1.33105,0 0,5.65186 3.61719,0 0,-5.65186 1.33105,0 0,-4.77295 10e-6,0 z"
+             id="path281"
+             inkscape:connector-curvature="0" />
+          <circle
+             cx="255.53854"
+             cy="9.1723604"
+             r="1.63281"
+             id="circle283"
+             sodipodi:cx="255.53854"
+             sodipodi:cy="9.1723604"
+             sodipodi:rx="1.63281"
+             sodipodi:ry="1.63281"
+             d="m 257.17135,9.1723604 c 0,0.9017756 -0.73103,1.6328096 -1.63281,1.6328096 -0.90177,0 -1.63281,-0.731034 -1.63281,-1.6328096 0,-0.901776 0.73104,-1.63281 1.63281,-1.63281 0.90178,0 1.63281,0.731034 1.63281,1.63281 z" />
+        </g>
+        <path
+           clip-rule="evenodd"
+           d="m 255.5239,3.40723 c -3.23242,0 -5.96875,1.12793 -8.20801,3.38379 -2.29785,2.3335 -3.44629,5.0957 -3.44629,8.28467 0,3.18897 1.14844,5.93164 3.44629,8.22656 2.29785,2.29443 5.03418,3.44189 8.20801,3.44189 3.21289,0 5.99805,-1.15625 8.35352,-3.47119 2.21973,-2.19727 3.33008,-4.92969 3.33008,-8.19727 0,-3.26758 -1.12988,-6.02881 -3.3877,-8.28467 -2.25977,-2.25585 -5.02442,-3.38378 -8.2959,-3.38378 z m 0.0293,2.09961 c 2.64844,0 4.89746,0.93408 6.74707,2.80127 1.86914,1.84717 2.80371,4.10303 2.80371,6.76758 0,2.68359 -0.91504,4.91064 -2.74512,6.68018 -1.92871,1.90625 -4.19629,2.85889 -6.80566,2.85889 -2.61035,0 -4.85938,-0.94287 -6.74707,-2.82959 -1.88965,-1.88672 -2.83301,-4.12305 -2.83301,-6.70947 0,-2.58691 0.9541,-4.84229 2.8623,-6.76758 1.83009,-1.8672 4.06934,-2.80128 6.71778,-2.80128 z"
+           id="path285"
+           style="fill-rule:evenodd"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="85.248886"
+       y="1032.1757"
+       id="text3084"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3086"
+         x="85.248886"
+         y="1032.1757"
+         style="font-size:12px">This work is licensed under a Creative Commons Attribution 3.0 Unported License.</tspan><tspan
+         sodipodi:role="line"
+         x="85.248886"
+         y="1047.1757"
+         id="tspan3088"
+         style="font-size:12px">Author: http://commons.wikimedia.org/wiki/User:Arbeck</tspan><tspan
+         sodipodi:role="line"
+         x="85.248886"
+         y="1062.1757"
+         style="font-size:12px"
+         id="tspan4721" /></text>
+  </g>
+</svg>
