@@ -9,9 +9,9 @@
 - Das Gantt Diagramm sollte wohl balanciert sein zwischen Übersicht und Detailgrad
 - Es neigt dazu bei großen Projekten unübersichtlich zu werden
 
+![GNATT Diagramm](../../Assets/AbschlusspruefungTeil1/GanttChart.svg)
+
 <br>
 
 ## Links
 [GANTT Diagramm erstellen für phänomenales Projektmanagement (einfache Erklärung) 📊🚀](https://www.youtube.com/watch?v=rpUsuZQsiFs)
-
-![GNATT Diagramm](https://cdn.vertex42.com/ExcelTemplates/Images/ganttchart/simple-gantt-chart.png)
