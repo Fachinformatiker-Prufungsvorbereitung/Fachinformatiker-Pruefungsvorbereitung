@@ -22,8 +22,17 @@ DNS ist einer der wichtigsten Dienste in IP basierten Systemen / Netzwerken. Die
 <br>
 
 ## DNS-Records
+- In ASCI kodiert
+- Eine Zeile ist ein Eintrag
 
-<br>
+### Record Arten
+
+TODO
+
+### Aufbau
+```
+Name        TTL  Class Type    Value
+```
 
 ### Beispiel Record
 ```
