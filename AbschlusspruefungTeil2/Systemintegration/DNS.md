@@ -40,8 +40,17 @@ Leitet alle DNS-Anfragen ausnahmslos an andere Nameserver weiter.
 <br>
 
 ## DNS-Records
+- In ASCI kodiert
+- Eine Zeile ist ein Eintrag
 
-<br>
+### Record Arten
+
+TODO
+
+### Aufbau
+```
+Name        TTL  Class Type    Value
+```
 
 ### Beispiel Record
 ```
