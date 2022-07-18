@@ -12,3 +12,8 @@ DNS ist einer der wichtigsten Dienste in IP basierten Systemen / Netzwerken. Die
 ## DNS-Caching
 
 ## DNS-Records
+
+### Beispiel Record
+```
+de          3600   IN  CNAME   rr.example.net.
+```
