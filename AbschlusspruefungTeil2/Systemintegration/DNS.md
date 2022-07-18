@@ -1,6 +1,6 @@
 # DNS (Domain Name System)
 
-## Definition: 
+## Definition
 DNS ist die Übersetzung von IP-Adressen zu Domains welche für den Menschen "lesbar sind", und 
 umgekehrt.
 
