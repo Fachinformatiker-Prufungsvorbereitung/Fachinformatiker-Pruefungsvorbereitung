@@ -82,7 +82,10 @@ Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:
 
 ## Abschlussprüfung Teil 2
 
-Coming soon
+### Zusammenfassungen zum Lernen
+
+#### Systemintegration
+- [DNS](./AbschlusspruefungTeil2/Systemintegration/DNS.md)
 
 <br>
 
