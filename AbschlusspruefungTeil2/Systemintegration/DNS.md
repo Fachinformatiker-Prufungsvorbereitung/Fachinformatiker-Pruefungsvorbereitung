@@ -1,8 +1,7 @@
 # DNS (Domain Name System)
 
 ## Definition
-DNS ist die Übersetzung von IP-Adressen zu Domains welche für den Menschen "lesbar sind", und 
-umgekehrt.
+DNS ist einer der wichtigsten Dienste in IP basierten Systemen / Netzwerken. Die Hauptaufgabe ist die Bearbeitung von Anfragen zur Namensauflösung. 
 
 ## Wie funktioniert DNS?
 
