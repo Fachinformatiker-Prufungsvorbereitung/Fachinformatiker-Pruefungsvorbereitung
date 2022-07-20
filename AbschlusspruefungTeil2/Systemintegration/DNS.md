@@ -51,6 +51,14 @@ Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolv
 - In ASCI kodiert
 - Eine Zeile ist ein Eintrag
 
+### Records in der GUI
+
+Viele der Cloud-Provider haben ein kostenloses DNS Angebot für ihre Kunden. Diese verfügen oft über eine grafische Oberfläche.
+<br>
+<br>
+Hier als Beispiel Hetzner:
+![RecordManagement_Hetzner](../../Assets/AbschlusspruefungTeil2/RecordManagement_Hetzner.png)
+
 ### Record Arten
 
 | Type  | Beschreibung                                                                                                                                                  |
@@ -74,10 +82,19 @@ Name        TTL  Class Type    Value
 de          3600   IN  CNAME   rr.example.net.
 ```
 
+## Was ist eine DNS-Zone?
+
+<!-- TODO -->
+
+<br>
+
+## Top Level Domains (TLDs)
+
+<!-- TODO -->
+
+<br>
+
 <!--
-DNS ZONE?
-TLDs / Top Level Domains
 DNS GUI Beispiel Hetzner
 Iterative Rekursive DNS Auflösung
-ICANN
  -->
