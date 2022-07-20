@@ -94,7 +94,8 @@ de          3600   IN  CNAME   rr.example.net.
 
 <br>
 
-<!--
-DNS GUI Beispiel Hetzner
-Iterative Rekursive DNS Auflösung
- -->
+## Iterative vs Rekursive DNS-Auflösung
+
+<!-- TODO -->
+
+<br>
