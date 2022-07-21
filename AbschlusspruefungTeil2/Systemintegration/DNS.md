@@ -34,24 +34,10 @@ Leitet alle DNS-Anfragen ausnahmslos an andere Nameserver weiter.
 Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolver mit Caching oder Forwarding Funktionalität. Resolver befinden sich meist auf dem Computer selbst oder im lokalen Netzwerk.
 <br>
 
-## Ablauf der Namensauflösung
-
-<!-- TODO -->
-
-<br>
-
 ## DNS-Records
 
 - In ASCI kodiert
 - Eine Zeile ist ein Eintrag
-
-### Records in der GUI
-
-Viele der Cloud-Provider haben ein kostenloses DNS Angebot für ihre Kunden. Diese verfügen oft über eine grafische Oberfläche.
-<br>
-<br>
-Hier als Beispiel Hetzner:
-![RecordManagement_Hetzner](../../Assets/AbschlusspruefungTeil2/RecordManagement_Hetzner.png)
 
 ### Record Arten
 
