@@ -40,12 +40,6 @@ Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolv
 
 <br>
 
-## DNS-Caching
-
-<!-- TODO -->
-
-<br>
-
 ## DNS-Records
 
 - In ASCI kodiert
