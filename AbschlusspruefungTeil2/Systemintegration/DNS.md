@@ -39,7 +39,7 @@ Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolv
 - In ASCI kodiert
 - Eine Zeile ist ein Eintrag
 
-### Record Arten
+### Record Arten (Beispielhaft)
 
 | Type  | Beschreibung                                                                                                                                                  |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,12 +63,22 @@ de          3600   IN  CNAME   rr.example.net.
 ```
 
 ## Was ist eine DNS-Zone?
+
 Eine DNS-Zone ist ein Bereich im DNS-Namensraum. Die DNS-Zone beinhaltet mindestens eine Domain und kann eine oder mehrere Subdomains enthalten. (Subdomains können auch als eigene Zonen realisiert werden)
 <br>
 
 ## Top Level Domains (TLDs)
 
-<!-- TODO -->
+TlDs sind die Domains in der DNS-Root Zone. Eine volle Liste kann hier gefunden werden: [Click](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
+
+### Beispiele
+
+| TLD     | Use-Case                                      |
+| ------- | --------------------------------------------- |
+| com     | **com**mercial                                |
+| org     | **org**anization                              |
+| net     | **net**work                                   |
+| z.B. de | Länderspezifisch. In diesem Fall: **De**utschland |
 
 <br>
 
