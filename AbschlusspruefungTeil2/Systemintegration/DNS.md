@@ -63,9 +63,7 @@ de          3600   IN  CNAME   rr.example.net.
 ```
 
 ## Was ist eine DNS-Zone?
-
-<!-- TODO -->
-
+Eine DNS-Zone ist ein Bereich im DNS-Namensraum. Die DNS-Zone beinhaltet mindestens eine Domain und kann eine oder mehrere Subdomains enthalten. (Subdomains können auch als eigene Zonen realisiert werden)
 <br>
 
 ## Top Level Domains (TLDs)
