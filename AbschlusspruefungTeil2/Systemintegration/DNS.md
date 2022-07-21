@@ -6,32 +6,9 @@ DNS ist einer der wichtigsten Dienste in IP basierten Systemen / Netzwerken. Die
 DNS steht für Domain Name System.
 <br>
 
-## DNS-Server Arten
+## Was ist eine DNS-Zone?
 
-### DNS-Root-Server
-
-DNS-Root-Server ist ein autoritativer Nameserver für die Root-Zone. Beantwortet Fragen zur Root-Zone oder gibt eine Liste mit autoritativen Nameservern für bestimmte Top-Level-Domains (TLD) zurück.
-
-### Autoritativer Nameserver
-
-Zuständig für eine oder mehrere Zonen. Beantwortet ausschließlich Anfragen für zuständige Zonen. Autoritativ bedeutet, die Informationen des Nameservers gelten als verbindlich.
-
-### Nicht-autoritativer Nameserver
-
-Ist selbst nicht für eine DNS-Zone zuständig und gibt Informationen aus einer rekursiven oder iterativen
-DNS-Abfrage weiter.
-
-### Caching-Server-Autoritativ Nameserver
-
-Zwischenspeicher für Informationen zu anderen Nameservern.
-
-### Forwarding-Server
-
-Leitet alle DNS-Anfragen ausnahmslos an andere Nameserver weiter.
-
-### Resolver
-
-Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolver mit Caching oder Forwarding Funktionalität. Resolver befinden sich meist auf dem Computer selbst oder im lokalen Netzwerk.
+Eine DNS-Zone ist ein Bereich im DNS-Namensraum. Die DNS-Zone beinhaltet mindestens eine Domain und kann eine oder mehrere Subdomains enthalten. (Subdomains können auch als eigene Zonen realisiert werden)
 <br>
 
 ## DNS-Records
@@ -62,22 +39,17 @@ Name        TTL  Class Type    Value
 de          3600   IN  CNAME   rr.example.net.
 ```
 
-## Was ist eine DNS-Zone?
-
-Eine DNS-Zone ist ein Bereich im DNS-Namensraum. Die DNS-Zone beinhaltet mindestens eine Domain und kann eine oder mehrere Subdomains enthalten. (Subdomains können auch als eigene Zonen realisiert werden)
-<br>
-
 ## Top Level Domains (TLDs)
 
 TlDs sind die Domains in der DNS-Root Zone. Eine volle Liste kann hier gefunden werden: [Click](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
 
 ### Beispiele
 
-| TLD     | Use-Case                                      |
-| ------- | --------------------------------------------- |
-| com     | **com**mercial                                |
-| org     | **org**anization                              |
-| net     | **net**work                                   |
+| TLD     | Use-Case                                          |
+| ------- | ------------------------------------------------- |
+| com     | **com**mercial                                    |
+| org     | **org**anization                                  |
+| net     | **net**work                                       |
 | z.B. de | Länderspezifisch. In diesem Fall: **De**utschland |
 
 <br>
@@ -86,4 +58,32 @@ TlDs sind die Domains in der DNS-Root Zone. Eine volle Liste kann hier gefunden 
 
 <!-- TODO -->
 
+<br>
+
+## DNS-Server Arten
+
+### DNS-Root-Server
+
+DNS-Root-Server ist ein autoritativer Nameserver für die Root-Zone. Beantwortet Fragen zur Root-Zone oder gibt eine Liste mit autoritativen Nameservern für bestimmte Top-Level-Domains (TLD) zurück.
+
+### Autoritativer Nameserver
+
+Zuständig für eine oder mehrere Zonen. Beantwortet ausschließlich Anfragen für zuständige Zonen. Autoritativ bedeutet, die Informationen des Nameservers gelten als verbindlich.
+
+### Nicht-autoritativer Nameserver
+
+Ist selbst nicht für eine DNS-Zone zuständig und gibt Informationen aus einer rekursiven oder iterativen
+DNS-Abfrage weiter.
+
+### Caching-Server-Autoritativ Nameserver
+
+Zwischenspeicher für Informationen zu anderen Nameservern.
+
+### Forwarding-Server
+
+Leitet alle DNS-Anfragen ausnahmslos an andere Nameserver weiter.
+
+### Resolver
+
+Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolver mit Caching oder Forwarding Funktionalität. Resolver befinden sich meist auf dem Computer selbst oder im lokalen Netzwerk.
 <br>
