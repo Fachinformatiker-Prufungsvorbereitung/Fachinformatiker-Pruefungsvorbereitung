@@ -56,8 +56,13 @@ TlDs sind die Domains in der DNS-Root Zone. Eine volle Liste kann hier gefunden 
 
 ## Iterative vs Rekursive DNS-Auflösung
 
-<!-- TODO -->
+### Iterative DNS-Auflösung
 
+Der Server antwortet mit einem oder mehreren Verweisen, oder einem Resource Record auf einem anderen Nameserver.
+
+### Rekursive DNS-Auflösung
+
+Im Gegensatz zur Iterativen-Auflösung holt sich der Server die erforderlichen Daten selbst und schickt nicht nur einen Verweis zurück sonder das Ergebnis seiner Anfrage.
 <br>
 
 ## DNS-Server Arten
@@ -87,3 +92,5 @@ Leitet alle DNS-Anfragen ausnahmslos an andere Nameserver weiter.
 
 Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolver mit Caching oder Forwarding Funktionalität. Resolver befinden sich meist auf dem Computer selbst oder im lokalen Netzwerk.
 <br>
+
+<!-- TODO add links -->
