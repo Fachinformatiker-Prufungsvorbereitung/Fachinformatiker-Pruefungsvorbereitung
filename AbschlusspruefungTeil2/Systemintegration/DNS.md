@@ -1,7 +1,5 @@
 # DNS (Domain Name System)
 
-## Wie funktioniert DNS?
-
 [DNS](https://webdeasy.de/domain-name-system-dns-grundlagen/) ist einer der wichtigsten Dienste in IP basierten Systemen / Netzwerken. Die Aufgabe von DNS ist die Bearbeitung von Anfragen zur Namensauflösung.
 
 ```
