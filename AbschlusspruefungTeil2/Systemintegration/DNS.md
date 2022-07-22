@@ -24,7 +24,6 @@ Eine [DNS-Zone](https://www.cloudflare.com/learning/dns/glossary/dns-zone/) ist 
 | MX    | Der Mail-Exchange-Record verweist auf einen Mail-Server.                                                     |
 | A     | Einer der simpelsten Record-Types. Er wandelt eine Domain in eine IPv4-Adresse um.                           |
 | NS    | Ein Name-Server Eintrag verweist auf weitere DNS-Server welche bei der Auflösung unterstützen.               |
-| AAAA  | Ähnlich zu dem A-Record. Der Unterschied ist das AAAA IPv6 Adressen beinhält.                                |
 
 Weitere Records: [Click](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 
@@ -94,4 +93,4 @@ Ein [Forwarding Nameserver](https://social.dnsmadeeasy.com/blog/understanding-dn
 
 ### Resolver
 
-Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur [Resolver](https://www.computerhope.com/jargon/d/dns-resolver.htm) mit Caching oder Forwarding Funktionalität. Resolver befinden sich meist auf dem Computer selbst oder im lokalen Netzwerk.
+Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur [Resolver](https://www.computerhope.com/jargon/d/dns-resolver.htm) mit Caching oder Forwarding Funktionalität.
