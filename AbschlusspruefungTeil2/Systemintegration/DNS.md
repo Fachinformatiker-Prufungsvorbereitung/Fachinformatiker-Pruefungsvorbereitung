@@ -26,6 +26,8 @@ Eine [DNS-Zone](https://www.cloudflare.com/learning/dns/glossary/dns-zone/) ist 
 | NS    | Ein Name-Server Eintrag verweist auf weitere DNS-Server welche bei der Auflösung unterstützen.               |
 | AAAA  | Ähnlich zu dem A-Record. Der Unterschied ist das AAAA IPv6 Adressen beinhält.                                |
 
+Weitere Records: [Click](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
+
 ### Aufbau
 
 ```
@@ -59,11 +61,11 @@ TlDs sind die Domains in der DNS-Root Zone. Eine volle Liste kann hier gefunden 
 
 ### Iterative DNS-Auflösung
 
-Der Server antwortet mit einem oder mehreren Verweisen, oder einem Resource Record auf einem anderen Nameserver.
+Bei der [Iterativen DNS-Auflösung](https://de.wikipedia.org/wiki/Rekursive_und_iterative_Namensaufl%C3%B6sung) antwortet der Server mit einem oder mehreren Verweisen, oder einem Resource Record auf einem anderen Nameserver.
 
 ### Rekursive DNS-Auflösung
 
-Im Gegensatz zur Iterativen-Auflösung holt sich der Server die erforderlichen Daten selbst und schickt nicht nur einen Verweis zurück sonder das Ergebnis seiner Anfrage.
+Im Gegensatz zur Iterativen-Auflösung holt sich der Server bei der [Rekursiven DNS-Auflösung](https://de.wikipedia.org/wiki/Rekursive_und_iterative_Namensaufl%C3%B6sung) die erforderlichen Daten selbst und schickt nicht nur einen Verweis zurück sonder das Ergebnis seiner Anfrage.
 
 <br>
 
@@ -71,30 +73,25 @@ Im Gegensatz zur Iterativen-Auflösung holt sich der Server die erforderlichen D
 
 ### DNS-Root-Server
 
-DNS-Root-Server ist ein autoritativer Nameserver für die Root-Zone. Beantwortet Fragen zur Root-Zone oder gibt eine Liste mit autoritativen Nameservern für bestimmte Top-Level-Domains (TLD) zurück.
+Der [DNS-Root-Server](https://www.cloudflare.com/learning/dns/glossary/dns-root-server/) ist ein autoritativer Nameserver für die Root-Zone. Beantwortet Fragen zur Root-Zone oder gibt eine Liste mit autoritativen Nameservern für bestimmte Top-Level-Domains (TLD) zurück.
 
 ### Autoritativer Nameserver
 
-Zuständig für eine oder mehrere Zonen. Beantwortet ausschließlich Anfragen für zuständige Zonen. Autoritativ bedeutet, die Informationen des Nameservers gelten als verbindlich.
+Der [Autoritative-Nameserver](https://nullrouted.space/2021/11/03/understanding-dns-authoritative-nameservers/) ist zuständig für eine oder mehrere Zonen. Beantwortet ausschließlich Anfragen für zuständige Zonen. Autoritativ bedeutet, die Informationen des Nameservers gelten als verbindlich.
 
 ### Nicht-autoritativer Nameserver
 
-Ist selbst nicht für eine DNS-Zone zuständig und gibt Informationen aus einer rekursiven oder iterativen
+Der [Nicht-autoritativer Nameserver](https://tecadmin.net/authoritative-non-authoritative-dns-server/) ist selbst nicht für eine DNS-Zone zuständig und gibt Informationen aus einer rekursiven oder iterativen
 DNS-Abfrage weiter.
 
-### Caching-Server-Autoritativ Nameserver
+### Caching Nameserver
 
-Zwischenspeicher für Informationen zu anderen Nameservern.
+Der [Caching Nameserver](https://doxfer.webmin.com/Webmin/Caching_Nameserver) speichert Informationen von anderen Nameservern zwischen sodass sich die Zugriffszeiten deutlich verringern.
 
-### Forwarding-Server
+### Forwarding Nameserver
 
-Leitet alle DNS-Anfragen ausnahmslos an andere Nameserver weiter.
+Ein [Forwarding Nameserver](https://social.dnsmadeeasy.com/blog/understanding-dns-forwarding/) leitet alle DNS-Anfragen ausnahmslos an andere Nameserver weiter.
 
 ### Resolver
 
-Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur Resolver mit Caching oder Forwarding Funktionalität. Resolver befinden sich meist auf dem Computer selbst oder im lokalen Netzwerk.
-
-<!--
-TODO Add more Links
-TODO Arrange elements to match page count of 2
--->
+Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur [Resolver](https://www.computerhope.com/jargon/d/dns-resolver.htm) mit Caching oder Forwarding Funktionalität. Resolver befinden sich meist auf dem Computer selbst oder im lokalen Netzwerk.
