@@ -17,24 +17,24 @@ Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:
 
 ### Zusammenfassungen zum Lernen
 
-#### Anwendungsentwicklung
+#### Anwendungsentwicklung ⌨️
 - [ER-Model](./AbschlusspruefungTeil1/Anwendungsentwicklung/ER-Model.md)
 - [Normalisierung](./AbschlusspruefungTeil1/Anwendungsentwicklung/Normalisierung.md)
 - [SQL](./AbschlusspruefungTeil1/Anwendungsentwicklung/SQL.md)
 - [UML](./AbschlusspruefungTeil1/Anwendungsentwicklung/UML.md)
 
-#### Datenschutz
+#### Datenschutz 🔐
 - [Betroffenenrechte](./AbschlusspruefungTeil1/Datenschutz/Betroffenenrechte.md)
 - [Cyberbedrohungen](./AbschlusspruefungTeil1/Datenschutz/Cyberbedrohungen.md)
 
-#### Projektmanagement
+#### Projektmanagement 🏗️
 - [Agiles vs klassisches Projektmanagement](./AbschlusspruefungTeil1/Projektmanagement/AgilesVsKlassischesProjektmanagement.md)
-- ##### Agiles Projektmanagement
+- ##### Agiles Projektmanagement 
     - [Scrum](./AbschlusspruefungTeil1/Projektmanagement/Scrum.md)
     - [Extreme Programming](./AbschlusspruefungTeil1/Projektmanagement/ExtremeProgramming.md)
     - [Kanban](./AbschlusspruefungTeil1/Projektmanagement/Kanban.md)
 
-- ##### Klassisches Projektmanagement
+- ##### Klassisches Projektmanagement 
     - [Spiralmodell](./AbschlusspruefungTeil1/Projektmanagement/Spiralmodell.md)
     - [V-Modell](./AbschlusspruefungTeil1/Projektmanagement/V-Modell.md)
     - [Wasserfallmodell](./AbschlusspruefungTeil1/Projektmanagement/Wasserfallmodell.md)
@@ -51,7 +51,7 @@ Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:
 - [Ticket Systeme](./AbschlusspruefungTeil1/Projektmanagement/TicketSysteme.md)
 - [Magisches Dreieck](./AbschlusspruefungTeil1/Projektmanagement/MagischesDreieck.md)
 
-#### Systemintegration
+#### Systemintegration 🔌
 - [Backuparten](./AbschlusspruefungTeil1/Systemintegration/Backuparten.md)
 - [Datenbanksysteme](./AbschlusspruefungTeil1/Systemintegration/Datenbanksystem.md)
 - [DSL](./AbschlusspruefungTeil1/Systemintegration/DSL.md)
@@ -61,7 +61,7 @@ Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:
 - [RAID](./AbschlusspruefungTeil1/Systemintegration/RAID.md)
 - [OSI - Modell](./AbschlusspruefungTeil1/Systemintegration/OSI.md)
 
-#### Wirtschaft
+#### Wirtschaft 💸
 - [Kosten Nutzen](./AbschlusspruefungTeil1/Wirtschaft/KostenNutzen.md)
 - [Make or Buy](./AbschlusspruefungTeil1/Wirtschaft/MakeOrBuy.md)
 - [ROI](./AbschlusspruefungTeil1/Wirtschaft/ROI.md)
@@ -75,7 +75,7 @@ Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:
   - [Win-Win-Strategie](./AbschlusspruefungTeil1/Wirtschaft/WinWin.md)
   - [Harvard-Konzept](./AbschlusspruefungTeil1/Wirtschaft/HarvardKonzept.md)
 
-#### Zahlensysteme
+#### Zahlensysteme 🧮
 - [Umrechnungen](./AbschlusspruefungTeil1/Zahlensysteme/Umrechnungen.md)
 
 <br>
@@ -84,7 +84,7 @@ Die möglichen Themen sind auf folgenden Seiten schön zusammengefasst:
 
 ### Zusammenfassungen zum Lernen
 
-#### Systemintegration
+#### Systemintegration 🔌
 - [DNS](./AbschlusspruefungTeil2/Systemintegration/DNS.md)
 
 <br>
