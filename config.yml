@@ -1,18 +1,66 @@
+# Basics
 baseURL: https://fiae.lna-dev.com
+title: Fachinformatiker-Prüfungsvorbereitung
+theme: docsy
+enableGitInfo: true
+
+# Content
+pygmentsCodeFences: true
+pygmentsUseClasses: false
+pygmentsUseClassic: false
+pygmentsStyle: tango
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: tango
+
+params:
+  copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
+  # privacy_policy: "https://policies.google.com/privacy"
+  ui:
+    readingTime:
+      enable: true
+
+  offlineSearch: true
+  algolia_docsearch: false
+  offlineSearchSummaryLength: 70
+  offlineSearchMaxResults: 10
+  prism_syntax_highlighting: false
+
+  # GitHub
+  github_repo: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
+  github_project_repo: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
+  github_branch: "dev"
+
+  mermaid:
+    enable: true
+    theme: default
+  plantuml:
+    enable: true
+    theme: default
+    svg_image_url: https://www.plantuml.com/plantuml/svg/
+    svg: false
+  katex:
+    enable: true
+    html_dom_element: document.body
+    mhchem:
+      enable: true
+  print:
+    disable_toc: false
+  markmap:
+    enable: true
+
+# Language
 languageCode: de
 defaultContentLanguage: de
-title: Fachinformatiker-Prüfungsvorbereitung
+defaultContentLanguageInSubdir: false
+contentDir: "content/de"
+enableMissingTranslationPlaceholders: true
 
-theme: docsy
-
-github_repo: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
-github_project_repo: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
-github_branch: "dev"
-
-offlineSearch: true
-offlineSearchMaxResults: 25
-algolia_docsearch: false
-
+# Menu
 menu:
   main:
     - name: GitHub
@@ -20,13 +68,17 @@ menu:
       url: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
       pre: <i class="fa-brands fa-github"></i>
 
+# Outputs
 outputs:
   section:
     - HTML
     - RSS
     - print
 
+# SEO
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
+
+enableRobotsTXT: true
