@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  NAME: Fachinformatiker-Prüfungsvorbereitung
+  NAME: ./
 
 jobs:
   HugoBuild:
