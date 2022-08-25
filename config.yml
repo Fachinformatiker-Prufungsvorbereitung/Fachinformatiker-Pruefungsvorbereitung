@@ -5,7 +5,6 @@ theme: docsy
 enableGitInfo: true
 
 # Content
-
 pygmentsCodeFences: true
 pygmentsUseClasses: false
 pygmentsUseClassic: false
@@ -22,8 +21,8 @@ params:
   copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
   # privacy_policy: "https://policies.google.com/privacy"
   ui:
-    readingTime: 
-      enabled: true
+    readingTime:
+      enable: true
 
   offlineSearch: true
   algolia_docsearch: false
@@ -35,6 +34,24 @@ params:
   github_repo: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
   github_project_repo: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
   github_branch: "dev"
+
+  mermaid:
+    enable: true
+    theme: default
+  plantuml:
+    enable: true
+    theme: default
+    svg_image_url: https://www.plantuml.com/plantuml/svg/
+    svg: false
+  katex:
+    enable: true
+    html_dom_element: document.body
+    mhchem:
+      enable: true
+  print:
+    disable_toc: false
+  markmap:
+    enable: true
 
 # Language
 languageCode: de
