@@ -3,5 +3,6 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 type: docs
+weight: 1
 ---
 
