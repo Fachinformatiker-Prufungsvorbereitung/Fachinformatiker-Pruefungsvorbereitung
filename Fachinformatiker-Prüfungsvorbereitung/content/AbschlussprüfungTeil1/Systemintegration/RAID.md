@@ -1,6 +1,12 @@
-# RAID - Redundant array of independent disks
+---
+title: "RAID - Redundant array of independent disks"
+date: 2022-08-24T23:02:47-06:00
+draft: false
+type: docs
+---
 
 ## RAID 0
+
 - Keine Datenredundanz
 - Beim Ausfall einer Festplatte sind die Daten unbrauchbar
 - Parallele Schreib- und Lesezugriffe => Hohe Transferrate
@@ -13,6 +19,7 @@
 <br>
 
 ## RAID 1
+
 - Volle Redundanz
 - Daten werden gespiegelt gespeichert
 - Parallele Lesezugriffe => Lesegeschwindigkeit hoch
@@ -26,6 +33,7 @@
 <br>
 
 ## RAID 5
+
 - Striping Verfahren
 - Parity Verfahren
 - Datenredundanz
@@ -42,6 +50,7 @@
 <br>
 
 ## RAID 6
+
 - Minimum vier Festplatten
 - Ähnlich zu RAID 5
 - Besitzt zwei Parity-Parts
@@ -53,6 +62,7 @@
 <br>
 
 ## RAID 10
+
 - Kombination aus RAID 1 und RAID 0
 - Versuch die Stärken der beiden Systeme zu vereinen
 
@@ -62,6 +72,7 @@
 <br>
 
 ## Links
+
 [Das RAID System RAID 0,1,5 knackig erklärt](https://www.youtube.com/watch?v=IM5aXVXh2Jo)  
 [RAID 6 erklärt | QNP 115 | #Basics15](https://www.youtube.com/watch?v=0H2nvtuY8cg)  
 [Erklärung des RAID-Levels RAID 10 (deutsch)](https://www.youtube.com/watch?v=Lw76leQOUdg)  
