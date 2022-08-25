@@ -1,4 +1,9 @@
-# Das Ratendarlehen
+---
+title: "Das Ratendarlehen"
+date: 2022-08-24T23:02:55-06:00
+draft: false
+type: docs
+---
 
     Zinsen = Schulden * Zinssatz  
 
@@ -22,4 +27,5 @@
 <br>
 
 ## Links
+
 [Erklärung YouTube](https://www.youtube.com/watch?v=HTQ20LDJudQ)
