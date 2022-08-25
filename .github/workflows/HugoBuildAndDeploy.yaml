@@ -1,0 +1,57 @@
+name: HugoBuildAndDeploy
+
+on:
+  workflow_dispatch: # To have the ability to run the workflow manually
+
+  push:
+    branches: [main]
+
+env:
+  NAME: Fachinformatiker-Prüfungsvorbereitung
+
+jobs:
+  HugoBuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - uses: actions/checkout@v3
+
+      # Install Hugo
+      - run: sudo snap install hugo
+
+      # Build the hugo repository
+      - run: hugo
+        working-directory: ./${{ env.NAME }}/
+
+      # Zip the Artifact for GitHubPages deployment
+      - name: Archive artifact
+        shell: bash
+        if: runner.os != 'Windows'
+        run: tar -cvf ${{ runner.temp }}/artifact.tar -C ./${{ env.NAME }}/public .
+
+      # Create a build artifact
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+
+  DeployToGithubPages:
+    needs: HugoBuild
+
+    # Setup GitHubPages
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Deploy the artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

@@ -1,1 +1,3 @@
 *.pdf
+*/node_modules
+.vscode
