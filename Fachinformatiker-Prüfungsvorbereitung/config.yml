@@ -1,5 +1,5 @@
-baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://fiae.lna-dev.com
+languageCode: de
+title: Fachinformatiker-Prüfungsvorbereitung
 
 theme: docsy
