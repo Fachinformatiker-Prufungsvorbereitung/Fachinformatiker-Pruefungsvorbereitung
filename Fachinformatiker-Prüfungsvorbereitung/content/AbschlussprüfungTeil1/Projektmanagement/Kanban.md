@@ -1,6 +1,12 @@
-# Kanban
+---
+title: "Kanban"
+date: 2022-08-24T23:02:36-06:00
+draft: false
+type: docs
+---
+
 - Kanban hilft bei der Visualisierung der Arbeit
-- Kanban ist ein Pull-System (heist Arbeit wird nicht zugewisen sondern sich selbst geholt)
+- Kanban ist ein Pull-System (heist Arbeit wird nicht zugewiesen sondern sich selbst geholt)
 - Kanban limitiert die Arbeit die gleichzeitig gemacht werden kann
 - Außerdem ist kontinuierliche Verbesserung auch in Kanban ein wichtiger Punkt
 - Arbeitet mit dem klassischen Kanban Spalten Diagramm
@@ -9,4 +15,5 @@
 <br>
 
 ## Links
+
 [Kanban: Was ist Kanban? Kanban erklärt! (Agiles Projektmanagement) 💡](https://www.youtube.com/watch?v=Tf-zcpwM5uQ)

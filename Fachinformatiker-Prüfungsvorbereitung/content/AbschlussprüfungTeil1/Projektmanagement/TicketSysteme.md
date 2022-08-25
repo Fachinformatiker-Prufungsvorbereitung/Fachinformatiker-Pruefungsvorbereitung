@@ -1,4 +1,11 @@
-# Ticket Systeme
+---
+title: "Ticket Systeme"
+date: 2022-08-24T23:02:36-06:00
+draft: false
+type: docs
+---
+
+
 
 ## Dreistufiges Ticketing System
 
@@ -9,6 +16,7 @@
 |Third-Level|Der Third-Level-Support setzt sich aus verschiedenen Spezialisten zusammen. (Fachabteilung, Programmierer, Hersteller) Er stellt die höchste fachliche Ebene des Supports da.|
 
 ### Vorteile
+
 - Nachvollziehbarkeit aller Anfragen
 - Systematische Bearbeitung von Anfragen
 - Einhaltung von Service-Level-Agreements

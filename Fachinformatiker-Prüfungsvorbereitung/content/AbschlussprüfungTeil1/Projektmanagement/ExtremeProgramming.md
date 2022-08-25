@@ -1,4 +1,11 @@
-# Extreme Programming / XP
+---
+title: "Extreme Programming / XP"
+date: 2022-08-24T23:02:36-06:00
+draft: false
+type: docs
+---
+
+
 - Geeignet für kleine bis mittelgroße Teams
 - Agile Projektmanagementmethode
 - Iterativ

@@ -1,4 +1,10 @@
-# Netzplan
+---
+title: "Netzplan"
+date: 2022-08-24T23:02:36-06:00
+draft: false
+type: docs
+---
+
 Bei den Prüfungsaufgaben ist meist eine Legende gegeben. Die Anordnung / Namen der einzelnen Felder muss also nicht auswendig gelernt werden. Kommt oft in Prüfungen dran.
 
 ![Netzplan](../../Assets/AbschlusspruefungTeil1/Netzplan.png)
@@ -20,20 +26,24 @@ Bei den Prüfungsaufgaben ist meist eine Legende gegeben. Die Anordnung / Namen 
 <br>
 
 ## Was ist der freie Puffer?
+
 Der freie Puffer ist der Zeitraum, um den ein Vorgang maximal verschoben werden kann, ohne den frühesten Termine seiner nachfolgenden Vorgänge zu beeinflussen.
 
 <br>
 
 ## Was ist der Gesamtpuffer?
+
 Der Gesamtpuffer ist der Zeitraum, um den ein Vorgang maximal verschoben werden kann, ohne die spätesten Termine seiner nachfolgenden Vorgänge zu beeinflussen.
 
 <br>
 
 ## Was ist der kritische Pfad?
-Der kritische Pfad ist der Weg vom ersten bis zum letzten Vorgang eines Netzplans, auf dem die Pufferzeiten minimal sind. 
+
+Der kritische Pfad ist der Weg vom ersten bis zum letzten Vorgang eines Netzplans, auf dem die Pufferzeiten minimal sind.
 
 <br>
 
 ## Links
+
 [Was ist ein Netzplan?](https://www.inloox.de/projektmanagement-glossar/netzplan/)  
 [Netzplantechnik einfach erklärt + Beispiel mit kritischem Pfad!](https://www.youtube.com/watch?v=OfrfVY-eYQY)

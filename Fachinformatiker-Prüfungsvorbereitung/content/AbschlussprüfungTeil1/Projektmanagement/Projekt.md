@@ -1,4 +1,10 @@
-# Was ist ein Projekt?
+---
+title: "Was ist ein Projekt?"
+date: 2022-08-24T23:02:36-06:00
+draft: false
+type: docs
+---
+
 
 ## Eigenschaften eines Projekts
 - Neuartig und einmalig

@@ -1,4 +1,10 @@
-# V-Modell
+---
+title: "V-Modell"
+date: 2022-08-24T23:02:36-06:00
+draft: false
+type: docs
+---
+
 - Klassisches Projektmanagementmodell
 - In Phasen aufgeteilt
 - Die Phasen dürfen nicht parallel laufen
@@ -12,4 +18,5 @@
 <br>
 
 ## Links
+
 [Software Engineering Tutorial Deutsch #4 - Das V-Modell](https://www.youtube.com/watch?v=FxS9LFzpM-o)

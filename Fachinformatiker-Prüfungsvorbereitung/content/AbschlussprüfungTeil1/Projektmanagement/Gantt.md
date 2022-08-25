@@ -1,4 +1,10 @@
-# Gantt Diagramm
+---
+title: "Gantt Diagramm"
+date: 2022-08-24T23:02:36-06:00
+draft: false
+type: docs
+---
+
 - Ist eine Art mehrdimensionaler Zeitstrahl
 - Auf diesem Strahl werden Arbeitspakete mit ihrer Zeitlichen Anordnung und auch mit ihren Abhängigkeiten dargestellt
 - Jedes Arbeitspaket hat eine eindeutige Deadline
@@ -14,4 +20,5 @@
 <br>
 
 ## Links
+
 [GANTT Diagramm erstellen für phänomenales Projektmanagement (einfache Erklärung) 📊🚀](https://www.youtube.com/watch?v=rpUsuZQsiFs)
