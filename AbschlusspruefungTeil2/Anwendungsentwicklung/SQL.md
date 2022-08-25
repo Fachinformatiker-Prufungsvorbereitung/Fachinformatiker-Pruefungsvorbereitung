@@ -177,7 +177,7 @@ SELECT ort, COUNT(ort) FROM kunde GROUP BY ort HAVING COUNT(ort) > 100;
 
 ## Abfragen über mehrere Tabellen (Joins)
 
-![SQL Joins](../../Assets/AbschlusspruefungTeil1/SQL_Joins.svg)
+![SQL Joins](/Assets/AbschlusspruefungTeil1/SQL_Joins.svg)
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:SQL_Joins.svg)
 
 ### Inner Join

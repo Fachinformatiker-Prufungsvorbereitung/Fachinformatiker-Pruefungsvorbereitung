@@ -11,7 +11,7 @@ type: docs
 - Entitäten werden sichtbar
 - Relationen zwischen Entitäten werden sichtbar
 
-![ER Diagram MMORPG](../../Assets/AbschlusspruefungTeil1/ER_Diagram_MMORPG.png)
+![ER Diagram MMORPG](/Assets/AbschlusspruefungTeil1/ER_Diagram_MMORPG.png)
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:ER_Diagram_MMORPG.png)
 
 <br>
