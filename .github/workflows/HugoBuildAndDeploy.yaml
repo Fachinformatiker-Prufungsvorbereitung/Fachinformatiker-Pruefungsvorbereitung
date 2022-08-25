@@ -20,6 +20,12 @@ jobs:
       # Install Hugo
       - run: sudo snap install hugo
 
+      # Install dependencies
+      - run: npm install -D autoprefixer
+        working-directory: ./${{ env.NAME }}/
+      - run: npm install -D postcss-cli
+        working-directory: ./${{ env.NAME }}/
+
       # npm install
       - run: npm install
         working-directory: ./${{ env.NAME }}/themes/docsy
