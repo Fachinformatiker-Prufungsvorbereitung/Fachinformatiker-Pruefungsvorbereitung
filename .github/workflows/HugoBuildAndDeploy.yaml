@@ -20,6 +20,10 @@ jobs:
       # Install Hugo
       - run: sudo snap install hugo
 
+      # npm install
+      - run: npm install
+        working-directory: ./${{ env.NAME }}/themes/docsy
+
       # Build the hugo repository
       - run: hugo
         working-directory: ./${{ env.NAME }}/
