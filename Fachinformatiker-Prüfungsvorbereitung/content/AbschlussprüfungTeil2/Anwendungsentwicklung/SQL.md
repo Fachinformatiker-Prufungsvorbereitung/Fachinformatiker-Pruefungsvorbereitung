@@ -1,4 +1,10 @@
-# SQL / MySQL
+---
+title: "SQL / MySQL"
+date: 2022-08-25T10:37:33-06:00
+draft: false
+type: docs
+---
+
 In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 
 <br>
@@ -25,22 +31,27 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 <br>
 
 ## Datenbanken verwalten
+
 ### Datenbank anlegen
+
 ```sql
 CREATE DATABASE [IF NOT EXISTS] <Datenbankname>;
 ```
 
 ### Datenbank auswählen
+
 ```sql
 USE <Datenbankname>;
 ```
 
 ### Datenbanken auflisten
+
 ```sql
 SHOW DATABASES;
 ```
 
 ### Datenbank löschen
+
 ```sql
 DROP DATABASE <Datenbankname>;
 ```
@@ -48,24 +59,29 @@ DROP DATABASE <Datenbankname>;
 <br>
 
 ## Tabellen verwalten
+
 ### Tabellen auflisten
+
 ```sql
 SHOW TABLES;
 ```
 
 ### Tabellenaufbau anzeigen
+
 ```sql
 DESC <Tabellenname>;
 ```
 
 ### Tabelle anlegen
+
 ```sql
 CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
 ```
 
 #### Attributdefinition
+
     <Attributname> <Datentyp> [PRIMARY KEY] [AUTO_INCREMENT] 
-	[NOT NULL] [DEFAULT <Wert>];
+ [NOT NULL] [DEFAULT <Wert>];
 
 |Option|Beschreibung|
 |------|------------|
@@ -75,6 +91,7 @@ CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
 |DEFAULT|Der Standartwert für dieses Feld wird auf "Wert" gesetzt.|
 
 ### Tabelle löschen
+
 ```sql
 DROP TABLE <Tabellenname>;
 ```
@@ -82,17 +99,21 @@ DROP TABLE <Tabellenname>;
 <br>
 
 ## Bestehende Tabellen ändern
+
 ### Spalte hinzufügen
+
 ```sql
 ALTER TABLE <Tabellenname> ADD <Attributdefinition>;
 ```
 
 ### Spalte löschen
+
 ```sql
 ALTER TABLE <Tabellenname> DROP <Attributnamen>;
 ```
 
 ### Spalte ändern
+
 ```sql
 ALTER TABLE <Tabellenname> MODIFY <Attributdefinition>;
 ```
@@ -100,30 +121,36 @@ ALTER TABLE <Tabellenname> MODIFY <Attributdefinition>;
 <br>
 
 ## Daten bearbeiten
+
 ### Daten einfügen
+
 ```sql
 INSERT INTO <Tabellenname> (Attributliste) VALUES (Wertliste);
 ```
 
 ### Daten löschen
+
 ```sql
 DELETE FROM <Tabellenname>;
 ```
 
 ### Daten aktualisieren
+
 ```sql
 UPDATE <Tabellenname> SET <Datenfeld1>=<neuer Wert1>, <Datenfeld2>=<neuer Wert2>;
 ```
+
 <br>
 
 ## Where Bedingungen
+
 Where kann an die meisten Befehle angehangen werden und sorgt so dafür, dass nur bestimmte Datensätze angesprochen werden.
 
-    Mathematische Operationen:	    =, !=, >, <, >=, <=, +, -, *, /
-    Boolesche Operatoren:	        AND, OR, NOT
-    Textmustervergleich:	        LIKE mit % für beliebige Zeichenkette (auch leer) und _ für einzelnes Zeichen z.B.: name LIKE "H%"
-    Bereichsoperator:	            BETWEEN x AND y
-    Mengenvergleich:	            IN(wert1, wert2, …)
+    Mathematische Operationen:     =, !=, >, <, >=, <=, +, -, *, /
+    Boolesche Operatoren:         AND, OR, NOT
+    Textmustervergleich:         LIKE mit % für beliebige Zeichenkette (auch leer) und _ für einzelnes Zeichen z.B.: name LIKE "H%"
+    Bereichsoperator:             BETWEEN x AND y
+    Mengenvergleich:             IN(wert1, wert2, …)
 
 <br>
 
@@ -154,8 +181,8 @@ FROM tabelle(n)
 |DAY(datum)|Gibt den Tag zurück|
 |DATE_ADD(datum, intervall)|Addiert das Intervall zum Datum|
 
-
 ### Aggregatsfunktionen
+
 Sie berechnen ein Ergebnis aus den Werten einer Spalte (mehrere Datensätze).
 
 |Funktion|Beschreibung|
@@ -167,8 +194,10 @@ Sie berechnen ein Ergebnis aus den Werten einer Spalte (mehrere Datensätze).
 |MIN(feld)|Sucht den kleinsten Wert einer ganzen Spalte.|
 |MAX(feld)|Sucht den größten Wert einer ganzen Spalte.|
 
-## Gruppierungen 
+## Gruppierungen
+
 ### Beispiel
+
 ```sql
 SELECT ort, COUNT(ort) FROM kunde GROUP BY ort;
 
@@ -181,20 +210,25 @@ SELECT ort, COUNT(ort) FROM kunde GROUP BY ort HAVING COUNT(ort) > 100;
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:SQL_Joins.svg)
 
 ### Inner Join
+
 Ein Inner Join gibt die Schnittmenge der Tabellen zurück. Wenn zum Beispiel eine ID nur in einer Tabelle vorkommt wird sie nicht angezeigt.
 
 ### Left Join
+
 Ein Left Join gibt alle Daten von der linken Tabelle zurück und zusätzlich die passende Schnittmenge der zweiten.
 
 ### Right Join
+
 Gibt alle Daten der rechten Tabelle zurück und zusätzlich die Schnittmenge der linken.
 
 ### Full Outer Join / Full Join
+
 Gibt alle Daten aus beiden Tabellen zurück.
 
 <br>
 
 ## Links
+
 [MySQL - The Basics // Learn SQL in 23 Easy Steps](https://www.youtube.com/watch?v=Cz3WcZLRaWc)  
 [MySQL Tutorial for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA)  
 [SQL Joins: Difference Between Inner/Left/Right/Outer Joins](https://www.youtube.com/watch?v=zGSv0VaOtR0)  
