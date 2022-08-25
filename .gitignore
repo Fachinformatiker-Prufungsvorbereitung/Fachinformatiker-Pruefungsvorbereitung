@@ -1,3 +1,4 @@
 *.pdf
 *node_modules
 .vscode
+public
