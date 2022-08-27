@@ -6,9 +6,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-<!-- TODO Change the links -->
-<!-- TODO Remove if you do not have a pipeline or wakatime -->
-[![wakatime](https://wakatime.com/badge/user/d37401d6-1566-41ea-b7ab-8cc7d2c9f55b/project/931d730c-4999-4084-84d0-9639c865bcce.svg?style=for-the-badge&logo=appveyor)](https://wakatime.com/badge/user/d37401d6-1566-41ea-b7ab-8cc7d2c9f55b/project/931d730c-4999-4084-84d0-9639c865bcce.svg?style=for-the-badge&logo=appveyor)
+[![wakatime](https://wakatime.com/badge/github/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung.svg?style=for-the-badge)](https://wakatime.com/badge/github/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung?style=for-the-badge)
 [![HugoBuildAndDeploy](https://img.shields.io/github/workflow/status/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/HugoBuildAndDeploy?style=for-the-badge)](https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/actions/workflows/PipelineName.yaml)  
 
 <!-- PROJECT LOGO -->
@@ -18,18 +16,14 @@
     <img src="https://lna-dev.com/Assets/Metadata/Pingüino-Square.png" alt="Logo" width="80" height="80">
   </a>
 
-<!-- TODO Change the project name -->
-### README-Template
+### Fachinformatiker Prüfungsvorbereitung 💻
 
-<!-- TODO Change the description -->
-In this repository I have created a README-Template based on Best-README-Template
-
+Dies ist ein Hugo Projekt in dem durch Markdown files eine Prüfungsvorbereitungs-Website erzeugt wird
 <p align="center">
 
 <br />
 
-<!-- TODO Change the Link -->
-<a href="https://lna-dev.com"><strong>Explore the Project »</strong></a>
+<a href="https://fi.lna-dev.net"><strong>Explore the Project »</strong></a>
 <br />
 <br />
 <a href="https://github.com/lna-dev/Fachinformatiker-Pruefungsvorbereitung/issues">Report Bug</a>
@@ -41,15 +35,15 @@ In this repository I have created a README-Template based on Best-README-Templat
 <!-- ABOUT THE PROJECT -->
 ## About The Project 🗺️
 
-<!-- TODO Tell the world about your project -->
-Here you can describe your project a little bit more. Explain the world your thoughts and what your project does. Have fun and build something.
+Ich habe, zur Vorbereitung auf die Zwischenprüfung, mir damals ein paar Notizen gemacht. Diese Markdown Dateien werden jetzt unter <https://fi.lna-dev.net>, mithilfe von Hugo, als Website gebaut. Momentan wird das Theme Docsy verwendet. Dies gibt der Seite einen dokumentationsartigen Look. Ich würde mich darüber freuen, wenn ein paar von euch das Projekt benutzen, erweitern oder verbessern werden. Das ist ganz einfach und erfordert lediglich Markdown Kenntnisse, die in der Programmierung ja sowieso weit verbreitet sind. Ich selber mache zwar die Ausbildung zum Fachinformatiker Anwendungsentwicklung, aber wenn ein Systemintegratör für Teil 2 der Prüfung Informationen aufschreiben will: Gern!
 
 <br>
 
 ## Build With 🏗️
 
-<!-- TODO Go to https://github.com/Ileriayo/markdown-badges and search for a fitting batch🙃 -->
-
+<!-- Go to https://github.com/Ileriayo/markdown-badges and search for a fitting batch🙃 -->
+![Hugo](https://img.shields.io/badge/Hugo-black.svg?style=for-the-badge&logo=Hugo)  
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)  
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)  
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  
 
@@ -58,13 +52,11 @@ Here you can describe your project a little bit more. Explain the world your tho
 <!-- CONTRIBUTING -->
 ## Contributing ✨
 
-<!-- TODO Customize the contributing text -->
-If you have any ideas or want to contribute yourself... go for it. I really appreciate it if some of you have cool ideas🚀
+Wenn du an diesem Projekt mitarbeiten möchtest dann lese dir die [Contributing-Guidelines](./CONTRIBUTING.md) genauer durch ✨
 
 <br>
 
 <!-- LICENSE -->
-<!-- TODO Add the License description -->
 ## License 📝
 
 The code is distributed under the MIT License. See `LICENSE` for more information.
@@ -72,7 +64,6 @@ The code is distributed under the MIT License. See `LICENSE` for more informatio
 <br>
 
 <!-- ACKNOWLEDGMENTS -->
-<!-- TODO Add your acknowledgments -->
 ## Acknowledgments 🙏
 
 - [LNA-DEV README-Template](https://github.com/lna-dev/README-Template)
