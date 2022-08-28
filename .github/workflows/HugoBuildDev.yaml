@@ -1,10 +1,10 @@
-name: HugoBuildAndDeploy
+name: HugoBuildDev
 
 on:
   workflow_dispatch: # To have the ability to run the workflow manually
 
   push:
-    branches: [main]
+    branches: [dev]
 
 env:
   NAME: ./
@@ -42,22 +42,3 @@ jobs:
         with:
           name: github-pages
           path: ${{ runner.temp }}/artifact.tar
-
-  DeployToGithubPages:
-    needs: HugoBuild
-
-    # Setup GitHubPages
-    permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    # Deploy the artifact
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
