@@ -1,0 +1,48 @@
+name: HugoBuildDev
+
+on:
+  workflow_dispatch: # To have the ability to run the workflow manually
+
+  push:
+    branches: [dev]
+
+env:
+  NAME: ./
+
+jobs:
+  HugoBuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - uses: actions/checkout@v3
+
+      # Install Hugo
+      - run: sudo snap install hugo
+
+      # Install dependencies
+      - run: npm install -D autoprefixer
+        working-directory: ./${{ env.NAME }}/
+      - run: npm install -D postcss-cli
+        working-directory: ./${{ env.NAME }}/
+
+      # npm install
+      - run: npm install
+        working-directory: ./${{ env.NAME }}/themes/docsy
+
+      # Build the hugo repository
+      - run: hugo
+        working-directory: ./${{ env.NAME }}/
+
+      # Zip the Artifact for GitHubPages deployment
+      - name: Archive artifact
+        shell: bash
+        if: runner.os != 'Windows'
+        run: tar -cvf ${{ runner.temp }}/artifact.tar -C ./${{ env.NAME }}/public .
+
+      # Create a build artifact
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
