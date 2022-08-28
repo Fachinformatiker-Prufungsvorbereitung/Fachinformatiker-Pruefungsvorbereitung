@@ -17,10 +17,9 @@ Wenn du deine Änderungen life im Browser sehen möchtest und alle verfügbaren 
 1. [Installiere Hugo](https://gohugo.io/getting-started/installing/)
 2. Führe `npm install -D autoprefixer` im Projekt aus
 3. Führe `npm install -D postcss-cli` im Projekt aus
-4. Führe `npm install` im Projekt in folgendem Pfad aus `themes/docsy`
-5. Um die Seite im Browser zu sehen nutze `hugo serve`
-6. Ändere die Markdown Files wie im nächsten Kapitel beschrieben
-7. Wenn nötig lege eine Datei mit `hugo new <seitenName>.md`
+4. Um die Seite im Browser zu sehen nutze `hugo serve`
+5. Ändere die Markdown Files wie im nächsten Kapitel beschrieben
+6. Wenn nötig lege eine Datei mit `hugo new <seitenName>.md`
 
 ## Nur Content bearbeiten
 
