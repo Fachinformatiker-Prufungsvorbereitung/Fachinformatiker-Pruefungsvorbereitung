@@ -72,7 +72,7 @@ menu:
     - name: GitHub
       weight: 50
       url: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
-      # pre: <i class="fa-brands fa-github"></i>
+      pre: <i class="fa-brands fa-github"></i>
 
 # Outputs
 outputs:
