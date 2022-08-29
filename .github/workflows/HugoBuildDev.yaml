@@ -20,12 +20,6 @@ jobs:
       # Install Hugo
       - run: sudo snap install hugo
 
-      # Install Go
-      - uses: actions/setup-go@v3
-        with:
-          go-version: '1.19' # The Go version to download (if necessary) and use.
-      - run: go version
-
       # Install dependencies
       - run: npm install -D autoprefixer
         working-directory: ./${{ env.NAME }}/
