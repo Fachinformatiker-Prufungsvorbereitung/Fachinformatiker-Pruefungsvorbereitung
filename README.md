@@ -5,7 +5,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
 [![wakatime](https://wakatime.com/badge/github/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung.svg?style=for-the-badge)](https://wakatime.com/badge/github/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung?style=for-the-badge)
 [![HugoBuildAndDeploy](https://img.shields.io/github/workflow/status/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/HugoBuildAndDeploy?style=for-the-badge)](https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/actions/workflows/PipelineName.yaml)  
 
