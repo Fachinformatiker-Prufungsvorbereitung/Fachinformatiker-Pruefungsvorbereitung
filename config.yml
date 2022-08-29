@@ -7,8 +7,8 @@ enableGitInfo: true
 # Modules
 module:
   imports:
-  - path: github.com/google/docsy
-  - path: github.com/google/docsy/dependencies
+    - path: github.com/google/docsy
+    - path: github.com/google/docsy/dependencies
 
 # Content
 pygmentsCodeFences: true
@@ -72,7 +72,7 @@ menu:
     - name: GitHub
       weight: 50
       url: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
-      pre: <i class="fa-brands fa-github"></i>
+      pre: <i class=""></i>
 
 # Outputs
 outputs:
