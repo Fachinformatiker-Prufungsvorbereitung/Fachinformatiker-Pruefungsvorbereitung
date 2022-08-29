@@ -1,4 +1,4 @@
-module github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung2
+module github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung
 
 go 1.19
 
