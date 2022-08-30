@@ -1,7 +1,7 @@
 # Basics
 baseURL: https://fi.lna-dev.net
 title: Fachinformatiker-Prüfungsvorbereitung
-theme: github.com/google/docsy
+# theme: github.com/google/docsy
 enableGitInfo: true
 
 # Modules
@@ -42,22 +42,22 @@ params:
   github_branch: "dev"
 
   mermaid:
-    enable: true
+    enable: false
     theme: default
   plantuml:
-    enable: true
+    enable: false
     theme: default
     svg_image_url: https://www.plantuml.com/plantuml/svg/
     svg: false
   katex:
-    enable: true
+    enable: false
     html_dom_element: document.body
     mhchem:
       enable: true
   print:
     disable_toc: false
   markmap:
-    enable: true
+    enable: false
 
 # Language
 languageCode: de
@@ -72,7 +72,8 @@ menu:
     - name: GitHub
       weight: 50
       url: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
-      # pre: <i class="fa-brands fa-github"></i>
+      pre: <i class="fab fa-github"></i>
+      desc: Development takes place here
 
 # Outputs
 outputs:
