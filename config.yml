@@ -25,7 +25,7 @@ markup:
 
 params:
   copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
-  # privacy_policy: "https://policies.google.com/privacy"
+  privacy_policy: "./PrivacyPolicy.html"
   ui:
     readingTime:
       enable: true
@@ -73,10 +73,6 @@ menu:
       weight: 50
       url: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
       pre: <i class="fab fa-github"></i>
-    - name: Datenschutz
-      weight: 10
-      url: "./privacypolicy"
-      # pre: <i class="fab fa-github"></i>
 
 # Outputs
 outputs:
