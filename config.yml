@@ -25,7 +25,7 @@ markup:
 
 params:
   copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
-  privacy_policy: "./PrivacyPolicy.html"
+  privacy_policy: "https://lna-dev.com/PrivacyPolicy/"
   ui:
     readingTime:
       enable: true
