@@ -24,6 +24,17 @@ markup:
     style: tango
 
 params:
+  links:
+    user:
+      - name: "GitHub"
+        url: "https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung"
+        icon: "fab fa-github"
+      - name: "Fachinformatiker.de Post"
+        url: "https://www.fachinformatiker.de/topic/171869-pr%C3%BCfungsvorbereitungs-zusammenfassungs-projekt-auf-github/"
+        icon: "fa fa-handshake"
+      - name: "Impressum"
+        url: "https:lna-dev.com/LegalDetails"
+        icon: "fa fa-gavel"
   copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
   privacy_policy: "https://lna-dev.com/PrivacyPolicy/"
   ui:
