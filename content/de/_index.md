@@ -47,7 +47,7 @@ Ich habe, zur Vorbereitung auf die Zwischenprüfung, mir damals ein paar Notizen
 <!-- CONTRIBUTING -->
 ## Contributing ✨
 
-Wenn du an diesem Projekt mitarbeiten möchtest dann lese dir die [Contributing-Guidelines](./CONTRIBUTING.md) genauer durch ✨
+Wenn du an diesem Projekt mitarbeiten möchtest dann lese dir die [Contributing-Guidelines](https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/blob/main/CONTRIBUTING.md) genauer durch ✨
 
 <br>
 
