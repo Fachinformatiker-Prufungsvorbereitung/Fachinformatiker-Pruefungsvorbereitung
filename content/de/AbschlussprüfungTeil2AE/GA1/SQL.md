@@ -5,7 +5,9 @@ draft: false
 type: docs
 ---
 
-In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
+In diesem Fall wird der SQL-Dialekt MySQL beschrieben.  
+
+SQL ist eine sehr beliebte Aufgabe in der alten Prüfungsverordnung gewesen. Für die Prüfung ist dieses Wissen ein muss.
 
 <br>
 
@@ -232,3 +234,4 @@ Gibt alle Daten aus beiden Tabellen zurück.
 [MySQL - The Basics // Learn SQL in 23 Easy Steps](https://www.youtube.com/watch?v=Cz3WcZLRaWc)  
 [MySQL Tutorial for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA)  
 [SQL Joins: Difference Between Inner/Left/Right/Outer Joins](https://www.youtube.com/watch?v=zGSv0VaOtR0)  
+[Stefan Macke - Aufgaben in der schriftlichen Prüfung](https://it-berufe-podcast.de/sql-aufgaben-in-der-schriftlichen-ihk-pruefung-anwendungsentwickler-podcast-117/)  
