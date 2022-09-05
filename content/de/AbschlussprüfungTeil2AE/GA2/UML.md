@@ -6,3 +6,14 @@ type: docs
 weight: 1
 ---
 
+## Anwendungsdiagramm / Anwendungsfalldiagramm
+
+## Sequenzdiagramm
+
+## Klassendiagramm
+
+## Use-Case-Diagramm
+
+## Aktivitätsdiagramm
+
+## Zustandsdiagramm
