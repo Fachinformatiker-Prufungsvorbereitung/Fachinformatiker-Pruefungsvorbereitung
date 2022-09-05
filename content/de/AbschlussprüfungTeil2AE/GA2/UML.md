@@ -6,6 +6,8 @@ type: docs
 weight: 1
 ---
 
+Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser Cheatsheets die Diagramme in kurzer Zeit zu erstellen sollte für die Prüfung vorhanden sein.
+
 ## Anwendungsdiagramm / Anwendungsfalldiagramm
 
 TODO
