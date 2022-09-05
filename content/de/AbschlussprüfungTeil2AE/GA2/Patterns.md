@@ -8,4 +8,8 @@ weight: 1
 
 ## MVC
 
+TODO
+
 ## Observer Pattern
+
+TODO

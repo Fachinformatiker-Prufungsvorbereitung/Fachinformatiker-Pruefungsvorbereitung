@@ -8,12 +8,24 @@ weight: 1
 
 ## Anwendungsdiagramm / Anwendungsfalldiagramm
 
+TODO
+
 ## Sequenzdiagramm
+
+TODO
 
 ## Klassendiagramm
 
+TODO
+
 ## Use-Case-Diagramm
+
+TODO
 
 ## Aktivitätsdiagramm
 
+TODO
+
 ## Zustandsdiagramm
+
+TODO
