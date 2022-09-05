@@ -29,6 +29,55 @@ Bei der Vererbung können Eigenschaften und Methoden / Funktionen zwischen Klass
 
 ## Polymorphie
 
+Die Eigenschaften der Polymorphie treten in Zusammenhang mit Vererbung und Interfaces auf. Polymorphie ist wenn einer Variable unterschiedliche Typen zugewiesen werden können und dann je nach Typ eine andere Implementierung aufgerufen wird.
+
+### Beispiel
+
+```csharp
+public class Shape
+{
+    // A few example members
+    public int X { get; private set; }
+    public int Y { get; private set; }
+    public int Height { get; set; }
+    public int Width { get; set; }
+
+    // Virtual method
+    public virtual void Draw()
+    {
+        Console.WriteLine("Performing base class drawing tasks");
+    }
+}
+
+public class Circle : Shape
+{
+    public override void Draw()
+    {
+        // Code to draw a circle...
+        Console.WriteLine("Drawing a circle");
+        base.Draw();
+    }
+}
+public class Rectangle : Shape
+{
+    public override void Draw()
+    {
+        // Code to draw a rectangle...
+        Console.WriteLine("Drawing a rectangle");
+        base.Draw();
+    }
+}
+public class Triangle : Shape
+{
+    public override void Draw()
+    {
+        // Code to draw a triangle...
+        Console.WriteLine("Drawing a triangle");
+        base.Draw();
+    }
+}
+```
+
 ## Links 🔗
 
 [Wikipedia](https://de.wikipedia.org/wiki/Objektorientierung)  
