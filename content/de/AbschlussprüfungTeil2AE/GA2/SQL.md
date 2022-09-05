@@ -9,6 +9,8 @@ In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 
 SQL ist eine sehr beliebte Aufgabe in der alten Prüfungsverordnung gewesen. Für die Prüfung ist dieses Wissen ein muss.
 
+In der Prüfung ist bei SQL eine Cheatsheet beigelegt. Es lohnt sich diese anzuschauen und fehlende Syntax auswendig zu lernen.
+
 <br>
 
 ## Datentypen
