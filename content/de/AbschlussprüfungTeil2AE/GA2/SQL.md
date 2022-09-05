@@ -11,8 +11,6 @@ SQL ist eine sehr beliebte Aufgabe in der alten Prüfungsverordnung gewesen. Fü
 
 In der Prüfung ist bei SQL eine Cheatsheet beigelegt. Es lohnt sich diese anzuschauen und fehlende Syntax auswendig zu lernen.
 
-<br>
-
 ## Datentypen
 
 |Typ|Beschreibung|
@@ -31,8 +29,6 @@ In der Prüfung ist bei SQL eine Cheatsheet beigelegt. Es lohnt sich diese anzus
 |CHAR(s)|Zeichenfolge mit Länge s, wird ggf. mit Leerzeichen aufgefüllt|
 |VARCHAR(s)|Zeichenfolge mit Maximal-Länge s, ggf. auch kürzer|
 |TEXT|Sehr große Texte|
-
-<br>
 
 ## Datenbanken verwalten
 
@@ -84,8 +80,9 @@ CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
 
 #### Attributdefinition
 
-    <Attributname> <Datentyp> [PRIMARY KEY] [AUTO_INCREMENT] 
- [NOT NULL] [DEFAULT <Wert>];
+````sql
+    <Attributname> <Datentyp> [PRIMARY KEY] [AUTO_INCREMENT] [NOT NULL] [DEFAULT <Wert>];
+````
 
 |Option|Beschreibung|
 |------|------------|
@@ -100,8 +97,6 @@ CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
 DROP TABLE <Tabellenname>;
 ```
 
-<br>
-
 ## Bestehende Tabellen ändern
 
 ### Spalte hinzufügen
@@ -113,7 +108,7 @@ ALTER TABLE <Tabellenname> ADD <Attributdefinition>;
 ### Spalte löschen
 
 ```sql
-ALTER TABLE <Tabellenname> DROP <Attributnamen>;
+ALTER TABLE <Tabellenname> DROP <Attributname>;
 ```
 
 ### Spalte ändern
@@ -121,8 +116,6 @@ ALTER TABLE <Tabellenname> DROP <Attributnamen>;
 ```sql
 ALTER TABLE <Tabellenname> MODIFY <Attributdefinition>;
 ```
-
-<br>
 
 ## Daten bearbeiten
 
@@ -144,19 +137,17 @@ DELETE FROM <Tabellenname>;
 UPDATE <Tabellenname> SET <Datenfeld1>=<neuer Wert1>, <Datenfeld2>=<neuer Wert2>;
 ```
 
-<br>
-
 ## Where Bedingungen
 
 Where kann an die meisten Befehle angehangen werden und sorgt so dafür, dass nur bestimmte Datensätze angesprochen werden.
 
-    Mathematische Operationen:     =, !=, >, <, >=, <=, +, -, *, /
-    Boolesche Operatoren:         AND, OR, NOT
-    Textmustervergleich:         LIKE mit % für beliebige Zeichenkette (auch leer) und _ für einzelnes Zeichen z.B.: name LIKE "H%"
-    Bereichsoperator:             BETWEEN x AND y
-    Mengenvergleich:             IN(wert1, wert2, …)
-
-<br>
+```
+Mathematische Operationen:     =, !=, >, <, >=, <=, +, -, *, /
+Boolesche Operatoren:         AND, OR, NOT
+Textmustervergleich:         LIKE mit % für beliebige Zeichenkette (auch leer) und _ für einzelnes Zeichen z.B.: name LIKE "H%"
+Bereichsoperator:             BETWEEN x AND y
+Mengenvergleich:             IN(wert1, wert2, …)
+```
 
 ## Einfache Datenabfragen
 
@@ -169,8 +160,6 @@ FROM tabelle(n)
 [ORDER BY spalte(n) [ASC | DESC]]
 [LIMIT anzahl | start, anzahl];
 ```
-
-<br>
 
 ## Funktionen in Abfragen
 
@@ -228,8 +217,6 @@ Gibt alle Daten der rechten Tabelle zurück und zusätzlich die Schnittmenge der
 ### Full Outer Join / Full Join
 
 Gibt alle Daten aus beiden Tabellen zurück.
-
-<br>
 
 ## Links
 

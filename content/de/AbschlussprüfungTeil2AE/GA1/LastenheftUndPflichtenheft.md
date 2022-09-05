@@ -5,7 +5,6 @@ draft: false
 type: docs
 ---
 
-
 ## Lastenheft
 
 - Enthält Vorderungen eines Auftraggebers an den Auftragnehmer
@@ -22,8 +21,6 @@ type: docs
 - Zeitliche Rahmenbedingung
 - Kurzvorstellung des Auftraggebers
 
-<br>
-
 ## Pflichtenheft
 
 - Entsteht aus einem Lastenheft
@@ -31,8 +28,6 @@ type: docs
 - Beschreibt wie die Forderungen des Lastenhefts umgesetzt werden sollen
 - Der Auftragnehmer verpflichtet sich die Inhalte des Pflichtenhefts umzusetzen
 - Genaue Vorstellung
-
-<br>
 
 ## Links
 

@@ -14,8 +14,6 @@ type: docs
 ![ER Diagram MMORPG](/Assets/AbschlusspruefungTeil1/ER_Diagram_MMORPG.png)
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:ER_Diagram_MMORPG.png)
 
-<br>
-
 ## Elemente des ER-Modells
 
 |Element|Beschreibung|
@@ -23,8 +21,6 @@ type: docs
 |Rechteck|Stellt eine Entität dar|
 |Raute|Stellt eine Beziehung dar|
 |Oval|Stellt ein Attribut dar|
-
-<br>
 
 ## Beziehungsarten
 
@@ -42,8 +38,6 @@ Eine Klasse hat __mehrere__ Schüler.
 
 Ein Autor kann __mehrere__ Bücher schreiben.  
 Ein Buch kann von __mehreren__ Autoren geschrieben werden.
-
-<br>
 
 ## Links
 
