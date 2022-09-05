@@ -1,7 +1,7 @@
 ---
 title: "UML"
 date: 2022-09-05T11:53:00-06:00
-draft: true
+draft: false
 type: docs
 weight: 1
 ---
