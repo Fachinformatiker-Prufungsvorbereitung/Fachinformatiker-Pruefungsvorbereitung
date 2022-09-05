@@ -4,6 +4,8 @@ title: Fachinformatiker-Prüfungsvorbereitung
 # theme: github.com/google/docsy
 enableGitInfo: true
 
+navbar_logo: true
+
 # Modules
 module:
   imports:
@@ -94,7 +96,7 @@ outputs:
 
 # SEO
 sitemap:
-  changefreq: monthly
+  changefreq: daily
   filename: sitemap.xml
   priority: 0.5
 
