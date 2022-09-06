@@ -1,5 +1,5 @@
 # Basics
-baseURL: https://fi.lna-dev.net
+baseURL: https://fachinformatiker-prüfungsvorbereitung.de
 title: Fachinformatiker-Prüfungsvorbereitung
 # theme: github.com/google/docsy
 enableGitInfo: true
@@ -94,7 +94,7 @@ outputs:
 
 # SEO
 sitemap:
-  changefreq: monthly
+  changefreq: daily
   filename: sitemap.xml
   priority: 0.5
 

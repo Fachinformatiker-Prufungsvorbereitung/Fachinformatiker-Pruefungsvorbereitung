@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/lna-dev/Fachinformatiker-Pruefungsvorbereitung">
-    <img src="https://lna-dev.com/Assets/Metadata/Pingüino-Square.png" alt="Logo" width="80" height="80">
+    <img src="https://fachinformatiker-prüfungsvorbereitung.de/Assets/Images/Pingüino-Square.png" alt="Logo" width="80" height="80">
   </a>
 
 ### Fachinformatiker Prüfungsvorbereitung 💻
@@ -22,7 +22,7 @@ Dies ist ein Hugo Projekt in dem durch Markdown files eine Prüfungsvorbereitung
 
 <br />
 
-<a href="https://fi.lna-dev.net"><strong>Explore the Project »</strong></a>
+<a href="https://fachinformatiker-prüfungsvorbereitung.de"><strong>Explore the Project »</strong></a>
 <br />
 <br />
 <a href="https://github.com/lna-dev/Fachinformatiker-Pruefungsvorbereitung/issues">Report Bug</a>

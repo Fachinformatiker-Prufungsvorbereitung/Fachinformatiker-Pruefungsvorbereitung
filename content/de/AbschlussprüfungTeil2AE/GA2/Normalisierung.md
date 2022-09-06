@@ -16,8 +16,6 @@ Die Erste Normalform (1NF) ist dann gegeben, wenn alle Informationen in einer Ta
 
 - Atomar
 
-<br>
-
 ## Zweite Normalform
 
 ### Definition
@@ -29,8 +27,6 @@ Ein Relationstyp (Tabelle) befindet sich genau dann in der zweiten Normalform (2
 - Setzt 1NF vorraus
 - Alle Attribute hängen vom Primary Key ab
 
-<br>
-
 ## Dritte Normalform
 
 ### Definition
@@ -41,8 +37,6 @@ Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn 
 
 - Setzt 2NF vorraus
 - Indirekt abhänge Attribute müssen in eine Tabelle ausgelagert werden
-
-<br>
 
 ## Links
 
