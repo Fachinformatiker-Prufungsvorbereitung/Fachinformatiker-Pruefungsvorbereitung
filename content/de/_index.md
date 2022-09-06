@@ -8,7 +8,7 @@ type: docs
 <br />
 <div align="center">
   <a href="https://github.com/lna-dev/Fachinformatiker-Pruefungsvorbereitung">
-    <img src="https://lna-dev.com/Assets/Metadata/Pingüino-Square.png" alt="Logo" width="80" height="80">
+    <img src="./Assets/Images/Pingüino-Square.png" alt="Logo" width="80" height="80">
   </a>
 
 ### Fachinformatiker Prüfungsvorbereitung 💻
