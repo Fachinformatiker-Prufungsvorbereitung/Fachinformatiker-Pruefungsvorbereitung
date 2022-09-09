@@ -6,4 +6,8 @@ type: docs
 weight: 1
 ---
 
-TODO
+Bei dem Projektstrukturplan wird das Projekt in gliederbare Elemente aufgeteilt. Mit diesen Elementen muss auch leicht geplant werden können.
+
+## Links 🔗
+
+[Wikipedia](https://de.wikipedia.org/wiki/Projektstrukturplan)  
