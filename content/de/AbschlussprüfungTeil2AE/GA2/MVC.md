@@ -6,8 +6,6 @@ type: docs
 weight: 1
 ---
 
-## MVC
-
 **Model View Controller** pattern ist ein in der Softwareentwicklung ansässiges Pattern. Das Pattern wird benutzt um die **Benutzeroberflächen** von software zu entwerfen. Groß wurde das Pattern mit Web-Applikationen. Wobei es jedoch schon früher eingesetzt wurde.
 
 ![MVC-Process](/Assets/AbschlussprüfungTeil2AE/GA2/MVC-Process.svg)
