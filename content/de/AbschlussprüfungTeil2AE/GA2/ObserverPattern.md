@@ -6,6 +6,8 @@ type: docs
 weight: 1
 ---
 
-## Observer Pattern
+Im Observer Pattern gibt es ein Objekt. Dieses Objekt benachrichtigt alle Objekte die eine Abhängigkeit zu dem Start-Objekt haben. Zum Beispiel durch einen Methodenaufruf. So kann Event-Basierter Code geschrieben werden.
 
-TODO
+## Links 🔗
+
+[Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)  
