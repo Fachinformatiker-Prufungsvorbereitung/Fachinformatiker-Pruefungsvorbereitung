@@ -6,3 +6,4 @@ type: docs
 weight: 10
 ---
 
+In diesem Teil der Abschlussprüfung geht es um die Umsetzung eines Software-Projektes. Zumindest in der Theorie und auf Papier😉 Häufiger Bestandteil dieser Prüfung sind die UML-Diagramme. Aber auch SQL und das entwerfen eines Relationalen-Datenbank-Schemas.
