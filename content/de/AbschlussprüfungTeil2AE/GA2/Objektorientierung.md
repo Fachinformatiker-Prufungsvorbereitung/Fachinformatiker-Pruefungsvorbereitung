@@ -78,14 +78,6 @@ public class Triangle : Shape
 }
 ```
 
-## Assoziation
-
-TODO
-
-## Komposition
-
-TODO
-
 ## Links 🔗
 
 [Wikipedia](https://de.wikipedia.org/wiki/Objektorientierung)  
