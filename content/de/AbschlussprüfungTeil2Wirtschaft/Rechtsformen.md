@@ -1,0 +1,32 @@
+---
+title: "Rechtsformen"
+date: 2022-09-10T08:12:40-06:00
+draft: false
+type: docs
+weight: 1
+---
+
+| Form                                  | Abkürzung    |
+| ------------------------------------- | ------------ |
+| Gesellschaft bürgerlichen Rechts      | GbR          |
+| Eingetragener Kaufmann                | e.K.         |
+| Offene Handelsgesellschaft            | OHG          |
+| Kommanditgesellschaft                 | KG           |
+| Gesellschaft mit beschränkter Haftung | GmbH         |
+| Aktiengesellschaft                    | AG           |
+
+## Personengesellschaften 🤵
+
+- GbR
+- OHG
+- KG
+
+## Kapitalgesellschaften 💰
+
+- GmbH
+- AG
+
+## Links 🔗
+
+[IHK Rhein-Neckar](https://www.ihk.de/rhein-neckar/recht/wirtschaftsrecht/gesellschaftsrecht/unternehmensformen-rechtsformen-938792)  
+[List von Rechtsformen in Deutschland](https://de.wikipedia.org/wiki/Liste_von_Rechtsformen_von_Unternehmen_in_Deutschland)  
