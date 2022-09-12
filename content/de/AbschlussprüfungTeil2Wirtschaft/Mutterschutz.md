@@ -6,13 +6,15 @@ type: docs
 weight: 1
 ---
 
-- Besitzt während ihrer Schwangerschaft und nach der Entbindung einen besonderen Kündigungsschutz
+Der Mutterschutz sind einige gesetzliche Vorschriften. Diese sollen die Mutter und das Kind schützen.
+
+- Die Mutter besitzt während ihrer Schwangerschaft und nach der Entbindung einen besonderen Kündigungsschutz
 
 ## Mutterschutzlohn 🍼
 
 - Beginnt 6 Wochen vor der Entbindung
 - 8 - 12 Wochen nach der Entbindung
 
-TODO
-
 ## Links 🔗
+
+[Wikipedia](https://de.wikipedia.org/wiki/Mutterschutz)  
