@@ -41,6 +41,8 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 | 0...\*        | \*                       | Null oder beliebig viele      |
 | 1...\*        |                          | Beliebig viele - Mindestens 1 |
 
+<br>
+
 ![Multiplizitäten](./Klassendiagramm/UML-Multiplizitäten.svg)
 
 ## Verhaltensdiagramme
@@ -49,6 +51,26 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 - Keine Abläufe
 - Funktionalität der Software aus einer Sicht des Anwenders
+- Unabhängig von technischer Realisierung
+- Komplexes System einfach darstellen => Hohes Abstraktionsniveau
+
+<br>
+
+![Use Case Diagramm](./Use-Case-Diagramm/Use-Case-Diagramm-General.svg)
+
+#### Assoziation
+
+![Assoziation](./Use-Case-Diagramm/Use-Case-Diagramm-Assoziation.svg)
+
+#### Include-Beziehung
+
+Durch die Include Beziehung kann ein Use-Case einen anderen Use-Case importieren. Besser gesagt der Use-Case importiert das Verhalten des anderen Use-Cases.  
+  
+⚠️ Verhalten wird immer importiert ⚠️
+
+<br>
+
+![Include](./Use-Case-Diagramm/Use-Case-Diagramm-Include.svg)
 
 ### Sequenzdiagramm
 
