@@ -6,28 +6,51 @@ type: docs
 weight: 1
 ---
 
+UML = Unified Modeling Language
+
 Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser Cheatsheets die Diagramme in kurzer Zeit zu erstellen sollte für die Prüfung vorhanden sein.
 
-## Anwendungsdiagramm / Anwendungsfalldiagramm
+## Strukturdiagramme
+
+### Klassendiagramm
+
+![Klasse](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Klasse.svg)
+
+#### Vererbung
+
+![Vererbung](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Vererbung.svg)
+
+#### Assoziation
 
 TODO
 
-## Sequenzdiagramm
+#### Komposition
 
 TODO
 
-## Klassendiagramm
+#### Aggregation
 
 TODO
 
-## Use-Case-Diagramm
+## Verhaltensdiagramme
+
+### Anwendungsdiagramm / Anwendungsfalldiagramm / Use-Case-Diagramm
 
 TODO
 
-## Aktivitätsdiagramm
+### Sequenzdiagramm
 
 TODO
 
-## Zustandsdiagramm
+### Aktivitätsdiagramm
 
 TODO
+
+### Zustandsdiagramm
+
+TODO
+
+## Links 🔗
+
+[Klassendiagramm SimpleClub](https://www.youtube.com/watch?v=zzwUH3vbNkc)  
+[Programmieren Starten](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho05rbgNaakWmxFmT9qEXzIo)  
