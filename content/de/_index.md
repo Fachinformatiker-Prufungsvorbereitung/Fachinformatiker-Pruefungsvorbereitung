@@ -3,9 +3,8 @@ title: "Fachinformatiker Prüfungsvorbereitung"
 date: 2022-08-24T22:51:52-06:00
 draft: false
 type: docs
+description: "Fachinformatiker Prüfungsvorbereitung ist eine Seite zur Prüfungsvorbereitung. Mit dieser Seite kannst du dich einfach auf die Fachinformatiker Prüfung vorbereiten."
 ---
-
-Das Projekt Fachinformatiker Prüfungsvorbereitung ist ein Hugo Projekt in dem durch Markdown files eine Prüfungsvorbereitungs-Website erzeugt wird.
 
 ## About Fachinformatiker Prüfungsvorbereitung 🗺️
 
