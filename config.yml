@@ -35,6 +35,7 @@ params:
       - name: "Impressum"
         url: "https://lna-dev.net/LegalDetails"
         icon: "fa fa-gavel"
+  description: "Fachinformatiker Prüfungsvorbereitung ist eine Seite zur Prüfungsvorbereitung. Sie ist eine der einfachsten Seiten um sich Online auf die Fachinformatiker Prüfung vorzubereiten."
   copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
   privacy_policy: "https://lna-dev.net/PrivacyPolicy/"
   ui:
