@@ -47,7 +47,8 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ### Anwendungsdiagramm / Anwendungsfalldiagramm / Use-Case-Diagramm
 
-TODO
+- Keine Abläufe
+- Funktionalität der Software aus einer Sicht des Anwenders
 
 ### Sequenzdiagramm
 
