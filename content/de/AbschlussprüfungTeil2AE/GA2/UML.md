@@ -22,15 +22,15 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 #### Assoziation
 
-TODO
+![Assoziation](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Assoziation.svg)
 
 #### Komposition
 
-TODO
+![Komposition](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Komposition.svg)
 
 #### Aggregation
 
-TODO
+![Aggregation](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Aggregation.svg)
 
 ## Verhaltensdiagramme
 
