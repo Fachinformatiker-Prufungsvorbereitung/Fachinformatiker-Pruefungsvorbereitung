@@ -6,10 +6,20 @@ type: docs
 weight: 1
 ---
 
-TODO
-
 ## Ordentliche Kündigung
+
+- Arbeitnehmer kann ohne Grund kündigen
+- Arbeitgeber braucht zulässigen Kündigungsgrund
+- Beendet ein Arbeitsverhältnis
+- Solange nicht anders vereinbart: **Kündigungsfrist** von **4 Wochen**
 
 ## Außerordentliche Kündigung
 
+- Auch **Fristlose Kündigung** genannt
+- Es besteht keine Kündigungsfrist
+- Benötigt einen wichtigen Kündigungsgrund
+
 ## Links 🔗
+
+[Avocado](https://www.advocado.de/ratgeber/arbeitsrecht/kuendigung/ordentliche-kuendigung.html)  
+[Juraforum](https://www.juraforum.de/lexikon/ausserordentliche-kuendigung)  
