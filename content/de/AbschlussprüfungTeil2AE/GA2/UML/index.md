@@ -14,23 +14,34 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ### Klassendiagramm
 
-![Klasse](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Klasse.svg)
+![Klasse](./UML-Klasse.svg)
 
 #### Vererbung
 
-![Vererbung](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Vererbung.svg)
+![Vererbung](./UML-Vererbung.svg)
 
 #### Assoziation
 
-![Assoziation](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Assoziation.svg)
+![Assoziation](./UML-Assoziation.svg)
 
 #### Komposition
 
-![Komposition](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Komposition.svg)
+![Komposition](./UML-Komposition.svg)
 
 #### Aggregation
 
-![Aggregation](/Assets/AbschlussprüfungTeil2AE/GA2/UML/UML-Aggregation.svg)
+![Aggregation](./UML-Aggregation.svg)
+
+#### Multiplizitäten
+
+| Multiplizität | Alternative Schreibweise | Beschreibung                  |
+| ------------- | ------------------------ | ----------------------------- |
+| 0...1         |                          | Keiner oder Einer             |
+| 1             |                          | Genau Einer                   |
+| 0...\*        | \*                       | Null oder beliebig viele      |
+| 1...\*        |                          | Beliebig viele - Mindestens 1 |
+
+![Multiplizitäten](./UML-Multiplizitäten.svg)
 
 ## Verhaltensdiagramme
 
@@ -53,4 +64,4 @@ TODO
 ## Links 🔗
 
 [Klassendiagramm SimpleClub](https://www.youtube.com/watch?v=zzwUH3vbNkc)  
-[Programmieren Starten](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho05rbgNaakWmxFmT9qEXzIo)  
+[Programmieren Starten](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho05rbgNaakWmxFmT9qEXzIo)
