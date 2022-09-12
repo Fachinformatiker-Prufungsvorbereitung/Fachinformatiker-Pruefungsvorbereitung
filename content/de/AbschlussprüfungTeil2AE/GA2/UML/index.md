@@ -4,9 +4,8 @@ date: 2022-09-05T11:53:00-06:00
 draft: false
 type: docs
 weight: 1
+description: UML / Unified Modeling Language ist eine Reihe an Diagrammen für die Planung von Software-Projekten
 ---
-
-UML = Unified Modeling Language
 
 Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser Cheatsheets die Diagramme in kurzer Zeit zu erstellen sollte für die Prüfung vorhanden sein.
 
