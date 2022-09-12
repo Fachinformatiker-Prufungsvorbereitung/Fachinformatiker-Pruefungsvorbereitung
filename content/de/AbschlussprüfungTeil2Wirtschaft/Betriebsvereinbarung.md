@@ -6,9 +6,9 @@ type: docs
 weight: 1
 ---
 
-- Gilt immer für Mitarbeitergruppen
+Die Betriebsvereinbarung ist eine Einigung zwischen dem Betriebsrat und dem Arbeitgeber. Sie beinhaltet die Rechte und Pflichten der beiden Parteien aber auch Normen für bestimmte Mitarbeitergruppen.
 
-TODO
+- Gilt immer für Mitarbeitergruppen
 
 ## Links 🔗
 
