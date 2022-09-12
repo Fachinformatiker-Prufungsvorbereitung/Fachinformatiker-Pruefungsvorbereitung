@@ -14,23 +14,23 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ### Klassendiagramm
 
-![Klasse](./UML-Klasse.svg)
+![Klasse](./Klassendiagramm/UML-Klasse.svg)
 
 #### Vererbung
 
-![Vererbung](./UML-Vererbung.svg)
+![Vererbung](./Klassendiagramm/UML-Vererbung.svg)
 
 #### Assoziation
 
-![Assoziation](./UML-Assoziation.svg)
+![Assoziation](./Klassendiagramm/UML-Assoziation.svg)
 
 #### Komposition
 
-![Komposition](./UML-Komposition.svg)
+![Komposition](./Klassendiagramm/UML-Komposition.svg)
 
 #### Aggregation
 
-![Aggregation](./UML-Aggregation.svg)
+![Aggregation](./Klassendiagramm/UML-Aggregation.svg)
 
 #### Multiplizitäten
 
@@ -41,7 +41,7 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 | 0...\*        | \*                       | Null oder beliebig viele      |
 | 1...\*        |                          | Beliebig viele - Mindestens 1 |
 
-![Multiplizitäten](./UML-Multiplizitäten.svg)
+![Multiplizitäten](./Klassendiagramm/UML-Multiplizitäten.svg)
 
 ## Verhaltensdiagramme
 
