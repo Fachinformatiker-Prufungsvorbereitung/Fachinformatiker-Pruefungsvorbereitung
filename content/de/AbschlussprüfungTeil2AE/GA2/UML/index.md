@@ -9,29 +9,27 @@ description: UML / Unified Modeling Language ist eine Reihe an Diagrammen für d
 
 Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser Cheatsheets die Diagramme in kurzer Zeit zu erstellen sollte für die Prüfung vorhanden sein.
 
-## Strukturdiagramme
-
-### Klassendiagramm
+## Klassendiagramm
 
 ![Klasse](./Klassendiagramm/UML-Klasse.svg)
 
-#### Vererbung
+### Vererbung
 
 ![Vererbung](./Klassendiagramm/UML-Vererbung.svg)
 
-#### Assoziation
+### Assoziation
 
 ![Assoziation](./Klassendiagramm/UML-Assoziation.svg)
 
-#### Komposition
+### Komposition
 
 ![Komposition](./Klassendiagramm/UML-Komposition.svg)
 
-#### Aggregation
+### Aggregation
 
 ![Aggregation](./Klassendiagramm/UML-Aggregation.svg)
 
-#### Multiplizitäten
+### Multiplizitäten
 
 | Multiplizität | Alternative Schreibweise | Beschreibung                  |
 | ------------- | ------------------------ | ----------------------------- |
@@ -44,9 +42,7 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ![Multiplizitäten](./Klassendiagramm/UML-Multiplizitäten.svg)
 
-## Verhaltensdiagramme
-
-### Anwendungsdiagramm / Anwendungsfalldiagramm / Use-Case-Diagramm
+## Anwendungsdiagramm / Anwendungsfalldiagramm / Use-Case-Diagramm
 
 - Keine Abläufe
 - Funktionalität der Software aus einer Sicht des Anwenders
@@ -57,11 +53,18 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ![Use Case Diagramm](./Use-Case-Diagramm/Use-Case-Diagramm-General.svg)
 
-#### Assoziation
+### Vorgehen beim Erstellen
+
+- Ermittle die Akteure
+- Ermittle die Standard Use-Cases
+- Ermittle Sonderfall-Use-Cases
+- Komplexe Use-Cases aufteilen
+
+### Assoziation
 
 ![Assoziation](./Use-Case-Diagramm/Use-Case-Diagramm-Assoziation.svg)
 
-#### Include-Beziehung
+### Include-Beziehung
 
 Durch die Include Beziehung kann ein Use-Case einen anderen Use-Case importieren. Besser gesagt der Use-Case importiert das Verhalten des anderen Use-Cases.  
   
@@ -71,15 +74,28 @@ Durch die Include Beziehung kann ein Use-Case einen anderen Use-Case importieren
 
 ![Include](./Use-Case-Diagramm/Use-Case-Diagramm-Include.svg)
 
-### Sequenzdiagramm
+### Vererbung
+
+Bei der Vererbung werden die Eigenschaften eines Use-Cases oder eines Akteurs an ein weiteres Element übergeben / vererbt.
+
+![Vererbung](./Use-Case-Diagramm/Use-Case-Diagramm-Vererbung.svg)
+
+### Extend-Beziehung
+
+- **Optionale** Erweiterung eines Use-Cases
+- Abhängig von einer Bedingung
+
+![Extend](./Use-Case-Diagramm/Use-Case-Diagramm-Extend.svg)
+
+## Sequenzdiagramm
 
 TODO
 
-### Aktivitätsdiagramm
+## Aktivitätsdiagramm
 
 TODO
 
-### Zustandsdiagramm
+## Zustandsdiagramm
 
 TODO
 
