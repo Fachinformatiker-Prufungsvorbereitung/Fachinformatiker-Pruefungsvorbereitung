@@ -1,9 +1,72 @@
 <mxfile host="65bd71144e">
-    <diagram id="EHqkD5ttnQuqFLKaxTLp" name="Page-1">
-        <mxGraphModel dx="1083" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <diagram id="EHqkD5ttnQuqFLKaxTLp" name="Sequernzdiagramm">
+        <mxGraphModel dx="1563" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="2" value=":UserAccount" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2">
+                    <mxGeometry x="45" y="60" width="10" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="LoginRequest()" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="2" target="7">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="90" as="sourcePoint"/>
+                        <mxPoint x="270" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value=":SecretsManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="80" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3">
+                    <mxGeometry x="45" y="265" width="10" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="return Secret" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;sketch=0;jumpStyle=none;" edge="1" parent="3" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="45" y="430" as="sourcePoint"/>
+                        <mxPoint x="-35" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value=":Authorization" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="80" width="100" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
+                    <mxGeometry x="45" y="90" width="10" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
+                    <mxGeometry x="52" y="130" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Log Request" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="8" parent="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="57" y="110" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="87" y="110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;jumpStyle=none;sketch=0;rounded=0;dashed=1;" edge="1" target="7" parent="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="62" y="160" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="92" y="160"/>
+                            <mxPoint x="92" y="183"/>
+                        </Array>
+                        <mxPoint x="67" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="return Bearer" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;sketch=0;jumpStyle=none;" edge="1" parent="4" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="45" y="220" as="sourcePoint"/>
+                        <mxPoint x="-35" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="GetSecrets(Bearer)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=0;jumpStyle=none;entryX=-0.122;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="16">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="170" y="370" as="sourcePoint"/>
+                        <mxPoint x="770" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
