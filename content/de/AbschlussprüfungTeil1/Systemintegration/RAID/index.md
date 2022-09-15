@@ -13,7 +13,7 @@ type: docs
 - Nettokapazität = 100%
 - Hohe Verfügbarkeit
 
-![RAID 0 Image](/Assets/AbschlusspruefungTeil1/RAID_0.svg)  
+![RAID 0 Image](./RAID_0.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_0.svg)
 
 <br>
@@ -27,7 +27,7 @@ type: docs
 - Die Anzahl der Festplatten, die Ausfallen dürfen, hängt von der Anzahl der Festplatten und der Position dieser ab
 - Der Anteil des nutzbaren Speicherplatzes sinkt stark
 
-![RAID 1 Image](/Assets/AbschlusspruefungTeil1/RAID_1.svg)  
+![RAID 1 Image](./RAID_1.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_1.svg)
 
 <br>
@@ -44,7 +44,7 @@ type: docs
 - Hohe Verfügbarkeit
 - Relativ großer Nettospeicherplatz
 
-![RAID 5 Image](/Assets/AbschlusspruefungTeil1/RAID_5.svg)  
+![RAID 5 Image](./RAID_5.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_5.svg)
 
 <br>
@@ -56,7 +56,7 @@ type: docs
 - Besitzt zwei Parity-Parts
 - Es können zwei Festplatten ausfallen
 
-![RAID 6 Image](/Assets/AbschlusspruefungTeil1/RAID_6.svg)  
+![RAID 6 Image](./RAID_6.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_6.svg)
 
 <br>
@@ -66,7 +66,7 @@ type: docs
 - Kombination aus RAID 1 und RAID 0
 - Versuch die Stärken der beiden Systeme zu vereinen
 
-![RAID 10 Image](/Assets/AbschlusspruefungTeil1/RAID_10.svg)  
+![RAID 10 Image](./RAID_10.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_10.svg)
 
 <br>

@@ -7,7 +7,7 @@ type: docs
 
 Bei den Prüfungsaufgaben ist meist eine Legende gegeben. Die Anordnung / Namen der einzelnen Felder muss also nicht auswendig gelernt werden. Kommt oft in Prüfungen dran.
 
-![Netzplan](/Assets/AbschlusspruefungTeil1/Netzplan.png)
+![Netzplan](./Netzplan.png)
 [Wikipedia Commons](https://de.wikipedia.org/wiki/Datei:NetzplanBsp.png#file)
 
 <br>
