@@ -89,7 +89,9 @@ Bei der Vererbung werden die Eigenschaften eines Use-Cases oder eines Akteurs an
 
 ## Sequenzdiagramm
 
-TODO
+Ein Sequenzdiagramm beschreibt Abläufe. Es zeigt die Interaktionen von Objekten in einer grafischen Zeitlinie.
+
+![Sequenzdiagramm](./Sequenzdiagramm/UML-Sequenzdiagramm.svg)
 
 ## Aktivitätsdiagramm
 
