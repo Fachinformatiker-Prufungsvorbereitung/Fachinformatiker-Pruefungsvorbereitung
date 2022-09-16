@@ -19,7 +19,9 @@ jobs:
 
       # Install Hugo
       - name: Hugo setup
-        uses: peaceiris/actions-hugo@v2.4.13
+        uses: peaceiris/actions-hugo@v2.5.0
+        with:
+          extended: true
 
       # Install dependencies
       - run: npm install -D autoprefixer
