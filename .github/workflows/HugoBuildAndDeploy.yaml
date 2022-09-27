@@ -8,6 +8,7 @@ on:
 
 env:
   NAME: ./
+  CONTAINER-NAME: fi-pv
 
 jobs:
   ReleaseVersion:
