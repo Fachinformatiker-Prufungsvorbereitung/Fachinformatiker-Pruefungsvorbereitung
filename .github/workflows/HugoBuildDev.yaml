@@ -8,9 +8,10 @@ on:
 
 env:
   NAME: ./
+  CONTAINER-NAME: fachinformatiker-prüfungsvorbereitung
 
 jobs:
-  HugoBuild:
+  ReleaseDEV:
     runs-on: ubuntu-latest
 
     steps:
@@ -45,3 +46,19 @@ jobs:
         with:
           name: github-pages
           path: ${{ runner.temp }}/artifact.tar
+
+      # Build the hugo repository
+      - run: hugo
+        working-directory: ./${{ env.NAME }}/
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build the Docker image
+        run: docker build . --file ./${{ env.NAME }}/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:dev
+
+      - name: Push the image to dockerhub
+        run: docker push lnadev/${{ env.CONTAINER-NAME }}:dev
