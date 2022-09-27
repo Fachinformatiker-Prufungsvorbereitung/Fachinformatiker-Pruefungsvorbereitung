@@ -8,7 +8,7 @@ on:
 
 env:
   NAME: ./
-  CONTAINER-NAME: fachinformatiker-prüfungsvorbereitung
+  CONTAINER-NAME: fi-pv
 
 jobs:
   ReleaseDEV:
