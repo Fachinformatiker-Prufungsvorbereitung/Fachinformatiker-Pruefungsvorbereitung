@@ -10,7 +10,7 @@ env:
   NAME: ./
 
 jobs:
-  HugoBuild:
+  ReleaseVersion:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,34 +33,68 @@ jobs:
       - run: hugo
         working-directory: ./${{ env.NAME }}/
 
-      # Zip the Artifact for GitHubPages deployment
-      - name: Archive artifact
-        shell: bash
-        if: runner.os != 'Windows'
-        run: tar -cvf ${{ runner.temp }}/artifact.tar -C ./${{ env.NAME }}/public .
-
-      # Create a build artifact
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.1.0
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
         with:
-          name: github-pages
-          path: ${{ runner.temp }}/artifact.tar
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-  DeployToGithubPages:
-    needs: HugoBuild
+      - name: Build the Docker image
+        run: docker build . --file ./${{ env.NAME }}/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:${{ github.run_number }}
 
-    # Setup GitHubPages
-    permissions:
-      pages: write
-      id-token: write
+      - name: Push the image to dockerhub
+        run: docker push lnadev/${{ env.CONTAINER-NAME }}:${{ github.run_number }}
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    # Deploy the artifact
+  ReleaseLatest:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+      # Checkout the repository
+      - uses: actions/checkout@v3
+
+      # Install Hugo
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v2.5.0
+        with:
+          extended: true
+
+      # Install dependencies
+      - run: npm install -D autoprefixer
+        working-directory: ./${{ env.NAME }}/
+      - run: npm install -D postcss-cli
+        working-directory: ./${{ env.NAME }}/
+
+      # Build the hugo repository
+      - run: hugo
+        working-directory: ./${{ env.NAME }}/
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build the Docker image
+        run: docker build . --file ./${{ env.NAME }}/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:latest
+
+      - name: Push the image to dockerhub
+        run: docker push lnadev/${{ env.CONTAINER-NAME }}:latest
+
+  DeployContainer:
+    needs: ReleaseLatest
+    runs-on: ubuntu-latest
+
+    steps:
+      # Download Secure-File
+      - name: base64-to-file
+        id: write_file
+        uses: timheuer/base64-to-file@v1.1
+        with:
+          fileName: "custom-config"
+          encodedString: ${{ secrets.KUBECTL_CONFIG }}
+
+      # Checkout the repository
+      - uses: actions/checkout@v3
+
+      # Deploy Kubernetes YAML
+      - run: kubectl apply -f ./Kubernetes/Fachinformatiker-Prüfungsvorbereitung.yaml --kubeconfig ${{ steps.write_file.outputs.filePath }}
