@@ -42,10 +42,12 @@ kind: Ingress
 metadata:
   name: fi-pv-ingress
   annotations:
-    # Lets Encrypt Cert
-    traefik.ingress.kubernetes.io/router.tls: "true"
-    traefik.ingress.kubernetes.io/router.tls.certresolver: le
+    cert-manager.io/cluster-issuer: letsencrypt
 spec:
+  tls:
+  - hosts:
+    - 'xn--fachinformatiker-prfungsvorbereitung-w0d.de'
+    secretName: fi-pv-cert
   rules:
     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
       http:
