@@ -55,7 +55,7 @@ Eine Line-Interactive-USV verfügt über ein System, welches stets dafür sorgt,
 | Vorteile     | Nachteile |
 |--------------|-----------|
 | gutes Preis-Leistungs-Verhältnis | Filter notwendig      |
-| kurze Schaltzeiten      | zusätzlicherTransformator für Spitzenausgleicherforderlich  |
+| kurze Schaltzeiten      | zusätzlicherTransformator für Spitzenausgleich erforderlich  |
 |    | hohe Umschaltzeiten  |
 
 #### Anwendungsbereich
