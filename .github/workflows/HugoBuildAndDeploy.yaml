@@ -82,7 +82,7 @@ jobs:
         run: docker push lnadev/${{ env.CONTAINER-NAME }}:latest
 
   DeployContainer:
-    needs: ReleaseLatest
+    needs: ReleaseVersion
     runs-on: ubuntu-latest
 
     steps:
