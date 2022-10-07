@@ -13,6 +13,15 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ![Klasse](./Klassendiagramm/UML-Klasse.svg)
 
+### Zugriffsmodifikatoren
+
+| Zeichen | Sichtbarkeit |
+| ------- | ------------ |
+| +       | Public       |
+| -       | Private      |
+| #       | Protected    |
+| ~       | Package      |
+
 ### Vererbung
 
 ![Vererbung](./Klassendiagramm/UML-Vererbung.svg)
@@ -23,9 +32,16 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ### Komposition
 
+- Noch stärkere Bindung als Aggregation
+- Eine Teil-Klasse kann nicht ohne eine andere Klasse existieren
+
 ![Komposition](./Klassendiagramm/UML-Komposition.svg)
 
 ### Aggregation
+
+- Klassen besitzen starke Beziehung
+- Existenzen der einzelnen Klassen ist nicht aneinander gebunden
+- Zeigt eine "Art" Besitz an
 
 ![Aggregation](./Klassendiagramm/UML-Aggregation.svg)
 
@@ -66,8 +82,8 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ### Include-Beziehung
 
-Durch die Include Beziehung kann ein Use-Case einen anderen Use-Case importieren. Besser gesagt der Use-Case importiert das Verhalten des anderen Use-Cases.  
-  
+Durch die Include Beziehung kann ein Use-Case einen anderen Use-Case importieren. Besser gesagt der Use-Case importiert das Verhalten des anderen Use-Cases.
+
 ⚠️ Verhalten wird immer importiert ⚠️
 
 <br>
