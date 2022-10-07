@@ -32,9 +32,16 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ### Komposition
 
+- Noch stärkere Bindung als Aggregation
+- Eine Teil-Klasse kann nicht ohne eine andere Klasse existieren
+
 ![Komposition](./Klassendiagramm/UML-Komposition.svg)
 
 ### Aggregation
+
+- Klassen besitzen starke Beziehung
+- Existenzen der einzelnen Klassen ist nicht aneinander gebunden
+- Zeigt eine "Art" Besitz an
 
 ![Aggregation](./Klassendiagramm/UML-Aggregation.svg)
 
