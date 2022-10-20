@@ -43,13 +43,37 @@ metadata:
   name: fi-pv-ingress
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.middlewares: default-redirectscheme@kubernetescrd
 spec:
   tls:
   - hosts:
     - 'xn--fachinformatiker-prfungsvorbereitung-w0d.de'
+    - 'fachinformatikerpruefungsvorbereitung.de'
+    - 'www.fachinformatikerpruefungsvorbereitung.de'
     secretName: fi-pv-cert
   rules:
     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: fachinformatikerpruefungsvorbereitung.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: www.fachinformatikerpruefungsvorbereitung.de
       http:
         paths:
           - path: /
@@ -81,6 +105,26 @@ spec:
                 name: fi-pv-service
                 port:
                   number: 80
+    - host: fachinformatikerpruefungsvorbereitung.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: www.fachinformatikerpruefungsvorbereitung.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
 
 ---
 apiVersion: traefik.containo.us/v1alpha1
@@ -88,6 +132,7 @@ kind: Middleware
 metadata:
   name: redirectscheme
 spec:
-  redirectScheme:
-    scheme: https
+  redirectRegex:
+    regex: '^https?://(?:www\.)?(.+)'
+    replacement: 'https://${1}'
     permanent: true
