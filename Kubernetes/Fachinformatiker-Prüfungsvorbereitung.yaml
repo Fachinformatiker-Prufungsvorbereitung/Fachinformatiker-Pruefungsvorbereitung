@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: fi-pv
-          image: lnadev/fi-pv:51
+          image: lnadev/fi-pv:52
           imagePullPolicy: Always
           resources:
             limits:
@@ -87,6 +87,27 @@ spec:
     - hosts:
         - "xn--fachinformatiker-prfungsvorbereitung-w0d.de"
       secretName: fi-pv-cert-fipv
+  rules:
+    - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fi-pv-redirection-ingress-http
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+    traefik.ingress.kubernetes.io/router.middlewares: default-redirectschemefipv@kubernetescrd
+spec:
   rules:
     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
       http:
