@@ -100,6 +100,27 @@ spec:
                   number: 80
 
 ---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fi-pv-redirection-ingress-http
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+    traefik.ingress.kubernetes.io/router.middlewares: default-redirectschemefipv@kubernetescrd
+spec:
+  rules:
+    - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+
+---
 # Needed because of HTTP to HTTPS redirecting
 apiVersion: networking.k8s.io/v1
 kind: Ingress
