@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: fi-pv
-          image: lnadev/fi-pv:50
+          image: lnadev/fi-pv:51
           imagePullPolicy: Always
           resources:
             limits:
@@ -43,11 +43,50 @@ metadata:
   name: fi-pv-ingress
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.middlewares: default-redirectscheme@kubernetescrd
 spec:
   tls:
-  - hosts:
-    - 'xn--fachinformatiker-prfungsvorbereitung-w0d.de'
-    secretName: fi-pv-cert
+    - hosts:
+        - "fachinformatikerpruefungsvorbereitung.de"
+        - "www.fachinformatikerpruefungsvorbereitung.de"
+      secretName: fi-pv-cert
+  rules:
+    - host: fachinformatikerpruefungsvorbereitung.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: www.fachinformatikerpruefungsvorbereitung.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fi-pv-redirection-ingress
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.middlewares: default-redirectschemefipv@kubernetescrd
+spec:
+  tls:
+    - hosts:
+        - "xn--fachinformatiker-prfungsvorbereitung-w0d.de"
+      secretName: fi-pv-cert-fipv
   rules:
     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
       http:
@@ -71,7 +110,17 @@ metadata:
     traefik.ingress.kubernetes.io/router.middlewares: default-redirectscheme@kubernetescrd
 spec:
   rules:
-    - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+    - host: fachinformatikerpruefungsvorbereitung.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: www.fachinformatikerpruefungsvorbereitung.de
       http:
         paths:
           - path: /
@@ -88,6 +137,18 @@ kind: Middleware
 metadata:
   name: redirectscheme
 spec:
-  redirectScheme:
-    scheme: https
+  redirectRegex:
+    regex: '^https?://(?:www\.)?(.+)'
+    replacement: "https://${1}"
+    permanent: true
+
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: redirectschemefipv
+spec:
+  redirectRegex:
+    regex: '.*'
+    replacement: "https://fachinformatikerpruefungsvorbereitung.de"
     permanent: true
