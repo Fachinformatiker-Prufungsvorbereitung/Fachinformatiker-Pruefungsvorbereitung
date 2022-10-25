@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://fachinformatikerpruefungsvorbereitung.de/sitemap.xml

@@ -1,7 +1,6 @@
 # Basics
 baseURL: https://fachinformatikerpruefungsvorbereitung.de
 title: Fachinformatiker Prüfungsvorbereitung
-# theme: github.com/google/docsy
 enableGitInfo: true
 
 # Modules
