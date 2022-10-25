@@ -4,6 +4,7 @@ date: 2022-09-10T08:12:40-06:00
 draft: false
 type: docs
 weight: 1
+description: "Rechtsformen bestimmen Grundlegende Eigenschaften eines Unternehmens. Sie sind insbesondere bei der Unternehmensgründung von Nutzen. Allerdings ist es auch als Angestellter wichtig über die Form seines Unternehmens informiert zu sein."
 ---
 
 | Form                                  | Abkürzung    |

@@ -4,6 +4,7 @@ date: 2022-09-05T12:52:58-06:00
 draft: false
 type: docs
 weight: 1
+description: "Der Projektantrag für den Fachinformatiker Anwendungsentwicklung hat einige Anforderungen die du für das erfolgreiche Erstellen eines Projektantrages beachten solltest."
 ---
 
 ## Inhalt
