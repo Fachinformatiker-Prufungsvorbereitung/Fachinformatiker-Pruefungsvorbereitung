@@ -4,6 +4,7 @@ date: 2022-09-12T09:49:51+02:00
 draft: false
 type: docs
 weight: 1
+description: "Eine Kündigung beendigt ein Angestellten Verhältnis. Dies kann aus verschiedenen Gründen vorkommen und ist auch in verschiedene Kategorien einteilbar."
 ---
 
 ## Ordentliche Kündigung

@@ -4,6 +4,7 @@ date: 2022-09-10T08:11:19-06:00
 draft: false
 type: docs
 weight: 1
+description: "Mit Wirtschaftssektoren werden Unternehmen anhand ihrer Wirtschaftlichen Tätigkeit eingeordnet. Sie dienen dazu den gesamten Arbeitsmarkt in diese Bereiche einteilen zu können."
 ---
 
 | Sektor           | Alternativer Name      | Erklärung                           | Beispiele                                                              |

@@ -4,9 +4,8 @@ date: 2022-09-11T13:09:15-06:00
 draft: false
 type: docs
 weight: 1
+description: "Der Betriebsrat dient der Vertretung der Arbeiterinteressen im Betrieb. Er ist ein Mittel der Gesetzgebung. So können die Arbeiter auf den Arbeitgeber einwirken."
 ---
-
-Der Betriebsrat dient der Vertretung der Arbeiterinteressen im Betrieb. Er ist ein Mittel der Gesetzgebung. So können die Arbeiter auf den Arbeitgeber einwirken.  
   
 Der Betriebsrat arbeitet zusammen mit der Geschäftsführung am Wohl der Mitarbeiter und des Unternehmens.
 

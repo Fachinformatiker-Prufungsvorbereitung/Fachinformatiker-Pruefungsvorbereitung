@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: fi-pv
-          image: lnadev/fi-pv:55
+          image: lnadev/fi-pv:56
           imagePullPolicy: Always
           resources:
             limits:
