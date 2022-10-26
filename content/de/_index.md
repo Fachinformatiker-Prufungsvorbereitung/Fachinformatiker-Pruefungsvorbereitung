@@ -3,7 +3,7 @@ title: "Fachinformatiker Prüfungsvorbereitung"
 date: 2022-08-24T22:51:52-06:00
 draft: false
 type: docs
-description: "Fachinformatiker Prüfungsvorbereitung ist eine Seite zur Prüfungsvorbereitung. Mit ihr kannst du dich einfach Online auf die Fachinformatiker Prüfung vorbereiten. Egal ob Systemintegratör oder Anwendungsentwickler. Hier ist für jeden IT-Beruf etwas dabei."
+description: "Fachinformatiker Prüfungsvorbereitung ist eine Seite zur Prüfungsvorbereitung. Mit ihr kannst du dich einfach Online auf die Fachinformatiker Prüfung vorbereiten. Egal ob Systemintegration oder Anwendungsentwickler. Hier ist für jeden IT-Beruf etwas dabei."
 ---
 
 ## Ziel dieser Seite 🎯
