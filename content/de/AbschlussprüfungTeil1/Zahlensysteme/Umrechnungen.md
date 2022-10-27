@@ -68,6 +68,6 @@ Megabyte = Byte * 1000^2
 usw.
 ```
 
-## Links
+## Erklärungsvideo
 
-[Erklärung YouTube](https://www.youtube.com/watch?v=9L_qwf6wD8g)
+{{< youtube 9L_qwf6wD8g >}}

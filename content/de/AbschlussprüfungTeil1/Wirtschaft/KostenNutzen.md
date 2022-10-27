@@ -5,6 +5,6 @@ draft: false
 type: docs
 ---
 
-## Links
+## Erklärungsvideo
 
-[Kosten - Nutzen im Alltag?!](https://www.youtube.com/watch?v=_gmd6hGEqps)
+{{< youtube _gmd6hGEqps >}}

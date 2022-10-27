@@ -5,19 +5,18 @@ draft: false
 type: docs
 ---
 
-
-
 - Berechnet wann das investierte Geld wieder zum Unternehmen zurück kommt
-
-<br>
 
 ## Rechnung
 
     Amortisationsdauer = Anschaffungskosten / Gewinn
 
-<br>
+## Erklärungsvideos
 
-## Links
+### Anker Wissen
 
-[Amortisationsvergleichsrechnung einfach erklärt mit Beispiel](https://www.youtube.com/watch?v=I0Blo9sWNhw)  
-[Amortisation - Ab wann rentieren sich Investitionen? - Grundbegriffe der Wirtschaft](https://www.youtube.com/watch?v=saXirtILGkk)
+{{< youtube I0Blo9sWNhw >}}
+
+### Simple Club
+
+{{< youtube saXirtILGkk >}}

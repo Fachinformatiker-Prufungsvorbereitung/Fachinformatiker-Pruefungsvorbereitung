@@ -11,6 +11,6 @@ type: docs
 - Jede der einzelnen Auswahlmöglichkeiten bekommt eine Punkteanzahl zwischen 1 und 10
 - Nutzwert ergibt sich aus der Multiplikation von Gewichtung und Punktzahl
 
-## Links
+## Erklärungsvideo
 
-[Nutzwertanalyse | einfach erklärt | Beispielaufgabe | wirtconomy](https://www.youtube.com/watch?v=P5E-0IsVZQg)
+{{< youtube P5E-0IsVZQg >}}

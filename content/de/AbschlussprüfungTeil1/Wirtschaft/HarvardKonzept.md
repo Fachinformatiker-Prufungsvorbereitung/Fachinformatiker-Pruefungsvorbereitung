@@ -21,4 +21,6 @@ Methode des sachgerechten Verhandelns, Standard-Model für erfolgreiches Verhand
 
 - Wenn eine Seite mehr zu verlieren hat, ist das Harvard-Konzept nicht die besste Lösung.
 
-[Das Harvard-Konzept einfach erklärt: Das effektive Modell für Verhandlungen (+ Beispiele)](https://www.youtube.com/watch?v=QmJcYzzN7BA)
+## Erklärungsvideo
+
+{{< youtube QmJcYzzN7BA >}}
