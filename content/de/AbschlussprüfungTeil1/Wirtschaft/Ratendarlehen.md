@@ -13,8 +13,6 @@ type: docs
 
     Schuld am Ende = Schuld Anfang - Annuität  
 
-<br>
-
 ## Beispiel
 
 |Schuld am Anfang|Zinsen 7%|Tilgung|Kreditrate|Schuld am Ende|
@@ -24,8 +22,6 @@ type: docs
 |70000€|4900€|70000€|74900€|0€|
 |-|29400€|210000€|239400|-|
 
-<br>
+## Erklärungsvideo
 
-## Links
-
-[Erklärung YouTube](https://www.youtube.com/watch?v=HTQ20LDJudQ)
+{{< youtube HTQ20LDJudQ >}}
