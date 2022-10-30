@@ -3,6 +3,7 @@ title: "RAID - Redundant array of independent disks"
 date: 2022-08-24T23:02:47-06:00
 draft: false
 type: docs
+description: "RAID oder Redundant array of independent disks dient der Ausfallsicherheit und / oder der Performance von Speichern."
 ---
 
 ## RAID 0
@@ -16,8 +17,6 @@ type: docs
 ![RAID 0 Image](./RAID_0.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_0.svg)
 
-<br>
-
 ## RAID 1
 
 - Volle Redundanz
@@ -29,8 +28,6 @@ type: docs
 
 ![RAID 1 Image](./RAID_1.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_1.svg)
-
-<br>
 
 ## RAID 5
 
@@ -47,8 +44,6 @@ type: docs
 ![RAID 5 Image](./RAID_5.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_5.svg)
 
-<br>
-
 ## RAID 6
 
 - Minimum vier Festplatten
@@ -59,8 +54,6 @@ type: docs
 ![RAID 6 Image](./RAID_6.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_6.svg)
 
-<br>
-
 ## RAID 10
 
 - Kombination aus RAID 1 und RAID 0
@@ -69,12 +62,21 @@ type: docs
 ![RAID 10 Image](./RAID_10.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_10.svg)
 
-<br>
+## Erklärungsvideos 📹
 
-## Links
+### RAID 0,1,5 erklärt
 
-[Das RAID System RAID 0,1,5 knackig erklärt](https://www.youtube.com/watch?v=IM5aXVXh2Jo)  
-[RAID 6 erklärt | QNP 115 | #Basics15](https://www.youtube.com/watch?v=0H2nvtuY8cg)  
-[Erklärung des RAID-Levels RAID 10 (deutsch)](https://www.youtube.com/watch?v=Lw76leQOUdg)  
+{{< youtube M5aXVXh2Jo >}}
+
+### RAID 6 erklärt
+
+{{< youtube 0H2nvtuY8cg >}}
+
+### RAID 10 erklärt
+
+{{< youtube Lw76leQOUdg >}}
+
+## Links 🔗
+
 [IONOS Guide RAID 6](https://www.ionos.de/digitalguide/server/sicherheit/raid-6/)  
 [IONOS Guide RAID 10](https://www.ionos.de/digitalguide/server/sicherheit/raid-10/)

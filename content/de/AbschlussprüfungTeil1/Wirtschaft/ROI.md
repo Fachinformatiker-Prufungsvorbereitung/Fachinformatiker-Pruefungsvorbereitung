@@ -3,6 +3,7 @@ title: "ROI ~ Return on Investment"
 date: 2022-08-24T23:02:55-06:00
 draft: false
 type: docs
+description: "Return of Investment kurz ROI ist die Rechnung um die Höhe des Kapitalrückflusses ins Unternehmen zu bestimmen."
 ---
 
 - Betriebstwirtschaftliche Kennzahl
