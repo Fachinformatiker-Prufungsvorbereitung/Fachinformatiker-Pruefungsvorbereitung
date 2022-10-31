@@ -3,6 +3,7 @@ title: "Nutzwertanalyse"
 date: 2022-08-24T23:02:55-06:00
 draft: false
 type: docs
+description: "Die Nutzwertanalyse bietet eine Beurteilungsverfahren um qualitative und quantitative Kriterien objektiv zu bewerten."
 ---
 
 - Beurteilungsverfahren von qualitativen und quantitativen Kriterien

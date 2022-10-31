@@ -3,9 +3,8 @@ title: "Harvard-Konzept"
 date: 2022-08-24T23:02:55-06:00
 draft: false
 type: docs
+description: "Das Harvard-Konzept ist eine Methode des sachgerechten Verhandelns und ein Standard Modell für erfolgreiches Verhandeln."
 ---
-
-Methode des sachgerechten Verhandelns, Standard-Model für erfolgreiches Verhandelns
 
 ## 5 Prinzipien
 
@@ -19,7 +18,7 @@ Methode des sachgerechten Verhandelns, Standard-Model für erfolgreiches Verhand
 
 ## Nachteile
 
-- Wenn eine Seite mehr zu verlieren hat, ist das Harvard-Konzept nicht die besste Lösung.
+- Wenn eine Seite mehr zu verlieren hat, ist das Harvard-Konzept nicht die beste Lösung.
 
 ## Erklärungsvideo
 

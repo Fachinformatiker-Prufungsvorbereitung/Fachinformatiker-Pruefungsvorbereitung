@@ -3,6 +3,7 @@ title: "Backuparten"
 date: 2022-08-24T23:02:47-06:00
 draft: false
 type: docs
+description: "Backups lassen sich in verschiedene Arten mit unterschiedlichen Eigenschaften Unterteilen."
 ---
 
 ## Vollständige Datensicherung
@@ -27,6 +28,6 @@ type: docs
 - Spart Speicherplatz ein
 - Die Wiederherstellung benötigt mehr Zeit
 
-## Links
+## Erklärungsvideo 📹
 
-[Backuparten YouTube](https://www.youtube.com/watch?v=3NrTiOusQ2o)
+{{< youtube 3NrTiOusQ2o >}}
