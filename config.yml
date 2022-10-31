@@ -80,6 +80,10 @@ enableMissingTranslationPlaceholders: true
 # Menu
 menu:
   main:
+    - name: "Sponsor"
+      url: "https://github.com/sponsors/LNA-DEV"
+      weight: 100
+      pre: <i class="fa fa-credit-card"></i>
     - name: GitHub
       weight: 50
       url: "https://github.com/LNA-DEV/Fachinformatiker-Anwendungsentwicklung-Pruefungsvorbereitung"
