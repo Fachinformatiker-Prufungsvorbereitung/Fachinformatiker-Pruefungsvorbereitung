@@ -5,7 +5,7 @@ draft: false
 type: docs
 ---
 
-In diesem Fall wird der SQL-Dialekt MySQL beschrieben.  
+In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
 
 SQL ist eine sehr beliebte Aufgabe in der alten Prüfungsverordnung gewesen. Für die Prüfung ist dieses Wissen ein muss.
 
@@ -13,22 +13,22 @@ In der Prüfung ist bei SQL eine Cheatsheet beigelegt. Es lohnt sich diese anzus
 
 ## Datentypen
 
-|Typ|Beschreibung|
-|---|------------|
-|INT, INTEGER|Ganze Zahlen, 32 Bit, -2 Mrd. bis +2 Mrd.|
-|SMALLINT|Ganze Zahlen, 16 Bit, -32768 bis 32767|
-|BIGINT|64 Bit, -263 bis 263-1 (falls vorhanden)|
-|DECIMAL(p,s)|Festkommatyp (p Dezimalstellen insgesamt, s Dezimalstellen hinter dem Komma)|
-|FLOAT|Gleitkommatyp, 32 Bit|
-|DOUBLE|Gleitkommatyp, 64 Bit|
-|BOOLEAN|False, True (0 oder 1)|
-|BLOB, (LONG BLOB, MEDIUM BLOB)|Binary large object, Für binäre Dateien (z.B. Bilder)|
-|DATE|Datum (mögliche Schreibweise: YYYY-MM-DD, z.B.: 2021-12-31)|
-|DATETIME|Datum + Uhrzeit|
-|TIMESTAMP|Datum + Uhrzeit (Milli-Sekunden seit 1.1.1970 00:00 Uhr|
-|CHAR(s)|Zeichenfolge mit Länge s, wird ggf. mit Leerzeichen aufgefüllt|
-|VARCHAR(s)|Zeichenfolge mit Maximal-Länge s, ggf. auch kürzer|
-|TEXT|Sehr große Texte|
+| Typ                            | Beschreibung                                                                 |
+| ------------------------------ | ---------------------------------------------------------------------------- |
+| INT, INTEGER                   | Ganze Zahlen, 32 Bit, -2 Mrd. bis +2 Mrd.                                    |
+| SMALLINT                       | Ganze Zahlen, 16 Bit, -32768 bis 32767                                       |
+| BIGINT                         | 64 Bit, -263 bis 263-1 (falls vorhanden)                                     |
+| DECIMAL(p,s)                   | Festkommatyp (p Dezimalstellen insgesamt, s Dezimalstellen hinter dem Komma) |
+| FLOAT                          | Gleitkommatyp, 32 Bit                                                        |
+| DOUBLE                         | Gleitkommatyp, 64 Bit                                                        |
+| BOOLEAN                        | False, True (0 oder 1)                                                       |
+| BLOB, (LONG BLOB, MEDIUM BLOB) | Binary large object, Für binäre Dateien (z.B. Bilder)                        |
+| DATE                           | Datum (mögliche Schreibweise: YYYY-MM-DD, z.B.: 2021-12-31)                  |
+| DATETIME                       | Datum + Uhrzeit                                                              |
+| TIMESTAMP                      | Datum + Uhrzeit (Milli-Sekunden seit 1.1.1970 00:00 Uhr                      |
+| CHAR(s)                        | Zeichenfolge mit Länge s, wird ggf. mit Leerzeichen aufgefüllt               |
+| VARCHAR(s)                     | Zeichenfolge mit Maximal-Länge s, ggf. auch kürzer                           |
+| TEXT                           | Sehr große Texte                                                             |
 
 ## Datenbanken verwalten
 
@@ -56,8 +56,6 @@ SHOW DATABASES;
 DROP DATABASE <Datenbankname>;
 ```
 
-<br>
-
 ## Tabellen verwalten
 
 ### Tabellen auflisten
@@ -80,16 +78,16 @@ CREATE TABLE <Tabellenname> (<Attributdefinition1>, <Attributdefinition2>, ...);
 
 #### Attributdefinition
 
-````sql
+```sql
     <Attributname> <Datentyp> [PRIMARY KEY] [AUTO_INCREMENT] [NOT NULL] [DEFAULT <Wert>];
-````
+```
 
-|Option|Beschreibung|
-|------|------------|
-|NOT NULL|Pflichtfeld, Wert darf nicht NULL sein|
-|PRIMARY KEY|Feld ist der Primärschlüssel|
-|AUTO_INCREMENT|Zahlenfelder werden automatisch erhöht|
-|DEFAULT|Der Standartwert für dieses Feld wird auf "Wert" gesetzt.|
+| Option         | Beschreibung                                              |
+| -------------- | --------------------------------------------------------- |
+| NOT NULL       | Pflichtfeld, Wert darf nicht NULL sein                    |
+| PRIMARY KEY    | Feld ist der Primärschlüssel                              |
+| AUTO_INCREMENT | Zahlenfelder werden automatisch erhöht                    |
+| DEFAULT        | Der Standartwert für dieses Feld wird auf "Wert" gesetzt. |
 
 ### Tabelle löschen
 
@@ -141,7 +139,7 @@ UPDATE <Tabellenname> SET <Datenfeld1>=<neuer Wert1>, <Datenfeld2>=<neuer Wert2>
 
 Where kann an die meisten Befehle angehangen werden und sorgt so dafür, dass nur bestimmte Datensätze angesprochen werden.
 
-```
+```txt
 Mathematische Operationen:     =, !=, >, <, >=, <=, +, -, *, /
 Boolesche Operatoren:         AND, OR, NOT
 Textmustervergleich:         LIKE mit % für beliebige Zeichenkette (auch leer) und _ für einzelnes Zeichen z.B.: name LIKE "H%"
@@ -152,7 +150,7 @@ Mengenvergleich:             IN(wert1, wert2, …)
 ## Einfache Datenabfragen
 
 ```sql
-SELECT * | spaltenliste | berechnung [TOP anzahl] 
+SELECT * | spaltenliste | berechnung [TOP anzahl]
 FROM tabelle(n)
 [WHERE bedingung]
 [GROUP BY spalten(n)]
@@ -165,27 +163,27 @@ FROM tabelle(n)
 
 ### Normale Funktionen
 
-|Funktion|Beschreibung|
-|--------|------------|
-|CURDATE()|Gibt das aktuelle Datum zurück|
-|DATEDIFF(datum1, datum2)|Berechnet die Datumsdifferenz in Tagen|
-|YEAR(datum)|Gibt das Jahr zurück|
-|MONTH(datum)|Gibt das Monat zurück|
-|DAY(datum)|Gibt den Tag zurück|
-|DATE_ADD(datum, intervall)|Addiert das Intervall zum Datum|
+| Funktion                   | Beschreibung                           |
+| -------------------------- | -------------------------------------- |
+| CURDATE()                  | Gibt das aktuelle Datum zurück         |
+| DATEDIFF(datum1, datum2)   | Berechnet die Datumsdifferenz in Tagen |
+| YEAR(datum)                | Gibt das Jahr zurück                   |
+| MONTH(datum)               | Gibt das Monat zurück                  |
+| DAY(datum)                 | Gibt den Tag zurück                    |
+| DATE_ADD(datum, intervall) | Addiert das Intervall zum Datum        |
 
 ### Aggregatsfunktionen
 
 Sie berechnen ein Ergebnis aus den Werten einer Spalte (mehrere Datensätze).
 
-|Funktion|Beschreibung|
-|--------|------------|
-|COUNT(feld)|Zählt alle nicht-null-Werte innerhalb einer Spalte|
-|COUNT(*)|Zählt die Datensätze/Zeilen|
-|SUM(feld)|Berechnet die Summe einer ganze Spalte|
-|AVG(feld)|Berechnet den Durchschnitt einer ganze Spalte (NULL-Werte zählen nicht mit)|
-|MIN(feld)|Sucht den kleinsten Wert einer ganzen Spalte.|
-|MAX(feld)|Sucht den größten Wert einer ganzen Spalte.|
+| Funktion    | Beschreibung                                                                |
+| ----------- | --------------------------------------------------------------------------- |
+| COUNT(feld) | Zählt alle nicht-null-Werte innerhalb einer Spalte                          |
+| COUNT(\*)   | Zählt die Datensätze/Zeilen                                                 |
+| SUM(feld)   | Berechnet die Summe einer ganze Spalte                                      |
+| AVG(feld)   | Berechnet den Durchschnitt einer ganze Spalte (NULL-Werte zählen nicht mit) |
+| MIN(feld)   | Sucht den kleinsten Wert einer ganzen Spalte.                               |
+| MAX(feld)   | Sucht den größten Wert einer ganzen Spalte.                                 |
 
 ## Gruppierungen
 
@@ -218,9 +216,25 @@ Gibt alle Daten der rechten Tabelle zurück und zusätzlich die Schnittmenge der
 
 Gibt alle Daten aus beiden Tabellen zurück.
 
+## Index
+
+Indexe werden in Relationalen Datenbanken dazu benutzt, Daten schneller abfragen zu können.
+
+```sql
+CREATE INDEX index_name
+ON table_name (column1, column2, ...);
+```
+
+Mit dem Keyword `UNIQUE` können doppelte Werte ausgeschlossen werden.
+
+```sql
+CREATE UNIQUE INDEX index_name
+ON table_name (column1, column2, ...);
+```
+
 ## Links
 
 [MySQL - The Basics // Learn SQL in 23 Easy Steps](https://www.youtube.com/watch?v=Cz3WcZLRaWc)  
 [MySQL Tutorial for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA)  
 [SQL Joins: Difference Between Inner/Left/Right/Outer Joins](https://www.youtube.com/watch?v=zGSv0VaOtR0)  
-[Stefan Macke - Aufgaben in der schriftlichen Prüfung](https://it-berufe-podcast.de/sql-aufgaben-in-der-schriftlichen-ihk-pruefung-anwendungsentwickler-podcast-117/)  
+[Stefan Macke - Aufgaben in der schriftlichen Prüfung](https://it-berufe-podcast.de/sql-aufgaben-in-der-schriftlichen-ihk-pruefung-anwendungsentwickler-podcast-117/)
