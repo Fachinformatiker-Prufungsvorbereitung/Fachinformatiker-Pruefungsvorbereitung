@@ -6,4 +6,6 @@ type: docs
 weight: 1
 ---
 
-Hier gibt es größere Überschneidungen zu der gestreckten Abschlussprüfung Teil 1. Es geht in diesem Kapitel um Projektmanagement explizit in der Softwareentwicklung und dessen Methoden. Es schadet sicher nicht die bereits für Teil 1 gelernten Inhalte die hier nicht aufgeführt sind zu wiederholen.
+Hier gibt es größere Überschneidungen zu der gestreckten Abschlussprüfung Teil 1. Es geht in diesem Kapitel um Projektmanagement explizit in der Softwareentwicklung und dessen Methoden. Es schadet sicher nicht die bereits für Teil 1 gelernten Inhalte die hier nicht aufgeführt sind zu wiederholen.  
+  
+Themen die bereits in Prüfungsteil 1 behandelt wurden werden auf dieser Seite **nicht** noch einmal explizit aufgelistet und gelten als bekannt.
