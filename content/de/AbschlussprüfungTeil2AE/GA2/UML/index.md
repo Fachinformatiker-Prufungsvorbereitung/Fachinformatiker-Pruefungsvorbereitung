@@ -58,6 +58,10 @@ Zu UML werden in der Prüfung oft Cheatsheets beigelegt. Übung mithilfe dieser 
 
 ![Multiplizitäten](./Klassendiagramm/UML-Multiplizitäten.svg)
 
+### Erklärungsvideo Klassendiagramm 📹
+
+{{< youtube zzwUH3vbNkc >}}
+
 ## Anwendungsdiagramm / Anwendungsfalldiagramm / Use-Case-Diagramm
 
 - Keine Abläufe
@@ -103,21 +107,33 @@ Bei der Vererbung werden die Eigenschaften eines Use-Cases oder eines Akteurs an
 
 ![Extend](./Use-Case-Diagramm/Use-Case-Diagramm-Extend.svg)
 
+### Erklärungsvideo Use-Case-Diagramm 📹
+
+{{< youtube dYfr5Opkw38 >}}
+
 ## Sequenzdiagramm
 
 Ein Sequenzdiagramm beschreibt Abläufe. Es zeigt die Interaktionen von Objekten in einer grafischen Zeitlinie.
 
 ![Sequenzdiagramm](./Sequenzdiagramm/UML-Sequenzdiagramm.svg)
 
-## Aktivitätsdiagramm
+### Erklärungsvideo Sequenzdiagramm 📹
 
-TODO
+{{< youtube L_auS6pd_l0 >}}
 
-## Zustandsdiagramm
+## Aktivitätsdiagramm / Flussdiagramm
 
-TODO
+<!-- TODO -->
+
+### Erklärungsvideo Aktivitätsdiagramm 📹
+
+{{< youtube FdH51Ujp-GU >}}
+
+<!-- ## Zustandsdiagramm
+
+TODO -->
 
 ## Links 🔗
 
-[Klassendiagramm SimpleClub](https://www.youtube.com/watch?v=zzwUH3vbNkc)  
-[Programmieren Starten](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho05rbgNaakWmxFmT9qEXzIo)
+[Programmieren Starten](https://www.youtube.com/playlist?list=PL_pqkvxZ6ho05rbgNaakWmxFmT9qEXzIo)  
+[IONOS Aktivitätsdiagramm](https://www.ionos.de/digitalguide/websites/web-entwicklung/uml-aktivitaetsdiagramme/)  
