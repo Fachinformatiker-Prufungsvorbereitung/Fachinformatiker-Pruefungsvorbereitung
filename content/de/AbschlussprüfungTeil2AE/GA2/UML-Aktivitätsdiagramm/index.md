@@ -20,9 +20,15 @@ description: "Mit dem UML Aktivitätsdiagramm können Abläufe mit sogenannten A
 | Activity  | ![Activity Aktivitätsdiagramm UML](./Activity.svg)   |
 | Condition | ![Condition Aktivitätsdiagramm UML](./Condition.svg) |
 
-## Erklärungsvideo Aktivitätsdiagramm 📹
+## Erklärungsvideos Aktivitätsdiagramm 📹
+
+### Basics
 
 {{< youtube FdH51Ujp-GU >}}
+
+### Swimlanes und Nebenläufigkeit
+
+{{< youtube XClT7gR6hz0 >}}
 
 ## Links 🔗
 
