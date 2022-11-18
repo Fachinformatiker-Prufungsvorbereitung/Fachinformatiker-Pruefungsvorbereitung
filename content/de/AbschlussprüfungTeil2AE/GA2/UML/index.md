@@ -129,9 +129,13 @@ Ein Sequenzdiagramm beschreibt Abläufe. Es zeigt die Interaktionen von Objekten
 
 {{< youtube FdH51Ujp-GU >}}
 
-<!-- ## Zustandsdiagramm
+## Zustandsdiagramm
 
-TODO -->
+<!-- TODO -->
+
+### Erklärungsvideo Zustandsdiagramm 📹
+
+{{< youtube un_kZ5Jwb8k >}}
 
 ## Links 🔗
 
