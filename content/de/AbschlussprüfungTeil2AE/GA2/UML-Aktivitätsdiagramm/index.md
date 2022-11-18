@@ -11,8 +11,12 @@ description: "Mit dem UML Aktivitätsdiagramm können Abläufe mit sogenannten A
 
 ![Fachinformatiker Prüfungsvorbereitung Aktivitätsdiagramm UML](./Aktivit%C3%A4tsdiagramm.svg)
 
-| Name      | Darstellung                                                                  |
-| --------- | ---------------------------------------------------------------------------- |
+## Elements
+
+| Name      | Darstellung                                          |
+| --------- | ---------------------------------------------------- |
+| Start     | ![Start Aktivitätsdiagramm UML](./Start.svg)         |
+| End       | ![End Aktivitätsdiagramm UML](./End.svg)             |
 | Activity  | ![Activity Aktivitätsdiagramm UML](./Activity.svg)   |
 | Condition | ![Condition Aktivitätsdiagramm UML](./Condition.svg) |
 
@@ -22,4 +26,4 @@ description: "Mit dem UML Aktivitätsdiagramm können Abläufe mit sogenannten A
 
 ## Links 🔗
 
-[IONOS Aktivitätsdiagramm](https://www.ionos.de/digitalguide/websites/web-entwicklung/uml-aktivitaetsdiagramme/)  
+[IONOS Aktivitätsdiagramm](https://www.ionos.de/digitalguide/websites/web-entwicklung/uml-aktivitaetsdiagramme/)
