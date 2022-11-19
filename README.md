@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/lna-dev/Fachinformatiker-Pruefungsvorbereitung">
-    <img src="https://xn--fachinformatiker-prfungsvorbereitung-w0d.de/Assets/Images/Pingüino-Square.png" alt="Logo" width="80" height="80">
+    <img src="https://fachinformatikerpruefungsvorbereitung.de/Assets/Images/Pingüino-Square.png" alt="Logo" width="80" height="80">
   </a>
 
 ### Fachinformatiker Prüfungsvorbereitung 💻
