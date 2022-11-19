@@ -9,8 +9,6 @@ description: "Mit dem UML Aktivitätsdiagramm können Abläufe mit sogenannten A
 
 - Auch Flussdiagramm genannt
 
-![Fachinformatiker Prüfungsvorbereitung Aktivitätsdiagramm UML](./Aktivit%C3%A4tsdiagramm.svg)
-
 ## Elements
 
 | Name      | Darstellung                                          |
