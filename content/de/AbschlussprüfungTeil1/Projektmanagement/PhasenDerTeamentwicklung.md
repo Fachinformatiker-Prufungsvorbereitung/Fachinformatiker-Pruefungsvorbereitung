@@ -6,7 +6,6 @@ type: docs
 description: "Die Entwicklung eines Teams kann in vier Phasen gegliedert werden. Diese Phasen sind Forming, Storming, Norming und Performing."
 ---
 
-
 ## Forming
 
 - Das Team bildet sich
