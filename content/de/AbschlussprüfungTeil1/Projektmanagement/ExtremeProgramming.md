@@ -3,6 +3,7 @@ title: "Extreme Programming / XP"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Extreme Programming ist ein Projektmanagement-Modell welches die Programmierung in den Vordergrund der Software-Entwicklung stellt."
 ---
 
 

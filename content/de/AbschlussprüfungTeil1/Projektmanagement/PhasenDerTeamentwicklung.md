@@ -3,6 +3,7 @@ title: "Phasen der Teamentwicklung"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Die Entwicklung eines Teams kann in vier Phasen gegliedert werden. Diese Phasen sind Forming, Storming, Norming und Performing."
 ---
 
 

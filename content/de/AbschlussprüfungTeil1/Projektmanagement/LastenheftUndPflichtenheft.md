@@ -3,6 +3,7 @@ title: "Lastenheft und Pflichtenheft"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Mithilfe des Lastenheftes und des Pflichtenheftes können Anforderungen eines Kunden mit den genauen Spezifikationen eines Auftragnehmers verbunden werden."
 ---
 
 

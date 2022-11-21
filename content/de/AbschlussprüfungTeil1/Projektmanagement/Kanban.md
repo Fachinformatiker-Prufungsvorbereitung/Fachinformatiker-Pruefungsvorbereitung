@@ -3,6 +3,8 @@ title: "Kanban"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Kanban ist ursprünglich eine Methode zur Produktionssteuerung. Heutzutage kann sie allerdings auch als Projektmanagement-Methode für unter anderem Software-Projekte eingesetzt werden."
+
 ---
 
 - Kanban hilft bei der Visualisierung der Arbeit
