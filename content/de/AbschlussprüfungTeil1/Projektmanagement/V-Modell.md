@@ -3,6 +3,7 @@ title: "V-Modell"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Das V-Modell ist ein Vorgehensmodell, welches ursprünglich für die Softwareentwicklung konzipiert wurde. Ähnlich dem Wasserfallmodell organisiert es den Softwareentwicklungsprozess in Phasen und fügt noch Phasen zu Qualitätssicherung hinzu."
 ---
 
 - Klassisches Projektmanagementmodell

@@ -3,6 +3,7 @@ title: "Gantt Diagramm"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Ein Gantt-Diagramm oder Balkenplan ist ein Instrument des Projektmanagements, das die zeitliche Abfolge von Aktivitäten grafisch in Form von Balken auf einer Zeitachse darstellt."
 ---
 
 - Ist eine Art mehrdimensionaler Zeitstrahl

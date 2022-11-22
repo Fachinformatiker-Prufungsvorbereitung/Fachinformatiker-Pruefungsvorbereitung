@@ -3,7 +3,7 @@ title: "Was ist ein Projekt?"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
-description: ""
+description: "Ein Projekt ist definiert als ein einmaliges, zeitlich befristetes, interdisziplinäres und organisiertes Unterfangen, um festgelegte Arbeitsergebnisse im Rahmen vorab definierter Anforderungen und Randbedingungen zu erzielen."
 ---
 
 ## Eigenschaften eines Projekts

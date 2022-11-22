@@ -3,6 +3,7 @@ title: "Wasserfallmodell"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Ein Wasserfallmodell ist ein lineares Vorgehensmodell, das insbesondere für die Softwareentwicklung verwendet wird und das in aufeinander folgenden Projektphasen organisiert ist."
 ---
 
 - Klassisches Projektmanagement

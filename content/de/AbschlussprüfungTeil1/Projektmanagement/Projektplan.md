@@ -3,8 +3,8 @@ title: "Projektplan"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Projektplan ist ein Begriff aus dem Projektmanagement und hält das Resultat sämtlicher Planungsaktivitäten in einem konsistenten Dokument fest."
 ---
-
 
 - Fundament eines Projektes
 - Bündelt sämtliche Pläne die für eine erfolgreiche Projektdurchführung nötig sind

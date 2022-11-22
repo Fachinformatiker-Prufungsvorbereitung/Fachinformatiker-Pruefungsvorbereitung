@@ -3,8 +3,8 @@ title: "Spiralmodell"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Das Spiralmodell ist ein Modell zum Projektmanagement aus der Softwareentwicklung. Es ist ein generisches Modell welches sich wie eine Spirale fort entwickelt, daher der Name."
 ---
-
 
 - Inkrementell
 - Hat Vier Phasen
