@@ -40,8 +40,11 @@ Eine Klasse hat **mehrere** Schüler.
 Ein Autor kann **mehrere** Bücher schreiben.  
 Ein Buch kann von **mehreren** Autoren geschrieben werden.
 
-## Links
+## Erklärungsvideo 📹
+
+{{< youtube baF9b5Lkiio >}}
+
+## Links 🔗
 
 [Datenbanken verstehen: ER-Modell](https://datenbanken-verstehen.de/datenmodellierung/entity-relationship-modell/)  
-[ER-Modell - Teil 1- ABITUR 2018](https://www.youtube.com/watch?v=baF9b5Lkiio)  
 [Eins zu Eins Beziehung](https://spontan-wild-und-kuchen.de/archive/3669)

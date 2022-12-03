@@ -38,6 +38,6 @@ Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn 
 - Setzt 2NF vorraus
 - Indirekt abhänge Attribute müssen in eine Tabelle ausgelagert werden
 
-## Links
+## Erklärungsvideo 📹
 
-[Normalisierung in Datenbanken (1. bis 3. Normalform)](https://www.youtube.com/watch?v=aCXKT4ycAbQ)
+{{< youtube aCXKT4ycAbQ >}}
