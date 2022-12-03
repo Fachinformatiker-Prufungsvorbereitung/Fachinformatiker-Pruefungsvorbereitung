@@ -32,9 +32,12 @@ description: "Die Entwicklung eines Teams kann in vier Phasen gegliedert werden.
 
 ## Performing
 
-- Das Team ist perfomant und leistungsfähig
+- Das Team ist performant und leistungsfähig
 
-## Links
+## Erklärungsvideo 📹
+
+{{< youtube TW_B1skghSY >}}
+
+## Links 🔗
 
 [Me-Company](https://www.me-company.de/magazin/forming-storming-norming-performing/)  
-[Teamuhr Tuckman: Phasen der Teamentwicklung](https://www.youtube.com/watch?v=TW_B1skghSY)

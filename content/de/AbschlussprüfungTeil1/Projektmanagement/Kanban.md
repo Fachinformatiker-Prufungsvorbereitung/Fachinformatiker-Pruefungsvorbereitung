@@ -14,8 +14,6 @@ description: "Kanban ist ursprünglich eine Methode zur Produktionssteuerung. He
 - Arbeitet mit dem klassischen Kanban Spalten Diagramm
 - Ist eine agile Projektmanagementmethode
 
-<br>
+## Erklärungsvideo 📹
 
-## Links
-
-[Kanban: Was ist Kanban? Kanban erklärt! (Agiles Projektmanagement) 💡](https://www.youtube.com/watch?v=Tf-zcpwM5uQ)
+{{< youtube Tf-zcpwM5uQ >}}

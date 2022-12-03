@@ -16,8 +16,6 @@ description: "Das V-Modell ist ein Vorgehensmodell, welches ursprünglich für d
 - Sehr hohe Testabdeckung da für jede Entwurfsphase eine Testphase existiert
 - Beim Entwurf wird wegen der gegenüberliegenden Tests schon an dir Realisierbarkeit gedacht
 
-<br>
+## Erklärungsvideo 📹
 
-## Links
-
-[Software Engineering Tutorial Deutsch #4 - Das V-Modell](https://www.youtube.com/watch?v=FxS9LFzpM-o)
+{{< youtube FxS9LFzpM-o >}}

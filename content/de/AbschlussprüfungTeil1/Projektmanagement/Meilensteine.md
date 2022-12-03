@@ -19,4 +19,4 @@ description: "Meilensteine sind besondere Ziele des Projektmanagements. Sie werd
 
 ## Links
 
-[Projekte leicht gemacht: Meilensteine](https://projekte-leicht-gemacht.de/blog/projektmanagement/klassisch/projektplanung/definition-meilensteine)  
+[Projekte leicht gemacht: Meilensteine](https://projekte-leicht-gemacht.de/blog/projektmanagement/klassisch/projektplanung/definition-meilensteine)

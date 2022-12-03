@@ -9,9 +9,7 @@ description: "Das SMART Modell ist eine Modell um sich Ziele auf eine sinnvolle 
 - Wird benutzt um Ziele zu definieren
 - Jedes Ziel sollte diese Eigenschaften beinhalten
 
-<br>
-
-SMART Kriterien:
+## SMART Kriterien
 
 - S --> Spezifisch
 - M --> Messbar

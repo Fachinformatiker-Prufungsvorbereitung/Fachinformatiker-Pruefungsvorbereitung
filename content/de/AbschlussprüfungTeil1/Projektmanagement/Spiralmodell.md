@@ -22,6 +22,6 @@ description: "Das Spiralmodell ist ein Modell zum Projektmanagement aus der Soft
 - Stark abhängig von der Risiko-Analyse
 - Spezifische Expertisen werden benötigt
 
-## Links
+## Erklärungsvideo 📹
 
-[Spiral Process - Georgia Tech - Software Development Process](https://www.youtube.com/watch?v=mp22SDTnsQQ)
+{{< youtube mp22SDTnsQQ >}}

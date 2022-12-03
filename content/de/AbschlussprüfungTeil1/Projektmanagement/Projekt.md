@@ -15,8 +15,6 @@ description: "Ein Projekt ist definiert als ein einmaliges, zeitlich befristetes
 - Komplexität und Größe
 - Projektspezifische Organisationsform
 
-<br>
-
 ## Projektauftraggeber
 
 - Erteilt den Auftrag für ein Projekt

@@ -24,6 +24,6 @@ description: "Ein Wasserfallmodell ist ein lineares Vorgehensmodell, das insbeso
 - Raubt Flexibilität
 - Anforderungen dürfen nicht geändert werden
 
-## Links
+## Erklärungsvideo 📹
 
-[Software Engineering Tutorial Deutsch #3 - Das Wasserfallmodell](https://www.youtube.com/watch?v=ipTBpQ9BgOY)
+{{< youtube ipTBpQ9BgOY >}}
