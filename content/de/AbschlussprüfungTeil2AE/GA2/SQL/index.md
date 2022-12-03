@@ -3,6 +3,7 @@ title: "SQL / MySQL"
 date: 2022-08-25T10:37:33-06:00
 draft: false
 type: docs
+description: "SQL ist eine Sprache zur Abfrage von relationalen Datenbanken."
 ---
 
 In diesem Fall wird der SQL-Dialekt MySQL beschrieben.

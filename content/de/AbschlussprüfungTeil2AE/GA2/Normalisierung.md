@@ -3,8 +3,8 @@ title: "Normalisierung"
 date: 2022-08-24T22:57:00-06:00
 draft: false
 type: docs
+description: "Mit der Normalisierung legt man ein Datenkonzept an welches sich an bestimmte Regeln hält um Duplikate in den Daten zu verhindern."
 ---
-
 
 ## Erste Normalform
 

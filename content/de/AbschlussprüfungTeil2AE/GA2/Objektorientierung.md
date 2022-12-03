@@ -3,10 +3,10 @@ title: "Objektorientierung"
 date: 2022-09-04T22:40:55-06:00
 draft: false
 type: docs
+description: "Die Objektorientierung ist eine Programmierungstechnik mit bestimmten Konzepten. So liegt der Fokus dieser Technik auf einem bestimmten Objekt."
 weight: 1
 ---
 
-Die Objektorientierung ist eine Programmierungstechnik mit bestimmten Konzepten.  
 ⚠️Achtung⚠️ nicht alle Programmiersprachen weisen dies Konzepte auf! (Zum Beispiel: Funktionale Programmiersprachen)
 
 ## Unterschied zwischen Objekt / Instanz und Klasse 📘

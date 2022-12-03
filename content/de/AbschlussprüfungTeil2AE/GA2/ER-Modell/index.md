@@ -3,6 +3,7 @@ title: "ER-Modell"
 date: 2022-08-24T22:54:43-06:00
 draft: false
 type: docs
+description: "Ein ER-Modell ist eine visuelle Darstellung verschiedener Entitäten innerhalb eines Systems und ihrer Beziehung zueinander."
 ---
 
 ## Entity relationship model
