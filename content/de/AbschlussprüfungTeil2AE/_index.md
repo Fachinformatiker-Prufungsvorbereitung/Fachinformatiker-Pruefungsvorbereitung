@@ -4,6 +4,7 @@ date: 2022-08-25T10:35:47-06:00
 draft: false
 type: docs
 weight: 3
+description: "Prüfungsvorbereitung für Teil 2 der gestreckten Abschlussprüfung der Fachinformatiker für Anwendungsentwicklung."
 ---
 
 ## Allgemein 💭

@@ -3,6 +3,7 @@ title: "SQL / MySQL"
 date: 2022-08-25T10:37:33-06:00
 draft: false
 type: docs
+description: "SQL ist eine Sprache zur Abfrage von relationalen Datenbanken."
 ---
 
 In diesem Fall wird der SQL-Dialekt MySQL beschrieben.
@@ -232,9 +233,20 @@ CREATE UNIQUE INDEX index_name
 ON table_name (column1, column2, ...);
 ```
 
-## Links
+## Erklärungsvideos 📹
 
-[MySQL - The Basics // Learn SQL in 23 Easy Steps](https://www.youtube.com/watch?v=Cz3WcZLRaWc)  
-[MySQL Tutorial for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA)  
-[SQL Joins: Difference Between Inner/Left/Right/Outer Joins](https://www.youtube.com/watch?v=zGSv0VaOtR0)  
+### MySQL - The Basics // Learn SQL in 23 Easy Steps
+
+{{< youtube Cz3WcZLRaWc >}}
+
+### MySQL Tutorial for Beginners [Full Course]
+
+{{< youtube 7S_tz1z_5bA >}}
+
+### SQL Joins: Difference Between Inner/Left/Right/Outer Joins
+
+{{< youtube zGSv0VaOtR0 >}}
+
+## Links 🔗
+
 [Stefan Macke - Aufgaben in der schriftlichen Prüfung](https://it-berufe-podcast.de/sql-aufgaben-in-der-schriftlichen-ihk-pruefung-anwendungsentwickler-podcast-117/)

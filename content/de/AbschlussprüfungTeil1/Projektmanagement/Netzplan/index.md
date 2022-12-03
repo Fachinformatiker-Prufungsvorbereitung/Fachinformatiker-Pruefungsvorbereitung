@@ -3,6 +3,7 @@ title: "Netzplan"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Ein Netzplan stellt Vorgänge / Abläufe in einer zeitlichen Reihenfolge inklusive Abhängigkeiten dar."
 ---
 
 Bei den Prüfungsaufgaben ist meist eine Legende gegeben. Die Anordnung / Namen der einzelnen Felder muss also nicht auswendig gelernt werden. Kommt oft in Prüfungen dran.

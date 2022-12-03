@@ -3,8 +3,8 @@ title: "Phasen der Teamentwicklung"
 date: 2022-08-24T23:02:36-06:00
 draft: false
 type: docs
+description: "Die Entwicklung eines Teams kann in vier Phasen gegliedert werden. Diese Phasen sind Forming, Storming, Norming und Performing."
 ---
-
 
 ## Forming
 
@@ -32,9 +32,12 @@ type: docs
 
 ## Performing
 
-- Das Team ist perfomant und leistungsfähig
+- Das Team ist performant und leistungsfähig
 
-## Links
+## Erklärungsvideo 📹
+
+{{< youtube TW_B1skghSY >}}
+
+## Links 🔗
 
 [Me-Company](https://www.me-company.de/magazin/forming-storming-norming-performing/)  
-[Teamuhr Tuckman: Phasen der Teamentwicklung](https://www.youtube.com/watch?v=TW_B1skghSY)

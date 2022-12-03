@@ -8,7 +8,3 @@ weight: 1
 
 - Mindestens: 3 Monate
 - Höchstens: 6 Monate
-
-TODO
-
-## Links 🔗
