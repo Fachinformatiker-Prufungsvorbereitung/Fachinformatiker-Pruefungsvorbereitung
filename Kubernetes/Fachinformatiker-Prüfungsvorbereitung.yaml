@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: fi-pv
-          image: lnadev/fi-pv:69
+          image: lnadev/fi-pv:70
           imagePullPolicy: Always
           resources:
             limits:
@@ -86,9 +86,20 @@ spec:
   tls:
     - hosts:
         - "xn--fachinformatiker-prfungsvorbereitung-w0d.de"
+        - "fi.lna-dev.net"
       secretName: fi-pv-cert-fipv
   rules:
     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: fi.lna-dev.net
       http:
         paths:
           - path: /
@@ -110,6 +121,16 @@ metadata:
 spec:
   rules:
     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: fi.lna-dev.net
       http:
         paths:
           - path: /
