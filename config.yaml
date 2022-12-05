@@ -6,7 +6,7 @@ enableGitInfo: true
 # Modules
 module:
   imports:
-    - path: github.com/google/docsy
+    - path: github.com/LNA-DEV/PrivateDocsy
     - path: github.com/google/docsy/dependencies
 
 # Content
@@ -23,6 +23,11 @@ markup:
     style: tango
 
 params:
+  features:
+    analytics:
+      enabled: true
+      goatCounter:
+        code: lna-dev
   links:
     user:
       - name: "GitHub"
@@ -103,8 +108,6 @@ sitemap:
   priority: 0.5
 
 enableRobotsTXT: true
-
-googleAnalytics: G-NWTWYPN52Z
 
 # Privacy
 
