@@ -27,7 +27,7 @@ params:
     analytics:
       enabled: true
       goatCounter:
-        code: lna-dev
+        code: fipv
   links:
     user:
       - name: "GitHub"
