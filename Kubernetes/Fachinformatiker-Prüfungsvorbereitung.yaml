@@ -13,14 +13,14 @@ spec:
     spec:
       containers:
         - name: fi-pv
-          image: lnadev/fi-pv:73
+          image: lnadev/fi-pv:75
           imagePullPolicy: Always
           resources:
             limits:
               memory: "128Mi"
               cpu: "500m"
           ports:
-            - containerPort: 81
+            - containerPort: 80
               name: port-http
 
 ---
