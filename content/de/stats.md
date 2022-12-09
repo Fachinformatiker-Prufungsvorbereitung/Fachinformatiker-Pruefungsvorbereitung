@@ -5,5 +5,6 @@ draft: false
 type: stats
 weight: 1
 description: "" #TODO
+toc_hide: true
 ---
 
