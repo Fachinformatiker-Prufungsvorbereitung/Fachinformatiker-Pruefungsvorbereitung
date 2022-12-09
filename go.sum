@@ -21,6 +21,8 @@ github.com/LNA-DEV/PrivateDocsy v0.0.12 h1:ucYwyl+Q98rYD0CJjIC8y03gJF+lsCYaRbA7O
 github.com/LNA-DEV/PrivateDocsy v0.0.12/go.mod h1:J0qA8OICk93LEWit1sCNp/kUEqv5fp9c1exMXJrqQGE=
 github.com/LNA-DEV/PrivateDocsy v0.0.13 h1:wMYMR8rohdzJE9qJ7zeSUgqrE5U+j9lWBEeGEON6In0=
 github.com/LNA-DEV/PrivateDocsy v0.0.13/go.mod h1:J0qA8OICk93LEWit1sCNp/kUEqv5fp9c1exMXJrqQGE=
+github.com/LNA-DEV/PrivateDocsy v0.0.14 h1:b4JqzD9fmDz2HBC1GLAY9jImw7WHzH1ccuLXh3HmUZU=
+github.com/LNA-DEV/PrivateDocsy v0.0.14/go.mod h1:J0qA8OICk93LEWit1sCNp/kUEqv5fp9c1exMXJrqQGE=
 github.com/google/docsy v0.4.0 h1:Eyt2aiDC1fnw/Qq/9xnIqUU5n5Yyk4c8gX3nBDdTv/4=
 github.com/google/docsy v0.4.0/go.mod h1:vJjGkHNaw9bO42gpFTWwAUzHZWZEVlK46Kx7ikY5c7Y=
 github.com/google/docsy v0.6.0 h1:43bVF18t2JihAamelQjjGzx1vO2ljCilVrBgetCA8oI=
