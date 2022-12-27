@@ -3,12 +3,12 @@ title: "Thin Client Arten"
 date: 2022-08-24T23:02:47-06:00
 draft: false
 type: docs
-description: "Thin Clients sind Computer mit minimaler Rechenleistung. Um zu funktionieren verbinden sie sich meist auf einen anderen (virtuellen) Computer."
+description: "Thin Clients sind Computer mit minimaler Rechenleistung. Um zu funktionieren, verbinden sie sich meist auf einen anderen (virtuellen) Computer."
 ---
 
 ## All in one Thin Client
 
-Beinhaltet alle Dinge die man braucht:
+Beinhaltet alle Dinge, die man braucht:
 
 - Monitor
 - Lautsprecher
