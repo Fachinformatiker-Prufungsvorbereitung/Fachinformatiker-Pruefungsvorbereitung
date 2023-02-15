@@ -12,7 +12,7 @@ description: "Der Angebotsvergleich vergleicht Angebote anhand von verschiedenen
 - Bezugskosten
 - Rabatt / Skonto
 
---> [Bezugskalkulation](./Bezugskalkulation.md)
+--> [Bezugskalkulation](../bezugskalkulation)
 
 ## Qualitativ
 
@@ -22,7 +22,7 @@ description: "Der Angebotsvergleich vergleicht Angebote anhand von verschiedenen
 - Zuverlässigkeit
 - Geschäftsbeziehung
 
---> [Nutzwertanalyse](./Nutzwertanalyse.md)
+--> [Nutzwertanalyse](../nutzwertanalyse)
 
 ## Folgen wenn kein Angebotsvergleich durchgeführt wurde
 
