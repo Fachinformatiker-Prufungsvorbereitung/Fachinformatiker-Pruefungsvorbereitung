@@ -105,15 +105,44 @@ Um die Haltedauer einer USV berechnen zu können, müssen wir ein paar Begriffe 
 
 - Die **Autonomiezeit** drück aus wie lange die angeschlossenen Geräte bei einem Netzausfall uneingeschränkt weiter benutzt werden können.
 
-### Kleine Beispielaufgabe
 
-- Bestimmen Sie die zu erwartende Haltedauer einer USV, die aus 2 Batterien mit je 300VAh besteht, unter der Voraussetzung, dass eine Wirkleistung von 700W benötigt wird. Berücksichtigen Sie die 10%ige Reserve.
+### Beispielaufgaben
 
+#### 1. Aufgabe:
+
+Ein Unternehmen betreibt ein Rechenzentrum, das aus vier Racks besteht. Jedes Rack benötigt eine Leistung von 2,75 kVA. Das Rechenzentrum ist mit einer USV-Anlage mit einer Nennleistung von 20 kVA abgesichert. Die USV-Anlage wird mit einer Blei-Säure-Batterie betrieben, die eine Kapazität von 6 kWh hat.
+
+a) Wie lange kann das Rechenzentrum im Ernstfall mit der USV-Anlage betrieben werden, wenn der Strom vollständig ausfällt?
+
+b) Wie verändert sich die Haltedauer der USV-Anlage, wenn ein Rack ausgeschaltet wird?
+
+c) Die Wartungshistorie der USV-Anlage zeigt, dass in den letzten 12 Monaten vier Störungen aufgetreten sind, die jeweils zu einem Ausfall der USV-Anlage geführt haben. Die Ausfallzeiten betrugen 2 Stunden, 4 Stunden, 6 Stunden und 8 Stunden. Berechnen Sie die Verfügbarkeit der USV-Anlage in diesem Zeitraum.
+
+Hinweis: Die Verfügbarkeit kann mit folgender Formel berechnet werden:
+
+`Verfügbarkeit = (Gesamtzeit - Ausfallzeit) / Gesamtzeit * 100%`
+
+##### Lösung
+###### a) 
+Die Haltedauer der USV-Anlage kann mit der Formel `*Haltedauer = Batteriekapazität / Leistung*` berechnet werden.
 ```txt
-W = 2 * 300VAh , P = 700W
-Scheinleistung = 700W / 0,6 = 1166,66
-t = W / S = 600VAh / 1166,66 = 0,51h = 30 Minuten
-30 Minuten * 90% = 27 Minuten
+Haltedauer = 6 kWh / 20 kVA = 0,3 Stunden = 18 Minuten 
+```
+
+###### b) 
+Wenn ein Rack ausgeschaltet wird, beträgt die angeschlossene Last noch 3 * 2,75 kVA = 8,25 kVA. Die neue Haltedauer der USV-Anlage kann dann mit der gleichen Formel wie in a) berechnet werden:
+```txt
+Haltedauer = 6 kWh / 8,25 kVA = 0,73 Stunden = 44 Minuten 
+```
+
+###### c)
+Die Verfügbarkeit der USV-Anlage kann mit der Formel `Verfügbarkeit = (Gesamtzeit - Ausfallzeit) / Gesamtzeit * 100%` berechnet werden, wobei
+`Gesamtzeit = 12 Monate * 30 Tage * 24 Stunden = 25920 Stunden` 
+`Ausfallzeit = Summe der Ausfallzeiten der USV-Anlage in den letzten 12 Monaten = 2 + 4 + 6 + 8 = 20 Stunden`
+
+Daraus ergibt sich:
+```txt
+Verfügbarkeit = (25920 - 20) / 25920 * 100% = 99,92% 
 ```
 
 ---
