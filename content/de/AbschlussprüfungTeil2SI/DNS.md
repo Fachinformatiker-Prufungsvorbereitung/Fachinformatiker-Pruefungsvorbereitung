@@ -109,7 +109,7 @@ Die meisten DNS-Server sind selbst keine autoritativen Server sondern nur [Resol
 ### DNS-Spoofing
 DNS-Spoofing ist eine Methode, bei der Angreifer die DNS-Server manipulieren, um Benutzer auf gefälschte Websites umzuleiten und sensible Informationen zu stehlen. 
 DNS-Spoofing funktioniert, indem der Angreifer die DNS-Server, auf die das Opfer zugreift, manipuliert. Der Angreifer kann beispielsweise eine gefälschte DNS-Server-Adresse an das Opfer senden, indem er eine DNS-Response-Paket fälscht. Dieses gefälschte DNS-Response-Paket kann dann an das Opfer weitergeleitet werden, wodurch es auf eine gefälschte Website umgeleitet wird, anstatt auf die tatsächliche Website.
-
+PTR-Records sind besonders wichtig für E-Mail-Server, da viele E-Mail-Provider die Rückwärtsauflösung von DNS verwenden, um die Authentizität von E-Mail-Servern zu überprüfen. Wenn der PTR-Record fehlerhaft oder nicht vorhanden ist, kann dies zu Problemen bei der Zustellung von E-Mails führen. Wenn beispielsweise eine E-Mail von einem Server gesendet wird, dessen PTR-Record nicht aufgelöst werden kann, kann dies dazu führen, dass die E-Mail als Spam markiert wird oder sogar abgelehnt wird. 
 
 
 ### DNSSEC
