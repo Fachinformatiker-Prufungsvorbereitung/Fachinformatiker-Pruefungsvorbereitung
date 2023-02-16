@@ -124,7 +124,7 @@ Hinweis: Die Verfügbarkeit kann mit folgender Formel berechnet werden:
 
 ##### Lösung
 ###### a) 
-Die Haltedauer der USV-Anlage kann mit der Formel `*Haltedauer = Batteriekapazität / Leistung*` berechnet werden.
+Die Haltedauer der USV-Anlage kann mit der Formel `Haltedauer = Batteriekapazität / Leistung` berechnet werden.
 ```txt
 Haltedauer = 6 kWh / 20 kVA = 0,3 Stunden = 18 Minuten 
 ```
