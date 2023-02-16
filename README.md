@@ -34,7 +34,7 @@ Dies ist ein Hugo Projekt in dem durch Markdown files eine Prüfungsvorbereitung
 <!-- ABOUT THE PROJECT -->
 ## About The Project 🗺️
 
-Ich habe, zur Vorbereitung auf die Zwischenprüfung, mir damals ein paar Notizen gemacht. Diese Markdown Dateien werden jetzt unter <https://fachinformatiker-prüfungsvorbereitung.de>, mithilfe von Hugo, als Website gebaut. Momentan wird das Theme Docsy verwendet. Dies gibt der Seite einen dokumentationsartigen Look. Ich würde mich darüber freuen, wenn ein paar von euch das Projekt benutzen, erweitern oder verbessern werden. Das ist ganz einfach und erfordert lediglich Markdown Kenntnisse, die in der Programmierung ja sowieso weit verbreitet sind. Ich selber mache zwar die Ausbildung zum Fachinformatiker Anwendungsentwicklung, aber wenn ein Systemintegratör für Teil 2 der Prüfung Informationen aufschreiben will: Gern!
+Ich habe, zur Vorbereitung auf die Zwischenprüfung, mir damals ein paar Notizen gemacht. Diese Markdown Dateien werden jetzt unter <https://fachinformatiker-prüfungsvorbereitung.de>, mithilfe von Hugo, als Website gebaut. Momentan wird das Theme Docsy verwendet. Dies gibt der Seite einen dokumentationsartigen Look. Ich würde mich darüber freuen, wenn ein paar von euch das Projekt benutzen, erweitern oder verbessern werden. Das ist ganz einfach und erfordert lediglich Markdown Kenntnisse, die in der Programmierung ja sowieso weit verbreitet sind. Ich selber mache zwar die Ausbildung zum Fachinformatiker Anwendungsentwicklung, aber wenn ein Systemintegrator für Teil 2 der Prüfung Informationen aufschreiben will: Gern!
 
 <br>
 
