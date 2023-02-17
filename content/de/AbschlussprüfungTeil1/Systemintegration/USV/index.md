@@ -118,9 +118,6 @@ b) Wie verändert sich die Haltedauer der USV-Anlage, wenn ein Rack ausgeschalte
 
 c) Die Wartungshistorie der USV-Anlage zeigt, dass in den letzten 365 Tagen vier Störungen aufgetreten sind, die jeweils zu einem Ausfall der USV-Anlage geführt haben. Die Ausfallzeiten betrugen 2 Stunden, 4 Stunden, 6 Stunden und 8 Stunden. Berechnen Sie die Verfügbarkeit der USV-Anlage in diesem Zeitraum.
 
-Hinweis: Die Verfügbarkeit kann mit folgender Formel berechnet werden:
-
-`Verfügbarkeit = (Gesamtzeit - Ausfallzeit) / Gesamtzeit * 100%`
 
 ##### Lösung
 ###### a) 
