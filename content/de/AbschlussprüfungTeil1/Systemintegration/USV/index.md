@@ -123,7 +123,7 @@ c) Die Wartungshistorie der USV-Anlage zeigt, dass in den letzten 365 Tagen vier
 ###### a) 
 Die Haltedauer der USV-Anlage kann mit der Formel `Haltedauer = Batteriekapazität / Leistung` berechnet werden.
 ```txt
-Haltedauer = 6 kWh / 11 kW = 0,3 Stunden = 32 Minuten 
+Haltedauer = 6 kWh / 11 kW = 0,54 Stunden = 32 Minuten 
 ```
 
 ###### b) 
@@ -139,7 +139,7 @@ Die Verfügbarkeit der USV-Anlage kann mit der Formel `Verfügbarkeit = (Gesamtz
 
 Daraus ergibt sich:
 ```txt
-Verfügbarkeit = (8760 - 10) / 8760 * 100% = 99,77% 
+Verfügbarkeit = (8760 - 10) / 8760 * 100% = 99,88% 
 ```
 
 ---
