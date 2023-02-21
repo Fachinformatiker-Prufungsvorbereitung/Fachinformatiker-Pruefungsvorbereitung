@@ -13,5 +13,7 @@ im folgenden sind einige Beispiele zu Projektanträgen, Dokumentationen und den 
 ### Erstellen eines Shopware6-Plug-Ins für den Import von Produkten und Kategorien über RabbitMQ
 
 [Genemigter Antrag](/projektae/beispielprojekte/shopware6-amqp/antrag.pdf)
+
 [Projektdokumentation (98/100)](/projektae/beispielprojekte/shopware6-amqp/dokumentation.pdf)
+
 [Projektpräsentation (100/100)](/projektae/beispielprojekte/shopware6-amqp/präsentation.pptx)
