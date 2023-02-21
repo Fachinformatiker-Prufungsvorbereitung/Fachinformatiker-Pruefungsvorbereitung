@@ -104,7 +104,7 @@ Es gibt bereits mehrere Vorlagen. Ich nenne hier beispielhaft die Word und LaTex
 
 ## Beispielprojekte
 
-Auf [dieser](https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/) Seite sind einige Projektdokumentationen aufgelistet. Diese können zur Orientierung und Inspiration sehr nützlich sein. Es schadet nicht wenn man sich die ein oder andere durchliest.
+Beispiele für Projekte findet ihr [hier](/projektae/beispiele) oder auf [dieser Seite](https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/). Diese können zur Orientierung und Inspiration sehr nützlich sein. Es schadet nicht wenn man sich die ein oder andere durchliest.
 
 ## FAQ 💬
 
