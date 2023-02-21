@@ -10,8 +10,7 @@ description: "Beispieldokumente zum Projekt"
 ## Beispiele
 im folgenden sind einige Beispiele zu Projektanträgen, Dokumentationen und den zugehörigen Präsenttationen zu finden.
 
-### Erstellen eines Shopware6-Plug-Ins für den Import von Produkten und
-Kategorien über RabbitMQ
+### Erstellen eines Shopware6-Plug-Ins für den Import von Produkten und Kategorien über RabbitMQ
 
 [Genemigter Antrag](/projektae/beispielprojekte/shopware6-amqp/antrag.pdf)
 [Projektdokumentation (98/100)](/projektae/beispielprojekte/shopware6-amqp/dokumentation.pdf)
