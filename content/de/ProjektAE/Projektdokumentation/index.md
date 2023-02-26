@@ -116,6 +116,10 @@ Wie viele Seiten soll eine Projektdokumentation haben?
 
 - Die Antwort kommt auf die IHK an. Je nachdem bei welcher IHK gibt es andere Vorgaben. Als einen Richtwert kann man aber sagen: Ungefähr 15 Seiten reiner Fließtext plus alle Anhänge, Diagramme, Code Beispiele, ...
 
+## Beispiele
+
+[Shopware6-amqp - 98%](./Shopware6-amqp.pdf)  
+
 ## Links 🔗
 
 [Kriterien für die Bewertung der Projektdokumentation](https://it-berufe-podcast.de/kriterien-fuer-die-bewertung-der-projektdokumentation/)  

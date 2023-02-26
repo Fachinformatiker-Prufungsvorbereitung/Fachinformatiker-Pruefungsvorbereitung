@@ -56,6 +56,10 @@ Welche Präsentationsmittel werden von deinem Unternehmen bereitgestellt. List h
 - Text muss in einer neutralen Sprachweise geschrieben werden (Keine ICH-Schreibweise)
 - Gebe an welche Artefakte erstellt werden. Beispiele: UML, ERM, Ablaufpläne...
 
+## Beispiele
+
+[Shopware6-amqp - Genehmigt](./Shopware6-amqp.pdf)  
+
 ## Links
 
 [Beispiel für einen ausführlichen Projektantrag](https://it-berufe-podcast.de/beispiel-fuer-einen-ausfuehrlichen-projektantrag-zum-abschlussprojekt/)  
