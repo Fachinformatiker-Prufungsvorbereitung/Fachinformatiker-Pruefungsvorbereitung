@@ -12,7 +12,7 @@ description: "Mit dem Ratendarlehen und der dazugehörigen Formel kann berechnet
 
     Annuität = Zinsen + Tilgung
 
-    Schuld am Ende = Schuld Anfang - Annuität
+    Schuld am Ende = Schuld Anfang - Tilgung
 
 ## Beispiel
 
