@@ -37,7 +37,7 @@ Die Fachinformatiker Prüfungsvorbereitungs Seite wird auf Basis eines Nginx Con
 
 ### Kubernetes 🛞
 
-Hier gilt das gleiche wie auch schon bei Docker: Ich übernehme dieses Gebiet komplette, aber wenn jemand tatsächliche Verbesserungsvorschläge hat, kann er diese natürlich gerne anbringen und auch umsetzen.  
+Hier gilt das gleiche wie auch schon bei Docker: Ich übernehme dieses Gebiet komplett, aber wenn jemand tatsächliche Verbesserungsvorschläge hat, kann er diese natürlich gerne anbringen und auch umsetzen.  
 Um die Seite auch richtig zu veröffentlichen, wird mithilfe eines Kubernetes Deployments die Seite in mein Cluster gepublished. Dieses Cluster wird von mir selbst verwaltet. Das Deployment erfolgt automatisch über eine GitHub Actions Pipeline.
 
 ## Contributing ✨
