@@ -139,7 +139,7 @@ Die Verfügbarkeit der USV-Anlage kann mit der Formel `Verfügbarkeit = (Gesamtz
 
 Daraus ergibt sich:
 ```txt
-Verfügbarkeit = (8760 - 10) / 8760 * 100% = 99,88% 
+Verfügbarkeit = (8760 - 20) / 8760 * 100% = 99,78% 
 ```
 
 ---
