@@ -19,7 +19,7 @@ Außer das Aufteilen einer App in die folgenden Komponenten definiert dies Patte
 
 #### Modell
 
-Das Modell ist die Zentrale Komponente des Patterns. Es ist die unter Umständen dynamische Datenstruktur dein App. Es ist unabhängig vom User-Interface.
+Das Modell ist die Zentrale Komponente des Patterns. Es ist die unter Umständen dynamische Datenstruktur der App. Es ist unabhängig vom User-Interface.
 
 #### View 🌄
 
