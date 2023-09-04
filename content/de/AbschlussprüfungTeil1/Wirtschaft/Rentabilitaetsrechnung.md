@@ -7,7 +7,7 @@ description: "Mit der Rentabilitätsrechnung kann errechnet werden was der Zinss
 ---
 
 - Mit der Rentabilitätsrechnung kann errechnet werden was der "Zinssatz" für sein eingesetztes Geld ist
-- Das is die Rendite
+- Das ist die Rendite
 - Die Rendite kann dann mit den Zinsen der Bank verglichen werden
 - Hierbei stellt sich heraus ob sich das ganze gelohnt hat oder man sein Geld nicht doch lieber auf dem Konto liegen lassen hätte sollen
 
