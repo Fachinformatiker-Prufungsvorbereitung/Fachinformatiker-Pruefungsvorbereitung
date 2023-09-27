@@ -1,7 +1,7 @@
-module github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung
+module github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung
 
 go 1.12
 
 require (
-	github.com/LNA-DEV/PrivateDocsy v0.0.15
+	github.com/Fedodo/Fedodo.Docs.Theme v0.0.19
 )
