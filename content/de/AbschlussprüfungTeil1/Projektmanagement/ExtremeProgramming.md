@@ -26,11 +26,11 @@ description: "Extreme Programming ist ein Projektmanagement-Modell welches die P
 
 ## Pair Programming
 
-Beim Pair Programing arbeiten zwei Programmier an einem PC. Einer der beiden coded und der andere überlegt sich Konzepte und weist auf Umständlichkeiten im Code bzw allgemein Verbesserungsvorschläge hin. Eine Erweiterung hierz ist Mob Programming wobei mehr als zwei Programmierer zusammen an einem Stück Code arbeiten.
+Beim Pair Programing arbeiten zwei Programmierer an einem PC. Einer der beiden coded und der andere überlegt sich Konzepte und weist auf Umständlichkeiten im Code bzw allgemein Verbesserungsvorschläge hin. Eine Erweiterung hierzu ist Mob Programming wobei mehr als zwei Programmierer zusammen an einem Stück Code arbeiten.
 
 ## Continuous Integration
 
-Das Programm wird nach beendigung des Taskes mit in das gesamte Projekt integriert. Und das meist mehrere Male am Tag(Immer wenn ein Task beendet wird). Hier helfen Tools wie Azure Pipelines oder GitHub Actions.
+Das Programm wird nach Beendigung des Taskes mit in das gesamte Projekt integriert. Und das meist mehrere Male am Tag(Immer wenn ein Task beendet wird). Hier helfen Tools wie Azure Pipelines oder GitHub Actions.
 
 ## Erklärungsvideo 📹
 
