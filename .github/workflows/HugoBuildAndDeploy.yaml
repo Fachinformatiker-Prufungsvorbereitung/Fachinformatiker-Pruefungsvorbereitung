@@ -41,7 +41,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build the Docker image
-        run: docker build . --file ./${{ env.NAME }}/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:${{ github.run_number }}
+        run: docker build . --file ./${{ env.NAME }}/deployment/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:${{ github.run_number }}
 
       - name: Push the image to dockerhub
         run: docker push lnadev/${{ env.CONTAINER-NAME }}:${{ github.run_number }}
@@ -76,7 +76,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build the Docker image
-        run: docker build . --file ./${{ env.NAME }}/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:latest
+        run: docker build . --file ./${{ env.NAME }}/deployment/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:latest
 
       - name: Push the image to dockerhub
         run: docker push lnadev/${{ env.CONTAINER-NAME }}:latest
@@ -105,4 +105,4 @@ jobs:
           regex: false
 
       # Deploy Kubernetes YAML
-      - run: kubectl apply -f ./Kubernetes/Fachinformatiker-Prüfungsvorbereitung.yaml --kubeconfig ${{ steps.write_file.outputs.filePath }}
+      - run: kubectl apply -f ./deployment/Fachinformatiker-Prüfungsvorbereitung.yaml --kubeconfig ${{ steps.write_file.outputs.filePath }}
