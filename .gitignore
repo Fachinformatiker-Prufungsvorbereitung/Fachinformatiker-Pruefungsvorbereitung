@@ -1,5 +1,5 @@
 *node_modules
-.vscode
+.idea
 
 # Generated files by hugo
 /public/

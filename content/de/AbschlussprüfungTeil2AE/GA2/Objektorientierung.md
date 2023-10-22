@@ -7,25 +7,44 @@ description: "Die Objektorientierung ist eine Programmierungstechnik mit bestimm
 weight: 1
 ---
 
-⚠️Achtung⚠️ nicht alle Programmiersprachen weisen dies Konzepte auf! (Zum Beispiel: Funktionale Programmiersprachen)
+⚠️Achtung⚠️ nicht alle Programmiersprachen weisen dieses Paradigma auf! (Zum Beispiel: Funktionale Programmiersprachen)
 
 ## Unterschied zwischen Objekt / Instanz und Klasse 📘
 
 ### Klasse 📘
 
-Die Klasse ist ein Bauplan. In diesem Bauplan werden Methoden, Funktionen und Parameter festgelegt.
+Eine Klasse ist ein Bauplan. In diesem Bauplan werden Methoden, Funktionen und Attribute festgelegt.
 
 ### Objekt / Instanz  🚗
 
-Das Objekt wird aus der Klasse erschaffen quasi nach dem Bauplan gebaut. Dies ist **in der Objektorientierung** der Baustein der Daten und Funktionalitäten dann tatsächlich auch ausführt bzw. trägt.
+Ein Objekt wird aus einer Klasse erschaffen quasi nach dem Bauplan gebaut. Dies ist **in der Objektorientierung** der Baustein der Daten und Funktionalitäten dann tatsächlich auch ausführt bzw. trägt.
 
 ## Kapselung 💊
 
-Die in den Objekten enthaltenen Methoden / Funktionen und Attribute werden gekapselt. So wird der Zugriff auf diese eingeschränkt. Dies passiert durch sogenannte Zugriffsbeschrenkungen (public, private). So kann sichergestellt werden das dass Objekt immer in einem so korrekten Zustand ist. Außerdem werden so ungewollte Fehler vermieden. Der interne Code wird quasi abgeschottet und der Zugriff darauf erfolgt nur über darauf ausgelegte Schnittstellen.
+Die in den Objekten enthaltenen Methoden, Funktionen und Attribute werden gekapselt. So wird der Zugriff auf diese eingeschränkt. Dies passiert durch sogenannte Zugriffsbeschränkungen (public, private). So kann sichergestellt werden, dass das Objekt immer in einem korrekten Zustand ist. Außerdem werden so ungewollte Fehler vermieden. Der interne Code wird quasi abgeschottet und der Zugriff darauf erfolgt nur über darauf ausgelegte Schnittstellen.
+
+### Beispiel
+
+```csharp
+public class Pen
+{
+    private bool _canStillWrite;
+
+    public bool GetCanStillWrite()            // Public: Alle dürfen den Wert von "_canStillWrite" abfragen
+    {
+        return _canStillWrite;
+    }
+    
+    private void SetCanStillWrite(bool value) // Privat: Nur innerhalb dieser Klasse darf der Wert gesetzt werden
+    {
+        _canStillWrite = value;
+    }
+}
+```
 
 ## Vererbung 🔗
 
-Bei der Vererbung können Eigenschaften und Methoden / Funktionen zwischen Klassen hierarchisch ausgetauscht und ergänzt werden. Das bedeutet wenn eine Klasse von einer Basisklasse erbt dann übernimmt die Klasse alle Eigenschaften der Basisklasse. Die abgeleitete Klasse davon hat dann Zugriff auf diese Eigenschaften und Methoden / Funktionen der Basisklasse. Sie hat diese geerbt. Die erbende Klasse kann auch Subklasse genannt werden.
+Bei der Vererbung können Attribute und Methoden zwischen Klassen hierarchisch ausgetauscht und ergänzt werden. Das bedeutet wenn eine Klasse von einer Basisklasse erbt dann übernimmt die Klasse alle Attribute sowie Methoden der Basisklasse. Sie hat diese geerbt. Die erbende Klasse kann auch Subklasse genannt werden.
 
 ## Polymorphie
 

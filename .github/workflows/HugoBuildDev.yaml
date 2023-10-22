@@ -58,7 +58,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build the Docker image
-        run: docker build . --file ./${{ env.NAME }}/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:dev
+        run: docker build . --file ./${{ env.NAME }}/deployment/Dockerfile --tag lnadev/${{ env.CONTAINER-NAME }}:dev
 
       - name: Push the image to dockerhub
         run: docker push lnadev/${{ env.CONTAINER-NAME }}:dev
