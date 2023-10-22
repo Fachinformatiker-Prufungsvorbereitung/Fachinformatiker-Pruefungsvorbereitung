@@ -21,7 +21,7 @@ Ein Objekt wird aus einer Klasse erschaffen quasi nach dem Bauplan gebaut. Dies 
 
 ## Kapselung 💊
 
-Die in den Objekten enthaltenen Methoden, Funktionen und Attribute werden gekapselt. So wird der Zugriff auf diese eingeschränkt. Dies passiert durch sogenannte Zugriffsbeschrenkungen (public, private). So kann sichergestellt werden, dass das Objekt immer in einem korrekten Zustand ist. Außerdem werden so ungewollte Fehler vermieden. Der interne Code wird quasi abgeschottet und der Zugriff darauf erfolgt nur über darauf ausgelegte Schnittstellen.
+Die in den Objekten enthaltenen Methoden, Funktionen und Attribute werden gekapselt. So wird der Zugriff auf diese eingeschränkt. Dies passiert durch sogenannte Zugriffsbeschränkungen (public, private). So kann sichergestellt werden, dass das Objekt immer in einem korrekten Zustand ist. Außerdem werden so ungewollte Fehler vermieden. Der interne Code wird quasi abgeschottet und der Zugriff darauf erfolgt nur über darauf ausgelegte Schnittstellen.
 
 ### Beispiel
 
