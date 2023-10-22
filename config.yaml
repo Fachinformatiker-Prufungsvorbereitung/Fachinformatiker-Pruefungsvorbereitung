@@ -33,9 +33,6 @@ params:
       - name: "GitHub"
         url: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
         icon: "fab fa-github"
-      - name: "Fachinformatiker.de Post"
-        url: "https://www.fachinformatiker.de/topic/171869-pr%C3%BCfungsvorbereitungs-zusammenfassungs-projekt-auf-github/"
-        icon: "fa fa-handshake"
       - name: "Impressum"
         url: "https://lna-dev.net/LegalDetails"
         icon: "fa fa-gavel"
@@ -85,10 +82,6 @@ enableMissingTranslationPlaceholders: true
 # Menu
 menu:
   main:
-    - name: "Sponsor"
-      url: "https://github.com/sponsors/LNA-DEV"
-      weight: 100
-      pre: <i class="fa fa-credit-card"></i>
     - name: GitHub
       weight: 50
       url: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
