@@ -13,6 +13,7 @@ description: "Rechtsformen bestimmen Grundlegende Eigenschaften eines Unternehme
 | Eingetragener Kaufmann                | e.K.         |
 | Offene Handelsgesellschaft            | OHG          |
 | Kommanditgesellschaft                 | KG           |
+| Unternehmergesellschaft               | UG           |
 | Gesellschaft mit beschränkter Haftung | GmbH         |
 | Aktiengesellschaft                    | AG           |
 
@@ -24,6 +25,7 @@ description: "Rechtsformen bestimmen Grundlegende Eigenschaften eines Unternehme
 
 ## Kapitalgesellschaften 💰
 
+- UG (haftungsbeschränkt)
 - GmbH
 - AG
 
