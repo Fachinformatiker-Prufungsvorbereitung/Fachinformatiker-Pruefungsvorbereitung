@@ -33,12 +33,8 @@ params:
       - name: "GitHub"
         url: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
         icon: "fab fa-github"
-      - name: "Impressum"
-        url: "https://lna-dev.net/LegalDetails"
-        icon: "fa fa-gavel"
   description: "Fachinformatiker Prüfungsvorbereitung ist eine Seite zur Prüfungsvorbereitung. Mit dieser Seite kannst du dich einfach auf die Fachinformatiker Prüfung vorbereiten."
   copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
-  privacy_policy: "https://lna-dev.net/PrivacyPolicy/"
   ui:
     readingTime:
       enable: true
