@@ -43,3 +43,18 @@ Um die Seite auch richtig zu veröffentlichen, wird mithilfe eines Kubernetes De
 ## Contributing ✨
 
 Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möchtest, dann lese dir die [Contributing-Guidelines](https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/blob/main/CONTRIBUTING.md) genauer durch ✨
+
+### Contributors
+
+- [Lukas Nagel](https://lna-dev.net)
+- [acul009](https://github.com/acul009)
+- [Daniel Karamyshev](https://github.com/danielkaramyshev)
+- [redinsch](https://github.com/redinsch)
+- [Björn Holtappels](https://github.com/Meadril)
+- [jolohrma](https://github.com/jolohrma)
+- [centenmann](https://github.com/centenmann)
+- [AlmightyLks](https://almightylks.github.io/Portfolio/)
+- [Zosmack](https://github.com/Zosmack)
+- [Moritz Held](https://github.com/MoritzHeld)
+- [TDelecat](https://github.com/TDelecat)
+- [Francesco](https://github.com/FrancescoCode1)
