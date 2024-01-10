@@ -82,6 +82,10 @@ menu:
       weight: 50
       url: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
       pre: <i class="fab fa-github"></i>
+    - name: News
+      weight: 20
+      url: https://lna-dev.net/de/tags/fachinformatiker-pr%C3%BCfungsvorbereitung/
+      pre: <i class="fa fa-newspaper"></i>
 
 # Outputs
 outputs:
