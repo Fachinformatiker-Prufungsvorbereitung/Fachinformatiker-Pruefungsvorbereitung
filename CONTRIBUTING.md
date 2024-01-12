@@ -12,7 +12,7 @@
 
 ## Contribute mit Hugo-Installation (Empfohlen)
 
-Wenn du deine Änderungen life im Browser sehen möchtest und alle verfügbaren Tools benutzen möchtest, ist dies die richtige Wahl für dich.
+Wenn du deine Änderungen live im Browser sehen möchtest und alle verfügbaren Tools benutzen möchtest, ist dies die richtige Wahl für dich.
 
 1. [Installiere Hugo](https://gohugo.io/getting-started/installing/)
 2. Führe `npm install -D autoprefixer` im Projekt aus
