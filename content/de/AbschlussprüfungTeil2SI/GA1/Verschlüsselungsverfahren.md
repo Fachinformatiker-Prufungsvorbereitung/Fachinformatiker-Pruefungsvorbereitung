@@ -4,7 +4,7 @@ date:
 draft: false
 type: docs
 weight: 3
-description: ""
+description: "Verschlüsselungsverfahren sind Verfahren, die einen Klartext in einen Geheimtext umwandeln (Verschlüsselung) und umgekehrt den Geheimtext in Klartext rückwandeln (Entschlüsselung)."
 ---
 
 ## symmetrische Verschlüsselung
@@ -24,6 +24,17 @@ Sender und Empfänger verwenden unterschiedliche Schlüssel. Der Sender verschl�
 | + Für unendlich viele Kommunikationspartner wird nur ein Schlüsselpaar benötigt | - Es werden zwei Schlüssel benötigt
 
 Ein bekanntes Beispiel für die asymmetrische Verschlüsselung ist das Programm PrettyGoodPrivacy (PGP).
+
+## Verschlüsselungsalgorithmen
+
+### DES (Data Encryption Standard)
+DES ist ein symmetrischer Verschlüsselungsalgorithmus, der in den 1970er Jahren entwickelt wurde. Er verwendet ein 56-Bit-Schlüssel und ist heutzutage nicht mehr als sicher angesehen.
+
+### AES (Advanced Encryption Standard)
+AES ist ein symmetrischer Verschlüsselungsalgorithmus, der 2001 als Nachfolger von DES eingeführt wurde. Er verwendet Schlüssellängen von 128, 192 oder 256 Bit und ist derzeit einer der sichersten Verschlüsselungsalgorithmen.
+
+### RSA (Rivest-Shamir-Adleman)
+RSA ist ein asymmetrischer Verschlüsselungsalgorithmus, der 1977 entwickelt wurde. Er verwendet ein Schlüsselpaar, bestehend aus einem Public- und einem Private-Key.
 
 ## digitale Zertifikate
 
