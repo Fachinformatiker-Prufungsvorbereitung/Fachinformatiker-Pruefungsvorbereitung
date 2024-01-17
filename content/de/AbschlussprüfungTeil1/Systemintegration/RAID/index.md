@@ -62,6 +62,9 @@ description: "RAID oder Redundant array of independent disks dient der Ausfallsi
 ![RAID 10 Image](./RAID_10.svg)  
 [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:RAID_10.svg)
 
+## Hot-spare-Festplatten
+Eine Hot-spare-Festplatte ist eine nicht genutzte Festplatte in einem RAID-System. Falls eine Festplatte im RAID-System ausfällt, übernimmt die Hot-spare-Festplatte im laufenden Betrieb die Rolle der defekten Festplatte.
+
 ## Erklärungsvideos 📹
 
 ### RAID 0,1,5 erklärt
