@@ -7,7 +7,7 @@ weight: 1
 description: "Ziel der Anforderungsanalyse ist es, die Anforderungen des Auftraggebers an das zu entwickelnde System zu ermitteln, zu strukturieren und zu prüfen."
 ---
 
-Anforderungen werden textlich oder in Modedellen dokumentiert und gesammelt. Durch eine Analyse wird ein gewisses Verständnis für diese Anforderungen hergestellt. Anschließen findet ein Überprüfungsprozess statt. In diesem Prozess wird überprüft ob die Anforderung so noch stimmig sind. All diese Schritte laufen in einem Verwaltung und Management Prozess ab.
+Anforderungen werden textlich oder in Modellen dokumentiert und gesammelt. Durch eine Analyse wird ein gewisses Verständnis für diese Anforderungen hergestellt. Anschließen findet ein Überprüfungsprozess statt. In diesem Prozess wird überprüft ob die Anforderung so noch stimmig sind. All diese Schritte laufen in einem Verwaltung und Management Prozess ab.
 
 ## Links 🔗
 
