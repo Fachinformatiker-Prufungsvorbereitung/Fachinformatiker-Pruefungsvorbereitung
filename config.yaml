@@ -6,67 +6,7 @@ enableGitInfo: true
 # Modules
 module:
   imports:
-    - path: github.com/Fedodo/Fedodo.Docs.Theme
-    - path: github.com/google/docsy/dependencies
-
-# Content
-pygmentsCodeFences: true
-pygmentsUseClasses: false
-pygmentsUseClassic: false
-pygmentsStyle: tango
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    style: tango
-
-params:
-  features:
-    analytics:
-      enabled: true
-      goatCounter:
-        code: fipv
-  links:
-    user:
-      - name: "GitHub"
-        url: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
-        icon: "fab fa-github"
-  description: "Fachinformatiker Prüfungsvorbereitung ist eine Seite zur Prüfungsvorbereitung. Mit dieser Seite kannst du dich einfach auf die Fachinformatiker Prüfung vorbereiten."
-  copyright: "The Fachinformatiker-Prüfungsvorbereitung Authors"
-  ui:
-    readingTime:
-      enable: true
-
-  offlineSearch: true
-  algolia_docsearch: false
-  offlineSearchSummaryLength: 70
-  offlineSearchMaxResults: 10
-  prism_syntax_highlighting: false
-
-  # GitHub
-  github_repo: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
-  github_project_repo: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
-  github_branch: "dev"
-
-  mermaid:
-    enable: false
-    theme: default
-  plantuml:
-    enable: false
-    theme: default
-    svg_image_url: https://www.plantuml.com/plantuml/svg/
-    svg: false
-  katex:
-    enable: false
-    html_dom_element: document.body
-    mhchem:
-      enable: true
-  print:
-    disable_toc: false
-  markmap:
-    enable: false
+    - path: github.com/imfing/hextra
 
 # Language
 languageCode: de
@@ -75,17 +15,35 @@ defaultContentLanguageInSubdir: false
 contentDir: "content/de"
 enableMissingTranslationPlaceholders: true
 
+params:
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  editURL:
+    enable: true
+    base: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung/edit/main/content"
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
 # Menu
 menu:
   main:
-    - name: GitHub
-      weight: 50
-      url: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
-      pre: <i class="fab fa-github"></i>
-    - name: News
+    - name: Search
+      params:
+        type: search
       weight: 20
+    - name: GitHub
+      weight: 70
+      url: "https://github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefungsvorbereitung"
+      params:
+        icon: github
+    - name: News
+      weight: 50
       url: https://lna-dev.net/de/tags/fachinformatiker-pr%C3%BCfungsvorbereitung/
-      pre: <i class="fa fa-newspaper"></i>
+      params:
+        icon: newspaper
 
 # Outputs
 outputs:
@@ -102,27 +60,7 @@ sitemap:
 
 enableRobotsTXT: true
 
-# Privacy
-
 privacy:
-  # disqus:
-  #   disable: false
-  # googleAnalytics:
-  #   anonymizeIP: false
-  #   disable: false
-  #   respectDoNotTrack: false
-  #   useSessionStorage: false
-  # instagram:
-  #   disable: false
-  #   simple: false
-  # twitter:
-  #   disable: false
-  #   enableDNT: false
-  #   simple: false
-  # vimeo:
-  #   disable: false
-  #   enableDNT: false
-  #   simple: false
   youtube:
     disable: false
     privacyEnhanced: true
