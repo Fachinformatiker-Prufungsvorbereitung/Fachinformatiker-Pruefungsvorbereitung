@@ -2,6 +2,4 @@ module github.com/Fachinformatiker-Prufungsvorbereitung/Fachinformatiker-Pruefun
 
 go 1.12
 
-require (
-	github.com/Fedodo/Fedodo.Docs.Theme v0.0.19
-)
+require github.com/imfing/hextra v0.7.3 // indirect
