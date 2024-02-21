@@ -8,7 +8,9 @@ description: "Die Amortisationsrechnung berechnet wann sich eine Anschaffung gel
 
 ## Rechnung
 
-    Amortisationsdauer = Anschaffungskosten / Gewinn
+```
+Amortisationsdauer = Anschaffungskosten / Gewinn
+```
 
 ## Erklärungsvideos
 

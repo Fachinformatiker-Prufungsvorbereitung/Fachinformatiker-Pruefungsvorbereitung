@@ -6,7 +6,7 @@ type: docs
 description: "Return of Investment kurz ROI ist die Rechnung um die Höhe des Kapitalrückflusses ins Unternehmen zu bestimmen."
 ---
 
-- Betriebstwirtschaftliche Kennzahl
+- Betriebswirtschaftliche Kennzahl
 - Höhe des Kapitalrückflusses einer Investition
 - Nützlich zur Beurteilung einer Investition
 
@@ -14,7 +14,9 @@ description: "Return of Investment kurz ROI ist die Rechnung um die Höhe des Ka
 
 *In der Prüfung(20W) wurde nicht nach der Formel verlangt*  
 
-    ROI = Umsatzrendite * Kapitalumschlag
+```
+ROI = Umsatzrendite * Kapitalumschlag
+```
 
 ## Erklärungsvideo
 
