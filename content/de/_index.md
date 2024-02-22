@@ -59,3 +59,5 @@ Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möc
 - [TDelecat](https://github.com/TDelecat)
 - [Francesco](https://github.com/FrancescoCode1)
 - [kevgetz](https://github.com/kevgetz)
+- [Leon Seemann](https://github.com/leonseemann)
+- [sherm](https://github.com/snowysherm)
