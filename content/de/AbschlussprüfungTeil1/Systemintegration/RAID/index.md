@@ -64,9 +64,9 @@ description: "RAID oder Redundant array of independent disks dient der Ausfallsi
 
 ## Erklärungsvideos 📹
 
-### RAID 0,1,5 erklärt
+### RAID einfach erklärt
 
-{{< youtube M5aXVXh2Jo >}}
+{{< youtube WzWUChLeGBc >}}
 
 ### RAID 6 erklärt
 
