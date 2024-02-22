@@ -5,14 +5,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![wakatime](https://wakatime.com/badge/github/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung.svg?style=for-the-badge)](https://wakatime.com/badge/github/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung?style=for-the-badge)
 [![HugoBuildAndDeploy](https://img.shields.io/github/actions/workflow/status/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/HugoBuildAndDeploy.yaml?style=for-the-badge)](https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/actions/workflows/HugoBuildAndDeploy.yaml)  
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/lna-dev/Fachinformatiker-Pruefungsvorbereitung">
-    <img src="https://fachinformatikerpruefungsvorbereitung.de/Assets/Images/Pingüino-Square.png" alt="Logo" width="80" height="80">
+    <img src="https://fachinformatikerpruefungsvorbereitung.de/favicon.svg" alt="Logo" width="80" height="80">
   </a>
 
 ### Fachinformatiker Prüfungsvorbereitung 💻
