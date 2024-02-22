@@ -58,3 +58,4 @@ Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möc
 - [Moritz Held](https://github.com/MoritzHeld)
 - [TDelecat](https://github.com/TDelecat)
 - [Francesco](https://github.com/FrancescoCode1)
+- [kevgetz](https://github.com/kevgetz)

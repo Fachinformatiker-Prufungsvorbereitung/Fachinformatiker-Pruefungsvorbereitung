@@ -8,13 +8,15 @@ description: "Mit der Bezugskalkulation wird der Bezugspreis berechnet. Dieser w
 
 ## Formel
 
-        Listeneinkaufspreis
-    -   Lieferantenrabatt
-    =   Zieleinkaufspreis
-    -   Lieferantenskonto
-    =   Bareinkaufspreis
-    +   Bezugskosten
-    =   Bezugspreis
+```
+    Listeneinkaufspreis
+-   Lieferantenrabatt
+=   Zieleinkaufspreis
+-   Lieferantenskonto
+=   Bareinkaufspreis
++   Bezugskosten
+=   Bezugspreis
+```
 
 - Rabatt abziehen
 - Skonto abziehen

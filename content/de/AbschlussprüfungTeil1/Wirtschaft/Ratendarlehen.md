@@ -6,13 +6,15 @@ type: docs
 description: "Mit dem Ratendarlehen und der dazugehörigen Formel kann berechnet werden wie Schulden abgebaut werden."
 ---
 
-    Zinsen = Schulden * Zinssatz
+```
+Zinsen = Schulden * Zinssatz
 
-    Tilgung pro Jahr = Schulden / Laufzeitlänge
+Tilgung pro Jahr = Schulden / Laufzeitlänge
 
-    Annuität = Zinsen + Tilgung
+Annuität = Zinsen + Tilgung
 
-    Schuld am Ende = Schuld Anfang - Tilgung
+Schuld am Ende = Schuld Anfang - Tilgung
+```
 
 ## Beispiel
 

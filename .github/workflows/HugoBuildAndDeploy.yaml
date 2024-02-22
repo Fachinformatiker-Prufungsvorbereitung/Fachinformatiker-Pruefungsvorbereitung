@@ -24,12 +24,6 @@ jobs:
         with:
           extended: true
 
-      # Install dependencies
-      - run: npm install -D autoprefixer
-        working-directory: ./${{ env.NAME }}/
-      - run: npm install -D postcss-cli
-        working-directory: ./${{ env.NAME }}/
-
       # Build the hugo repository
       - run: hugo
         working-directory: ./${{ env.NAME }}/
@@ -58,12 +52,6 @@ jobs:
         uses: peaceiris/actions-hugo@v2.5.0
         with:
           extended: true
-
-      # Install dependencies
-      - run: npm install -D autoprefixer
-        working-directory: ./${{ env.NAME }}/
-      - run: npm install -D postcss-cli
-        working-directory: ./${{ env.NAME }}/
 
       # Build the hugo repository
       - run: hugo

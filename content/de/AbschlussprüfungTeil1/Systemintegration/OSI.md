@@ -22,11 +22,15 @@ description: "Das OSI Modell ist ein Modell zur Veranschaulichung des Datenfluss
 
 #### Von 7 bis 1
 
-    Alle Pfarrer saufen Tequila nach der Predigt
+```
+Alle Pfarrer saufen Tequila nach der Predigt
+```
 
 #### Von 1 bis 7
 
-    Please Do Not Throw Salami Pizza Away
+```
+Please Do Not Throw Salami Pizza Away
+```
 
 ## Erklärungsvideo 📹
 

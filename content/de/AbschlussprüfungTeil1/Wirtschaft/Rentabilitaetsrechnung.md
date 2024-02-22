@@ -13,7 +13,9 @@ description: "Mit der Rentabilitätsrechnung kann errechnet werden was der Zinss
 
 ## Rechnung
 
-    Rendite = Gewinn * 100 / eingesetztes Kapital
+```
+Rendite = Gewinn * 100 / eingesetztes Kapital
+```
 
 ## Erklärungsvideo
 

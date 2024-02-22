@@ -45,7 +45,7 @@ description: "Scrum ist eine Projektmanagement Modell. Es gehört zu den agilen 
 - User Request für Dinge die in das Produkt kommen könnten
 - Hier wird zum Beispiel gesagt was für ein Typ User, der User ist, was er braucht und wofür er es braucht
 
-## Sprint Backlock
+## Sprint Backlog
 
 - Hier werden die in diesem Sprint zu erledigen PBIs abgelegt
 - Diese werden anhand von ihrer Priority ausgewählt

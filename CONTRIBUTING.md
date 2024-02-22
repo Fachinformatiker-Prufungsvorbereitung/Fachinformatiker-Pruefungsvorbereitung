@@ -15,11 +15,9 @@
 Wenn du deine Änderungen life im Browser sehen möchtest und alle verfügbaren Tools benutzen möchtest, ist dies die richtige Wahl für dich.
 
 1. [Installiere Hugo](https://gohugo.io/getting-started/installing/)
-2. Führe `npm install -D autoprefixer` im Projekt aus
-3. Führe `npm install -D postcss-cli` im Projekt aus
-4. Um die Seite im Browser zu sehen nutze `hugo serve`
-5. Ändere die Markdown Files wie im nächsten Kapitel beschrieben
-6. Wenn nötig lege eine Datei mit `hugo new <seitenName>.md`
+2. Um die Seite im Browser zu sehen nutze `hugo serve`
+3. Ändere die Markdown Files wie im nächsten Kapitel beschrieben
+4. Wenn nötig lege eine Datei mit `hugo new <seitenName>.md`
 
 ## Nur Content bearbeiten
 
