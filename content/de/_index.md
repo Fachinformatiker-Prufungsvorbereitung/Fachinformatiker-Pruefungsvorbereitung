@@ -61,3 +61,4 @@ Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möc
 - [kevgetz](https://github.com/kevgetz)
 - [Leon Seemann](https://github.com/leonseemann)
 - [sherm](https://github.com/snowysherm)
+- [Louis Trinczek](https://github.com/LouisTrinczek)
