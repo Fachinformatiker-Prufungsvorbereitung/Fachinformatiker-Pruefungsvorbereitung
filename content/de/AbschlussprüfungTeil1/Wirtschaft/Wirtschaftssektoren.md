@@ -1,6 +1,6 @@
 ---
 title: "Wirtschaftssektoren"
-date: 2022-08-24T23:02:55-06:00
+date: 2024-02-26T14:10:55
 draft: false
 type: docs
 description: "Eine Volkswirtschaft wird traditionell nach der 'Drei-Sektoren-Hypothese' aufgeteilt. Diese beinhaltet den Primärsektor, den Sekundärsektor und den Tertiärsektor."
