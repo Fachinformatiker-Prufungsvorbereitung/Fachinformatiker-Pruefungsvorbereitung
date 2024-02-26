@@ -7,23 +7,29 @@ description: "Marktformen stellen in der Volkswirtschaftslehre das Verhältnis v
 ---
 
 ## Monopol:
-- ein Anbieter bzw. ein Nachfrager
-- kein Wettbewerb
+- Ein Anbieter bzw. ein Nachfrager
+- Kein Wettbewerb
 - Monopolist beherrscht den Markt und bestimmt den Preis
 
 ## Polypol:
-- viele Anbieter, viele Nachfrager
-- starker Wettbewerb
-- keine erhöhte Machtposition für einzelne Marktteilnehmer
+- Viele Anbieter, viele Nachfrager
+- Starker Wettbewerb
+- Keine erhöhte Machtposition für einzelne Marktteilnehmer
 - Angebot und Nachfrage regeln den Preis
 
 ## Oligopol:
-- wenige Anbieter bzw. wenige Nachfrager
+- Wenige Anbieter bzw. wenige Nachfrager
 - Reaktion der Konkurrenz muss bei Preisänderungen beachtet werden
 - Gefahr illegaler Preisabsprachen (Kartellbildung)
 - Zusammenschluss von Firmen wird stark kontrolliert
 
-![Marktsituationen Tabelle](https://www.bwl-lexikon.de/app/uploads/marktformen.png)
+## Übersicht
+
+| Anbieter / Nachfrager | Viele kleiner Anbieter | Wenige mittelgroße Anbieter | Ein großer Anbieter |
+|---|---|---|---|
+| Viele Nachfrager | Vollständige Konkurenz (Zweiseitiges Polypol) | Angebotsoligopol | Angebotsmonopol |
+| Wenige Nachfrager | Nachfrageoligopol | Zweiseitiges Oligopol | Beschränktes Angebotsmonopol |
+| Ein Nachfrager | Nachfragemonopol | Beschränktes Nachfragemonopol | Zweiseitiges Monopol |
 
 ## Links
 [BWL-Lexikon](https://www.bwl-lexikon.de/wiki/marktformen/)
