@@ -5,6 +5,8 @@ draft: false
 type: docs
 weight: 10
 description: "In der Projektdokumentation wird dein Abschlussprojekt dokumentiert. Diese Dokumentation sollte sich an bestimmte Kriterien und Richtlinien halten."
+aliases:
+    - /projektae/projektdokumentation/
 ---
 
 ## Kriterien für die Bewertung der Projektdokumentation ✔️

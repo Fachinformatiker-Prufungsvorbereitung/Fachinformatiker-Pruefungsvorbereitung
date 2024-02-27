@@ -5,6 +5,8 @@ draft: false
 type: docs
 weight: 1
 description: "Der Projektantrag für den Fachinformatiker Anwendungsentwicklung hat einige Anforderungen die du für das erfolgreiche Erstellen eines Projektantrages beachten solltest."
+aliases:
+    - /projektae/projektantrag/
 ---
 
 ## Inhalt
