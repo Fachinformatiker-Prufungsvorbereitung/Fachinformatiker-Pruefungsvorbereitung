@@ -1,6 +1,5 @@
 ---
 title: "GA1 - Konzeption und Administration von IT-Systemen"
-date:
 draft: false
 type: docs
 weight: 1

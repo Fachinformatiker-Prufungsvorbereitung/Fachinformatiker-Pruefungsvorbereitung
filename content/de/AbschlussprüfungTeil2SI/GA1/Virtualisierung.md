@@ -1,6 +1,5 @@
 ---
 title: "Virtualisierung"
-date:
 draft: false
 type: docs
 weight: 6

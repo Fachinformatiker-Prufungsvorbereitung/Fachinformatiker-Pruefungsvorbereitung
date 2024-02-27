@@ -1,6 +1,5 @@
 ---
 title: "Projekt Systemintegration"
-date:
 draft: false
 type: docs
 weight: 3

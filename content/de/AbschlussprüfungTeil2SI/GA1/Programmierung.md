@@ -1,6 +1,5 @@
 ---
 title: "Programmierung"
-date:
 draft: false
 type: docs
 weight: 8

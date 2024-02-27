@@ -1,6 +1,5 @@
 ---
 title: "Cloud-Computing-Services"
-date:
 draft: false
 type: docs
 weight: 5

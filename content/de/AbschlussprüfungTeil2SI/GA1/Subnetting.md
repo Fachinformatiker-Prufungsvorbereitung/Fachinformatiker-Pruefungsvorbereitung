@@ -1,6 +1,5 @@
 ---
 title: "Subnetting"
-date:
 draft: false
 type: docs
 weight: 2

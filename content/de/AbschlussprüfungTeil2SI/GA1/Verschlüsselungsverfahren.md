@@ -1,6 +1,5 @@
 ---
 title: "Verschlüsselungsverfahren"
-date:
 draft: false
 type: docs
 weight: 3

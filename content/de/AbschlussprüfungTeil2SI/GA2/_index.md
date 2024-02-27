@@ -1,6 +1,5 @@
 ---
 title: "GA2 - Analyse und Entwicklung von Netzwerken"
-date:
 draft: false
 type: docs
 weight: 2

@@ -1,6 +1,5 @@
 ---
 title: "Linux-Befehle"
-date:
 draft: false
 type: docs
 weight: 7

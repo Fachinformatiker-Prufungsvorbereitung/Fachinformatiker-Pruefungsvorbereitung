@@ -1,6 +1,5 @@
 ---
 title: "Skalierungsmethoden"
-date:
 draft: false
 type: docs
 weight: 4
