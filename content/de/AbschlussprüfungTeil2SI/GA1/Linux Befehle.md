@@ -3,8 +3,10 @@ title: "Linux-Befehle"
 draft: false
 type: docs
 weight: 7
-description: "In der Abschlussprüfung Winter 2023 wurde die Funktionsweise des chmod Befehls abgefragt. Es gab eine Hilfestellung dafür, jedoch schadet es nicht sich trotzdem vorher damit zu befassen."
+description: "Linux Befehle zur Vorbereitung auf die Prüfung zum Fachinformatiker für Systemintegration."
 ---
+
+In der Abschlussprüfung Winter 2023 wurde die Funktionsweise des chmod Befehls abgefragt. Es gab eine Hilfestellung dafür, jedoch schadet es nicht sich trotzdem vorher damit zu befassen.
 
 ## chmod
 

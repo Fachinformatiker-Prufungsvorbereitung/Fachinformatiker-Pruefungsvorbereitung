@@ -3,8 +3,10 @@ title: "IP-Adressen"
 draft: false
 type: docs
 weight: 1
-description: "IP-Adressen sind ein numerisches Identifikationssystem für Geräte in einem Netzwerk, das es ermöglicht, dass diese miteinander kommunizieren können, sei es im Internet oder in privaten Netzwerken."
+description: "Alles was du für die Prüfungsvorbereitung zum Fachinformatiker über IP-Adressen wissen musst."
 ---
+
+IP-Adressen sind ein numerisches Identifikationssystem für Geräte in einem Netzwerk, das es ermöglicht, dass diese miteinander kommunizieren können, sei es im Internet oder in privaten Netzwerken.
 
 IP-Adressen gibt es in zwei Verschiedenen Versionen:
 
@@ -14,7 +16,7 @@ Beispiel einer IPv4-Adresse:
 192.168.1.1
 ```
 Sie sind 32 Bit groß, werden in vier 8-Bit-Blöcke unterteilt und jeder dieser Blöcke wird durch einen Punkt getrennt. Jeder einzelne Block kann einen Dezimalwert von 0-255 annehmen.
-IPv4-Adressen sind jedoch begrenzt, da aus 32 Bit nur 2<sup>32</sup> (~4 Milliarden) Adressen gebildet werden können, wegen diesem Mangel wurde die IPv6-Adresse eingeführt.
+IPv4-Adressen sind jedoch begrenzt, da aus 32 Bit nur 2³² (~4 Milliarden) Adressen gebildet werden können. Wegen diesem Mangel wurde die IPv6-Adresse eingeführt.
 
 ## IPv6-Adressen
 Beispiel einer IPv6-Adresse:
@@ -32,8 +34,7 @@ Außerdem können Sie durch die Entfernung führender Nullen in jedem Block und 
 ```
 
 ## Links
-[IPv4-Adressen - Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/net/2011211.htm)
-
+[IPv4-Adressen - Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/net/2011211.htm)  
 [IPv6-Adressen - Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/net/1902111.htm)
 
 ## Erklärvideos

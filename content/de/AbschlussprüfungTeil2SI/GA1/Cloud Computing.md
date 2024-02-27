@@ -2,7 +2,7 @@
 title: "Cloud-Computing-Services"
 type: docs
 weight: 5
-description: "Cloud Computing bedeutet, dass IT-Ressourcen wie Speicherplatz, Anwendungen oder Rechenzentren über das Internet gemietet oder bereitgestellt werden."
+description: "Cloud computing services für die Fachinformatiker Prüfungsvorbereitung."
 ---
 
 Cloud Computing bedeutet, dass IT-Ressourcen wie Speicherplatz, Anwendungen oder Rechenzentren über das Internet gemietet oder bereitgestellt werden.
@@ -25,7 +25,7 @@ PaaS ist ein Service bei dem eine Infrastruktur (virtuelle Plattform) mit entspr
 | ------------------------------------- | --------------------------------------------------- |
 | Einfache Skalierbarkeit               | Es wird eine permanente Internetverbindung benötigt |
 | Schnellere und einfachere Entwicklung | Größere Abhängigkeit vom Anbieter                   |
-| Kosteneffizienz                       | keinen Einfluss auf die Infrastruktur               |
+| Kosteneffizienz                       | Keinen Einfluss auf die Infrastruktur               |
 
 ## Software as a service (SaaS)
 
@@ -36,4 +36,4 @@ Bei SaaS wird eine bereitgestellte Software die nicht lokal installiert ist übe
 | Keine Installation auf Endgeräten notwendig         | Daten sind nicht intern (Sicherheitsgefahr)         |
 | Zugriff auf die Software von jedem Gerät möglich    | Sehr große Abhängigkeit vom Anbieter                |
 | Kosteneffizienz (Bezahlung der Software pro Nutzer) | Es wird eine permanente Internetverbindung benötigt |
-| Instandhaltung der Software durch den Anbieter      | keine Nutzung der Software bei Downtime             |
+| Instandhaltung der Software durch den Anbieter      | Keine Nutzung der Software bei Downtime             |

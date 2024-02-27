@@ -1,20 +1,22 @@
 ---
-title: "Programmierung"
+title: "Programmierung für Systemintegratöre"
 draft: false
 type: docs
 weight: 8
-description: "In den letzten Abschlussarbeiten wurden auch Programmierkenntnisse abgefragt, welche sich jedoch nur auf Grundlagen beliefen."
+description: "Alles was man an Programmierung für die Prüfung zum Fachinformatiker Systemintegration wissen muss."
 ---
+
+In den letzten Abschlussarbeiten wurden auch Programmierkenntnisse abgefragt, welche sich jedoch nur auf Grundlagen beliefen.
 
 ## Datentypen
 
-| Datentyp | Speicher
-| -------- | -------------
-| char     | ein einziges Zeichen
-| int      | Ganzzahlen
-| float    | Kommazahlen
-| double   | Kommazahlen
-| bool     | wahr/falsch
+| Datentyp | Speicher             |
+| -------- | -------------------- |
+| char     | Ein einziges Zeichen |
+| int      | Ganzzahlen           |
+| float    | Kommazahlen          |
+| double   | Kommazahlen          |
+| bool     | Wahr / Falsch        |
 
 Float und double können beide Gleitkommazahlen speichern, der einzige Unterschied hierbei ist die Speichergröße. Float kann Kommazahlen nur bis zu 32 Bit speichern während double bis zu 64 Bit speichern kann. Double kann also längere bzw. größere Gleitkommazahlen speichern.
 
@@ -22,7 +24,7 @@ Float und double können beide Gleitkommazahlen speichern, der einzige Unterschi
 
 Hiernach folgt eine einfache if-Anweisung die überprüft ob eine Bedingung eingetreten ist und daraufhin den Code innerhalb ausführt.
 
-```
+```c
 if (Bedingung)
 {
     // wenn die Bedingung eintrifft, wird der hier stehende Code ausgeführt
@@ -31,7 +33,7 @@ if (Bedingung)
 
 Tritt die Bedingung jedoch nicht auf, wird kein Code ausgeführt. Um dies zu ändern müssen wir zu unserer if-Anweisung eine else-Anweisung hinzufügen:
 
-```
+```c
 if (Bedingung)
 {
     // wenn die Bedingung eintrifft, wird der hier stehende Code ausgeführt
@@ -44,7 +46,7 @@ else
 
 if-else-Anweisungen können unendlich oft hintereinander gekettet werden, wollen wir also eine weitere Bedingung überprüfen und wenn diese eintritt einen anderen Code ausführen sieht das ganze so aus:
 
-```
+```c
 if (Bedingung1)
 {
     // wenn Bedingung1 eintrifft, wird der hier stehende Code ausgeführt
@@ -61,7 +63,7 @@ else
 
 ## Schleifen
 
-Schleifen werden in der Programmierung verwendet um einen Code zu ***wiederholen***. Es gibt drei verschiedene Arten von Schleifen:
+Schleifen werden in der Programmierung verwendet um einen Code zu **_wiederholen_**. Es gibt drei verschiedene Arten von Schleifen:
 
 ### for Schleife
 
@@ -69,8 +71,8 @@ Eine for Schleife wird genutzt, wenn man weiß wie lange sich eine Schleife wied
 
 Syntax:
 
-```
-for (Initialisierung; Bedingung; Aktualisierung) 
+```c
+for (Initialisierung; Bedingung; Aktualisierung)
 {
     // auszuführender Code
 }
@@ -79,7 +81,8 @@ for (Initialisierung; Bedingung; Aktualisierung)
 Beispiel:
 
 Hier folgt ein Beispiel für die for Schleife. Das Beispiel gibt den Text "Hello World!" zehn mal in einer Konsole aus.
-```
+
+```c
 for(int i=0; i<10; i++)
 {
     std::cout << "Hello World!" << std::endl; // "Hello World!" in der Konsole ausgeben und in die nächste Zeile gehen
@@ -92,7 +95,7 @@ Eine while Schleife wird genutzt, wenn man einen Code so lange wiederholen will,
 
 Syntax:
 
-```
+```c
 while (Bedingung)
 {
     // auszuführender Code
@@ -103,9 +106,9 @@ Beispiel:
 
 Hier folgt ein Beispiel für die while Schleife. Das Beispiel gibt die Zahlen 1 bis 10 in einer Konsole aus.
 
-```
+```c
 int i = 1;
-while (i <= 10) 
+while (i <= 10)
 {
     std::cout << i << std::endl; // Integer i in der Konsole ausgeben
     i++;                         // Integer i um eins erhöhen
@@ -118,7 +121,7 @@ Im Gegensatz zu der for- und while Schleife ist die do-while Schleife eine "Fuß
 
 Syntax:
 
-```
+```c
 do
 {
     // auszuführender Code
@@ -127,9 +130,9 @@ do
 
 Beispiel:
 
-Hier folgt ein Beispiel für die do-while Schleife. Das Beispiel gibt  die Zahlen 1 bis 10 in einer Konsole aus.
+Hier folgt ein Beispiel für die do-while Schleife. Das Beispiel gibt die Zahlen 1 bis 10 in einer Konsole aus.
 
-```
+```c
 int i = 1;
 do
 {
@@ -143,6 +146,7 @@ do
 Exceptions sind eine Möglichkeit, Fehler und andere außergewöhnliche Umstände zu behandeln, die während der Programmausführung auftreten können.
 
 Gründe für das Auftreten einer Exception könnten sein:
+
 - Teilen einer Zahl durch 0
 - Speicherzugriffsfehler
 - Dateizugriffsfehler
@@ -154,7 +158,8 @@ Gründe für das Auftreten einer Exception könnten sein:
 Pseudocode ist ein unfertiger Programmcode, der nur zur Veranschaulichung eines Algorithmus dient.
 
 Was sind die Vorteile von Pseudocode im Vergleich zu richtigem Code?
+
 - Vor dem eigentlichen Programmieren kann man seinen Code skizzieren
 - Fehler in der Logik eines Programms sind leichter zu finden
-- komplexe Algorithmen können schnell und leicht ausgedrückt werden
+- Komplexe Algorithmen können schnell und leicht ausgedrückt werden
 - Es ist eine gute Möglichkeit als Anfänger in die Programmierung einzusteigen
