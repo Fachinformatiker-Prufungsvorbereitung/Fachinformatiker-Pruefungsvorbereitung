@@ -3,8 +3,10 @@ title: "GA1 - Konzeption und Administration von IT-Systemen"
 draft: false
 type: docs
 weight: 1
-description: "Konzeption und Administration von IT-Systemen ist der erste Prüfungsteil der gestreckten Abschlussprüfung Teil 2 und macht 10% der Gesamtnote aus. Die Prüfungsdauer beträgt 90 Minuten."
+description: "Dieser Teil der Prüfungsvorbereitung für den Fachinformatiker für Systemintegration beschreibt die Konzeption und Administration von IT-Systemen."
 ---
+
+Konzeption und Administration von IT-Systemen ist der erste Prüfungsteil der gestreckten Abschlussprüfung Teil 2 und macht 10% der Gesamtnote aus. Die Prüfungsdauer beträgt 90 Minuten.
 
 In diesem Teil wird von dir verlangt, dass du in der Lage bist:
 - IT-Systeme zu planen und zu konfigurieren

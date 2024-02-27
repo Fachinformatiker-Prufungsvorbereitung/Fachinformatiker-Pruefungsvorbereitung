@@ -3,8 +3,10 @@ title: "GA2 - Analyse und Entwicklung von Netzwerken"
 draft: false
 type: docs
 weight: 2
-description: "Analyse und Entwicklung von Netzwerken ist der zweite Prüfungsteil der gestreckten Abschlussprüfung Teil 2 und macht 10% der Gesamtnote aus. Die Prüfungsdauer beträgt 90 Minuten."
+description: "Dieser Teil der Prüfungsvorbereitung für den Fachinformatiker für Systemintegration beschreibt die Entwicklung von Netzwerken."
 ---
+
+Analyse und Entwicklung von Netzwerken ist der zweite Prüfungsteil der gestreckten Abschlussprüfung Teil 2 und macht 10% der Gesamtnote aus. Die Prüfungsdauer beträgt 90 Minuten.
 
 In diesem Teil wird von dir verlangt, dass du in der Lage bist:
 - Netzwerkprotokolle anwendungsbezogen auszuwählen und einzusetzen

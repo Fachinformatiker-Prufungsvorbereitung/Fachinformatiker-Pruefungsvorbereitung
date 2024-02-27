@@ -3,7 +3,7 @@ title: "Abschlussprüfung Teil 2 - Systemintegration"
 draft: false
 type: docs
 weight: 4
-description: "Prüfungsvorbereitung für Teil 2 der gestreckten Abschlussprüfung der Fachinformatiker für Systemintegration."
+description: "Der zweite Teile der Prüfungsvorbereitung zum Fachinformatiker für Systemintegration"
 ---
 
 ## Aufbau
