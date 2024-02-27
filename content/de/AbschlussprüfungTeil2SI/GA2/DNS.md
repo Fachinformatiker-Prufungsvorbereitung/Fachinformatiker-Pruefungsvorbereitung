@@ -4,6 +4,8 @@ date: 2022-08-25T10:37:50-06:00
 draft: false
 type: docs
 description: "DNS ist Namensauflösung in IP basierten Netzwerken und Systemen."
+aliases:
+    - /abschlussprüfungteil2si/dns/
 ---
 
 [DNS](https://webdeasy.de/domain-name-system-dns-grundlagen/) ist einer der wichtigsten Dienste in IP basierten Systemen / Netzwerken. Die Aufgabe von DNS ist die Bearbeitung von Anfragen zur Namensauflösung.
