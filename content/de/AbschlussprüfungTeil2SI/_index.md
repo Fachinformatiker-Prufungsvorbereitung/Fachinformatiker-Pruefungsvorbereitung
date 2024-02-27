@@ -1,6 +1,5 @@
 ---
 title: "Abschlussprüfung Teil 2 - Systemintegration"
-date: 
 draft: false
 type: docs
 weight: 4
