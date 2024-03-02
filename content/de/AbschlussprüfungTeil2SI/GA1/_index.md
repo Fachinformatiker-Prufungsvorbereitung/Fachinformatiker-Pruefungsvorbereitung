@@ -1,5 +1,5 @@
 ---
-title: "GA1 - Konzeption und Administration von IT-Systemen"
+title: "Berufsspezifische Aufgaben 1 - Konzeption und Administration von IT-Systemen"
 draft: false
 type: docs
 weight: 1

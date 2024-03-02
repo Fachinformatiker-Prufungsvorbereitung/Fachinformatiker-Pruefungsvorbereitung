@@ -1,5 +1,5 @@
 ---
-title: "GA2 - Analyse und Entwicklung von Netzwerken"
+title: "Berufsspezifische Aufgaben 2 - Analyse und Entwicklung von Netzwerken"
 draft: false
 type: docs
 weight: 2
