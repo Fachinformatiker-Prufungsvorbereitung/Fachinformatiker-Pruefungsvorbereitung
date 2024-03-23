@@ -11,7 +11,7 @@ Der Betriebsrat arbeitet zusammen mit der Geschäftsführung am Wohl der Mitarbe
 
 - Möglich ab mindestens 5 Arbeitnehmern
 - Amtszeit ist 4 Jahre
-- Alle Mitarbeiter **über 18** sind Wahlberechtigt
+- Alle Mitarbeiter **über 16** sind Wahlberechtigt
 - Wählbar sind alle Mitarbeiter **über 18** die mindesten **6 Monate** dem Betrieb angehörig sind
 - Muss über die Umstände des Betriebes informiert werden (Insbesondere bei Personalbelangen)
 
