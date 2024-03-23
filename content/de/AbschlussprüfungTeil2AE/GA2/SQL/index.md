@@ -257,5 +257,4 @@ ON table_name (column1, column2, ...);
 
 [Technische Universität Kaiserslautern - Interaktives Spiel](https://sql-island.informatik.uni-kl.de/)
 
-
 [Für fortgeschrittene in interaktives Spiel auf englisch](https://mystery.knightlab.com/)
