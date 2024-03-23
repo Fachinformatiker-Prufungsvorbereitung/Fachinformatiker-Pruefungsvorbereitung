@@ -250,3 +250,12 @@ ON table_name (column1, column2, ...);
 ## Links 🔗
 
 [Stefan Macke - Aufgaben in der schriftlichen Prüfung](https://it-berufe-podcast.de/sql-aufgaben-in-der-schriftlichen-ihk-pruefung-anwendungsentwickler-podcast-117/)
+
+### Online Übungen
+
+[Einfaches interaktives Online-SQL-Training für Einsteiger](https://www.sql-easy.com/de/)
+
+[Technische Universität Kaiserslautern - Interaktives Spiel](https://sql-island.informatik.uni-kl.de/)
+
+
+[Für fortgeschrittene in interaktives Spiel auf englisch](https://mystery.knightlab.com/)
