@@ -11,8 +11,9 @@ Bei der Virtualisierung wird eine virtuelle Computingumgebung bereitgestellt sta
 ## Virtuelle Maschinen (VMs) und Container
 
 Containervirtualisierung ist eine Technologie, die es ermöglicht, Anwendungen und deren Abhängigkeiten in einer isolierten Umgebung (Container) auszuführen, die beliebteste Software für Containervirtualisierung ist Docker.
+Virtuelle Maschinen virtualisieren dagegen ein komplettes Betriebssystem.
 
-Virtuelle Maschinen virtualisieren ein komplettes Betriebssystem und erfordern somit mehr Systemressourcen.
+Der Hauptunterschied besteht darin, wie der Kernel genutzt wird. Bei virtuellen Maschinen wird der Kernel jedes Mal mit virtualisiert, während sich Container den Kernel der Containerisierungsmaschine teilen und dadurch weniger Ressourcen benötigen.
 
 ## Hypervisor
 
