@@ -66,3 +66,5 @@ Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möc
 - [Robert Reichel](https://github.com/RobertRR11)
 - [rheien](https://github.com/rheien)
 - [Tobi33Ee](https://github.com/Tobi33Ee)
+- [Samu](https://github.com/samumatic)
+- [0x796935](https://github.com/0x796935)
