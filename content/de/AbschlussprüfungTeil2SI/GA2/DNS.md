@@ -72,7 +72,7 @@ Bei der [Iterativen DNS-Auflösung](https://de.wikipedia.org/wiki/Rekursive_und_
 
 ### Rekursive DNS-Auflösung
 
-Im Gegensatz zur Iterativen-Auflösung holt sich der Server bei der [Rekursiven DNS-Auflösung](https://de.wikipedia.org/wiki/Rekursive_und_iterative_Namensaufl%C3%B6sung) die erforderlichen Daten selbst und schickt nicht nur einen Verweis zurück sonder das Ergebnis seiner Anfrage.
+Im Gegensatz zur Iterativen-Auflösung holt sich der Server bei der [Rekursiven DNS-Auflösung](https://de.wikipedia.org/wiki/Rekursive_und_iterative_Namensaufl%C3%B6sung) die erforderlichen Daten selbst und schickt nicht nur einen Verweis zurück sondern das Ergebnis seiner Anfrage.
 
 <br>
 
