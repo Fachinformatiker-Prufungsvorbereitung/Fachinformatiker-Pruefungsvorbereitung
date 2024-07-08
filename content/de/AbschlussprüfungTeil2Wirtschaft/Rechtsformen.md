@@ -16,7 +16,18 @@ description: "Rechtsformen bestimmen Grundlegende Eigenschaften eines Unternehme
 | Unternehmergesellschaft               | UG           |
 | Gesellschaft mit beschränkter Haftung | GmbH         |
 | Aktiengesellschaft                    | AG           |
+| Partnerschaft mit beschränkter (Berufs-)Haftung                    | Part GmbB    |
 
+## Einzelunternehmen
+
+- e.K.
+- Freiberufler
+- OHG*
+- KG*
+- Part GmbB
+
+* Seit dem 01.01.2024 öffnung der OHG und KG für Freiberufler
+  
 ## Personengesellschaften 🤵
 
 - GbR
