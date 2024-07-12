@@ -7,27 +7,27 @@ weight: 1
 description: "Rechtsformen bestimmen Grundlegende Eigenschaften eines Unternehmens. Sie sind insbesondere bei der Unternehmensgründung von Nutzen. Allerdings ist es auch als Angestellter wichtig über die Form seines Unternehmens informiert zu sein."
 ---
 
-| Form                                  | Abkürzung    |
-| ------------------------------------- | ------------ |
-| Gesellschaft bürgerlichen Rechts      | GbR          |
-| Eingetragener Kaufmann                | e.K.         |
-| Offene Handelsgesellschaft            | OHG          |
-| Kommanditgesellschaft                 | KG           |
-| Unternehmergesellschaft               | UG           |
-| Gesellschaft mit beschränkter Haftung | GmbH         |
-| Aktiengesellschaft                    | AG           |
-| Partnerschaft mit beschränkter (Berufs-)Haftung                    | Part GmbB    |
+| Form                                            | Abkürzung |
+| ----------------------------------------------- | --------- |
+| Gesellschaft bürgerlichen Rechts                | GbR       |
+| Eingetragener Kaufmann                          | e.K.      |
+| Offene Handelsgesellschaft                      | OHG       |
+| Kommanditgesellschaft                           | KG        |
+| Unternehmergesellschaft                         | UG        |
+| Gesellschaft mit beschränkter Haftung           | GmbH      |
+| Aktiengesellschaft                              | AG        |
+| Partnerschaft mit beschränkter (Berufs-)Haftung | Part GmbB |
 
 ## Einzelunternehmen
 
 - e.K.
 - Freiberufler
-- OHG*
-- KG*
+- OHG\*
+- KG\*
 - Part GmbB
 
-* Seit dem 01.01.2024 öffnung der OHG und KG für Freiberufler
-  
+\* Seit dem 01.01.2024 Öffnung der OHG und KG für Freiberufler
+
 ## Personengesellschaften 🤵
 
 - GbR
@@ -43,4 +43,4 @@ description: "Rechtsformen bestimmen Grundlegende Eigenschaften eines Unternehme
 ## Links 🔗
 
 [IHK Rhein-Neckar](https://www.ihk.de/rhein-neckar/recht/wirtschaftsrecht/gesellschaftsrecht/unternehmensformen-rechtsformen-938792)  
-[List von Rechtsformen in Deutschland](https://de.wikipedia.org/wiki/Liste_von_Rechtsformen_von_Unternehmen_in_Deutschland)  
+[List von Rechtsformen in Deutschland](https://de.wikipedia.org/wiki/Liste_von_Rechtsformen_von_Unternehmen_in_Deutschland)
