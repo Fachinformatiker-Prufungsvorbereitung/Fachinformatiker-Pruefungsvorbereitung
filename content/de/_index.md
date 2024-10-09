@@ -8,7 +8,7 @@ description: "Fachinformatiker Prüfungsvorbereitung ist eine Seite zur Prüfung
 
 ## Ziel dieser Seite 🎯
 
-Diese Seite hat das Ziel, das gesamte Prüfungswissen für die Fachinformatiker Berufe auf einer übersichtlichen Website darzustellen. Außerdem soll sie Open Source und von jedem erweiter bar sein. Gelöst wurde das ganze über GitHub. Wie genau du an diesem Projekt teilhaben kannst, wird im Unterpunkt [Contributing](./#contributing-) beschrieben. Der einfachste Punkt um zu dieser Seite beizutragen, ist aber sie bekannter zu machen. Wenn dir also gefällt, was wir hier erschaffen, dann erzähl es doch bitte allen Interessierten. Deine Berufsschulklasse oder Azubis im Betrieb werden sich sicher über ein bisschen Hilfe, bei der Prüfungsvorbereitung, freuen 😉
+Diese Seite hat das Ziel, das gesamte Prüfungswissen für die Fachinformatiker Berufe auf einer übersichtlichen Website darzustellen. Außerdem soll sie Open Source und von jedem erweiterbar sein. Gelöst wurde das ganze über GitHub. Wie genau du an diesem Projekt teilhaben kannst, wird im Unterpunkt [Contributing](./#contributing-) beschrieben. Der einfachste Punkt um zu dieser Seite beizutragen, ist aber sie bekannter zu machen. Wenn dir also gefällt, was wir hier erschaffen, dann erzähl es doch bitte allen Interessierten. Deine Berufsschulklasse oder Azubis im Betrieb werden sich sicher über ein bisschen Hilfe, bei der Prüfungsvorbereitung, freuen 😉
 
 ## Geschichte 👴
 
@@ -33,7 +33,7 @@ Diese Markdown Dateien werden dann mit der Hilfe von Hugo, einem Static-Site-Gen
 ### Docker 🐋
 
 Docker wird komplett von mir verwaltet und um am Projekt teilzuhaben wird kein Wissen in diesem Bereich benötigt. Wer allerdings sich am Deployment und / oder an den Docker-Container beteiligen möchte, kann das natürlich gerne tun.  
-Die Fachinformatiker Prüfungsvorbereitungs Seite wird auf Basis eines Nginx Containers zu einem neuen Container gebaut. Dieser Container wird dann automatisch über GitHub Actions Pipelines auf Docker-Hub veröffentlicht.
+Die Fachinformatiker Prüfungsvorbereitungs-Seite wird auf Basis eines Nginx Containers zu einem neuen Container gebaut. Dieser Container wird dann automatisch über GitHub Actions Pipelines auf Docker-Hub veröffentlicht.
 
 ### Kubernetes 🛞
 
@@ -61,3 +61,12 @@ Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möc
 - [kevgetz](https://github.com/kevgetz)
 - [Leon Seemann](https://github.com/leonseemann)
 - [sherm](https://github.com/snowysherm)
+- [Louis Trinczek](https://github.com/LouisTrinczek)
+- [sacul-xyz](https://github.com/sacul-xyz)
+- [Robert Reichel](https://github.com/RobertRR11)
+- [rheien](https://github.com/rheien)
+- [Tobi33Ee](https://github.com/Tobi33Ee)
+- [Samu](https://github.com/samumatic)
+- [0x796935](https://github.com/0x796935)
+- [N4rl0n](https://github.com/N4rl0n)
+- [Adrian Preuß](https://github.com/Bizarrus)

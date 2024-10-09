@@ -5,6 +5,8 @@ draft: false
 type: docs
 weight: 100
 description: "In der Projektpräsentation, muss der Prüfling, sein im vorherigen Teil der Prüfung durchgeführtes Projekt, dem Prüfungsausschuss vorstellen."
+aliases:
+    - /projektae/projektpräsentation/
 ---
 
 ## Beispiele

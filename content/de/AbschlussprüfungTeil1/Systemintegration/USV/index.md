@@ -87,6 +87,9 @@ Fällt die Netzversorgung aus, wird sofort, ohne jede Verzögerung, der Wechselr
 - Sensible Netzwerkserver
 - Umgebungen mit häufigen Störungen im Versorgungsnetz
 
+## Hot-Swap
+Hot-Swap bedeutet übersetzt "heißer Tausch" und bezeichnet den Wechsel von Systemkomponenten im laufenden Betrieb. Im Fall einer USV wäre es die Batterie, jedoch unterstützen nicht alle USVs einen Hot-Swap.
+
 ## Haltedauer einer USV
 
 Um die Haltedauer einer USV berechnen zu können, müssen wir ein paar Begriffe klären.

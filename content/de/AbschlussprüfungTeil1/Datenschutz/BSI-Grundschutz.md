@@ -10,11 +10,13 @@ Auflistung zentraler Begrifflichkeiten aus dem BSI-Grundschutz. Diese können in
 
 ## BSI-Grundwerte / Sicherheitsziele
 
-- Vertraulichkeit
-- Verfügbarkeit
-- Integrität
+- **V**ertraulichkeit: kein unbefugtes Lesen von Daten
+- **I**ntegrität: keine unbefugte Änderung von Daten
+- **V**erfügbarkeit: permanenter gewährleisteter Zugriff auf Daten
+- **A**uthentizität: Sicherstellung von Echtheit und Glaubwürdigkeit der Daten
 
-Je nach Literatur werden auch andere Sicherheitsziele genannt, beispielsweise Authentizität. Das BSI beschränkt sich aber auf die drei oben genannten Ziele.
+Um dir die Sicherheitsziele besser merken zu können, kannst du dir eine Eselsbrücke über das Akronym "VIVA" bauen.
+Je nach Literatur werden auch andere Sicherheitsziele genannt, beispielsweise Authentizität. Das BSI beschränkt sich aber auf die ersten drei oben genannten Ziele.
 
 ## Schutzbedarfskategorien
 

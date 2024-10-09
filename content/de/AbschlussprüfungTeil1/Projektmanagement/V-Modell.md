@@ -14,7 +14,7 @@ description: "Das V-Modell ist ein Vorgehensmodell, welches ursprünglich für d
 - Rechts sind die Tests
 - Unten die Ausprogrammierung
 - Sehr hohe Testabdeckung da für jede Entwurfsphase eine Testphase existiert
-- Beim Entwurf wird wegen der gegenüberliegenden Tests schon an dir Realisierbarkeit gedacht
+- Beim Entwurf wird wegen der gegenüberliegenden Tests schon an die Realisierbarkeit gedacht
 
 ## Erklärungsvideo 📹
 

@@ -1,5 +1,5 @@
 ---
-title: "GA2 - Umsetzung eines Softwareprojektes"
+title: "Berufsspezifische Aufgaben 2 - Umsetzung eines Softwareprojektes"
 date: 2022-08-31T23:14:25-06:00
 draft: false
 type: docs
