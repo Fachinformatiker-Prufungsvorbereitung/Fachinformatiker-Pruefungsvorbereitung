@@ -9,7 +9,7 @@ description: "Der Betriebsrat dient der Vertretung der Arbeiterinteressen im Bet
   
 Der Betriebsrat arbeitet zusammen mit der Geschäftsführung am Wohl der Mitarbeiter und des Unternehmens.
 
-- Möglich ab mindestens 5 Arbeitnehmern, davon 3 wählbar
+- Möglich ab mindestens 5 Arbeitnehmern, davon müssen 3 wählbar sein
 - Amtszeit ist 4 Jahre (wahlen finden grundsätzlich im Zeitraum vom 1. März - 31. Mai statt)
 - Alle Mitarbeiter **über 16** sind Wahlberechtigt (aktives Wahlrecht)
     - Auch Leiharbeiter, wenn diese voraussetzlich länger als 3 Monate im Betrieb eingesetzt werden.
