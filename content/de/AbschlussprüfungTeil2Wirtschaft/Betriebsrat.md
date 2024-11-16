@@ -12,6 +12,7 @@ Der Betriebsrat arbeitet zusammen mit der Geschäftsführung am Wohl der Mitarbe
 - Möglich ab mindestens 5 Arbeitnehmern, davon 3 wählbar
 - Amtszeit ist 4 Jahre (wahlen finden grundsätzlich im Zeitraum vom 1. März - 31. Mai statt)
 - Alle Mitarbeiter **über 16** sind Wahlberechtigt
+    - Auch Leiharbeiter, wenn diese voraussetzlich länger als 3 Monate im Betrieb eingesetzt werden.
 - Wählbar sind alle Mitarbeiter **über 18** die mindesten **6 Monate** dem Betrieb angehörig sind
 - Muss über die Umstände des Betriebes informiert werden (Insbesondere bei Personalbelangen)
 
