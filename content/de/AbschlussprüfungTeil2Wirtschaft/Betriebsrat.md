@@ -29,3 +29,4 @@ Der Betriebsrat arbeitet zusammen mit der Geschäftsführung am Wohl der Mitarbe
 
 [Fachinformatiker.de Betriebsrat](https://www.fachinformatiker.de/topic/44291-betriebsrat/)  
 [Fachadmin.de](https://fachadmin.de/index.html@p=237.html)  
+[ifb - Institut zur Fortbildung von Betriebsräten : Voraussetungen einer BR-Wahl](https://www.brwahl.de/betriebsrat-gruenden/wie-waehlen-wir-einen-betriebsrat/betriebsrat-gruenden-voraussetzungen-einer-betriebsratswahl)
