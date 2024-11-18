@@ -15,6 +15,11 @@ defaultContentLanguageInSubdir: false
 contentDir: "content/de"
 enableMissingTranslationPlaceholders: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   theme:
     # light | dark | system
@@ -64,3 +69,4 @@ privacy:
   youtube:
     disable: false
     privacyEnhanced: true
+
