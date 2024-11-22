@@ -35,6 +35,7 @@ Ein Relationstyp (Tabelle) befindet sich genau dann in der zweiten Normalform (2
 
 ### Beispiel
 
+{{< rawhtml >}}
 <table>
   <tr>
     <th colspan="3">Rechnung</th>
@@ -108,6 +109,7 @@ Ein Relationstyp (Tabelle) befindet sich genau dann in der zweiten Normalform (2
     <td>1</td>
   </tr>
 </table>
+{{< /rawhtml >}}
 
 ## Dritte Normalform
 
