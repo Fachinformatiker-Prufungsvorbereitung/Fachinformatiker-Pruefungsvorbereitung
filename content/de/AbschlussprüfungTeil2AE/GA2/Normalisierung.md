@@ -30,8 +30,8 @@ Ein Relationstyp (Tabelle) befindet sich genau dann in der zweiten Normalform (2
 
 ### Stichpunkte
 
-- Setzt 1NF vorraus
-- Alle Attribute hängen vom Primary Key ab
+- Setzt 1NF voraus
+- Alle Nichtschlüsselattribute sind abhängig vom  Primärschlüssel
 
 ### Beispiel
 
@@ -119,11 +119,12 @@ Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn 
 
 ### Stichpunkte
 
-- Setzt 2NF vorraus
-- Indirekt abhänge Attribute müssen in eine Tabelle ausgelagert werden
+- Setzt 2NF voraus
+- Es dürfen keine transitiven Abhängigkeiten zwischen Nichtschlüsselattributen bestehen
 
 ### Beispiel
 
+{{< rawhtml >}}
 <table>
   <tr>
     <th colspan="6">Kunde</th>
@@ -159,8 +160,9 @@ Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn 
     <td>Musterort</td>
   </tr>
 </table>
+{{< /rawhtml >}}
 
-In der Tabelle **Kunde** sind die Attribute **Vorname**, **Straße** und **Plz** abhängig vom Attribut **Name**, nicht vom Primärschlüssel **K.-Nr.**. Außerdem ist das Attribut **Ort** abhängig vom Attribut **Plz**.
+In der Tabelle **Kunde** hängt das Attribut **Ort** transitiv vom Primärschlüssel **K.-Nr.** über das Attribut **PLZ** ab. Durch das Auslagern von **PLZ** und **Ort** in eine separate Tabelle wird diese transitive Abhängigkeit aufgelöst, wodurch die dritte Normalform erreicht wird.
 
 ## Erklärungsvideo 📹
 
