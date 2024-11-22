@@ -71,3 +71,4 @@ Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möc
 - [N4rl0n](https://github.com/N4rl0n)
 - [Adrian Preuß](https://github.com/Bizarrus)
 - [TilGP](https://github.com/TilGP)
+- [AlphaLEXray](https://github.com/AlphaLEXray)
