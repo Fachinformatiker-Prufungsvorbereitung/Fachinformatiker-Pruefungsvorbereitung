@@ -44,7 +44,7 @@ metadata:
   namespace: {{ .Values.namespace }}
   annotations:
     traefik.ingress.kubernetes.io/router.entrypoints: web
-    traefik.ingress.kubernetes.io/router.middlewares: default-redirectscheme@kubernetescrd
+    traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectscheme@kubernetescrd
 spec:
   rules:
     - host: "{{ .Values.domain }}"
@@ -104,7 +104,7 @@ metadata:
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
     traefik.ingress.kubernetes.io/router.entrypoints: websecure
-    traefik.ingress.kubernetes.io/router.middlewares: default-redirectschemefipv@kubernetescrd
+    traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectschemefipv@kubernetescrd
 spec:
   tls:
     - hosts:
@@ -141,7 +141,7 @@ metadata:
   namespace: {{ .Values.namespace }}
   annotations:
     traefik.ingress.kubernetes.io/router.entrypoints: web
-    traefik.ingress.kubernetes.io/router.middlewares: default-redirectschemefipv@kubernetescrd
+    traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectschemefipv@kubernetescrd
 spec:
   rules:
     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
