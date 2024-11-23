@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fi-pv-deployment
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    matchLabels:
+      app: fi-pv
+  template:
+    metadata:
+      labels:
+        app: fi-pv
+    spec:
+      containers:
+        - name: fi-pv
+          image: lnadev/fi-pv:{{ .Values.runNumber }}
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "50m"
+            limits:
+              memory: "128Mi"
+          ports:
+            - containerPort: 80
+              name: port-http
