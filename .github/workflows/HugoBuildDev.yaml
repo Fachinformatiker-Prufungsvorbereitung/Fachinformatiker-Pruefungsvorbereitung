@@ -25,7 +25,7 @@ jobs:
           extended: true
 
       # Build the hugo repository
-      - run: hugo
+      - run: hugo -e development --baseURL "https://dev.fachinformatikerpruefungsvorbereitung.de"
         working-directory: ./${{ env.NAME }}/
 
       # Zip the Artifact for GitHubPages deployment

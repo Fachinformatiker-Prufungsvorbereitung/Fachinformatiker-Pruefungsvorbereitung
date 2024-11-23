@@ -85,12 +85,5 @@ jobs:
       # Checkout the repository
       - uses: actions/checkout@v3
 
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@v3
-        with:
-          find: "{{RUN_NUMBER}}"
-          replace: ${{ github.run_number }}
-          regex: false
-
       # Deploy Kubernetes YAML
-      - run: kubectl apply -f ./deployment/Fachinformatiker-Prüfungsvorbereitung.yaml --kubeconfig ${{ steps.write_file.outputs.filePath }}
+      - run: helm upgrade --install fi-pv ./helm --kubeconfig ${{ steps.write_file.outputs.filePath }} --set runNumber=${{ github.run_number }}
