@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fi-pv-service
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: fi-pv
+  ports:
+    - port: 80
+      targetPort: port-http
+      name: http

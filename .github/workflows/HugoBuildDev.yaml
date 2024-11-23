@@ -25,7 +25,7 @@ jobs:
           extended: true
 
       # Build the hugo repository
-      - run: hugo
+      - run: hugo -e development --baseURL "https://dev.fachinformatikerpruefungsvorbereitung.de"
         working-directory: ./${{ env.NAME }}/
 
       # Zip the Artifact for GitHubPages deployment
@@ -56,3 +56,22 @@ jobs:
 
       - name: Push the image to dockerhub
         run: docker push lnadev/${{ env.CONTAINER-NAME }}:dev
+
+  DeployContainer:
+    needs: ReleaseDEV
+    runs-on: ubuntu-latest
+
+    steps:
+      # Download Secure-File
+      - name: base64-to-file
+        id: write_file
+        uses: timheuer/base64-to-file@v1.1
+        with:
+          fileName: "custom-config"
+          encodedString: ${{ secrets.KUBECTL_CONFIG }}
+
+      # Checkout the repository
+      - uses: actions/checkout@v3
+
+      # Deploy Kubernetes YAML
+      - run: helm upgrade --install fi-pv-dev ./helm --kubeconfig ${{ steps.write_file.outputs.filePath }} --set runNumber=dev,domain=dev.fachinformatikerpruefungsvorbereitung.de,namespace=fi-pv-dev,production=false

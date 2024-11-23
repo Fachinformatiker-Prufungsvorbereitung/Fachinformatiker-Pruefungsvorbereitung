@@ -1,58 +1,20 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: fi-pv-deployment
-spec:
-  selector:
-    matchLabels:
-      app: fi-pv
-  template:
-    metadata:
-      labels:
-        app: fi-pv
-    spec:
-      containers:
-        - name: fi-pv
-          image: lnadev/fi-pv:{{RUN_NUMBER}}
-          imagePullPolicy: Always
-          resources:
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
-          ports:
-            - containerPort: 80
-              name: port-http
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: fi-pv-service
-spec:
-  selector:
-    app: fi-pv
-  ports:
-    - port: 80
-      targetPort: port-http
-      name: http
-
----
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: fi-pv-ingress
+  namespace: {{ .Values.namespace }}
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
     traefik.ingress.kubernetes.io/router.entrypoints: websecure
-    traefik.ingress.kubernetes.io/router.middlewares: default-redirectscheme@kubernetescrd
+    traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectscheme@kubernetescrd
 spec:
   tls:
     - hosts:
-        - "fachinformatikerpruefungsvorbereitung.de"
-        - "www.fachinformatikerpruefungsvorbereitung.de"
+        - "{{ .Values.domain }}"
+        - "www.{{ .Values.domain }}"
       secretName: fi-pv-cert
   rules:
-    - host: fachinformatikerpruefungsvorbereitung.de
+    - host: "{{ .Values.domain }}"
       http:
         paths:
           - path: /
@@ -62,7 +24,7 @@ spec:
                 name: fi-pv-service
                 port:
                   number: 80
-    - host: www.fachinformatikerpruefungsvorbereitung.de
+    - host: www.{{ .Values.domain }}
       http:
         paths:
           - path: /
@@ -73,11 +35,72 @@ spec:
                 port:
                   number: 80
 
+---
+# Needed because of HTTP to HTTPS redirecting
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fi-pv-ingress-http
+  namespace: {{ .Values.namespace }}
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+    traefik.ingress.kubernetes.io/router.middlewares: default-redirectscheme@kubernetescrd
+spec:
+  rules:
+    - host: "{{ .Values.domain }}"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: www.{{ .Values.domain }}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+
+---
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: redirectscheme
+  namespace: {{ .Values.namespace }}
+spec:
+  redirectRegex:
+    regex: '^https?://(?:www\.)?(.+)'
+    replacement: "https://${1}"
+    permanent: true
+
+---
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: redirectschemefipv
+  namespace: {{ .Values.namespace }}
+spec:
+  redirectRegex:
+    regex: '.*'
+    replacement: "https://{{ .Values.domain }}"
+    permanent: true
+
+
+
+{{- if .Values.production }}
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: fi-pv-redirection-ingress
+  namespace: {{ .Values.namespace }}
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt
     traefik.ingress.kubernetes.io/router.entrypoints: websecure
@@ -115,6 +138,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: fi-pv-redirection-ingress-http
+  namespace: {{ .Values.namespace }}
   annotations:
     traefik.ingress.kubernetes.io/router.entrypoints: web
     traefik.ingress.kubernetes.io/router.middlewares: default-redirectschemefipv@kubernetescrd
@@ -141,56 +165,4 @@ spec:
                 port:
                   number: 80
 
----
-# Needed because of HTTP to HTTPS redirecting
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
-  name: fi-pv-ingress-http
-  annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web
-    traefik.ingress.kubernetes.io/router.middlewares: default-redirectscheme@kubernetescrd
-spec:
-  rules:
-    - host: fachinformatikerpruefungsvorbereitung.de
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: fi-pv-service
-                port:
-                  number: 80
-    - host: www.fachinformatikerpruefungsvorbereitung.de
-      http:
-        paths:
-          - path: /
-            pathType: Prefix
-            backend:
-              service:
-                name: fi-pv-service
-                port:
-                  number: 80
-
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: Middleware
-metadata:
-  name: redirectscheme
-spec:
-  redirectRegex:
-    regex: '^https?://(?:www\.)?(.+)'
-    replacement: "https://${1}"
-    permanent: true
-
----
-apiVersion: traefik.containo.us/v1alpha1
-kind: Middleware
-metadata:
-  name: redirectschemefipv
-spec:
-  redirectRegex:
-    regex: '.*'
-    replacement: "https://fachinformatikerpruefungsvorbereitung.de"
-    permanent: true
+{{- end }}
