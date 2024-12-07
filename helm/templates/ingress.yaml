@@ -94,75 +94,75 @@ spec:
 
 
 
-# {{- if .Values.production }}
-# ---
-# apiVersion: networking.k8s.io/v1
-# kind: Ingress
-# metadata:
-#   name: fi-pv-redirection-ingress
-#   namespace: {{ .Values.namespace }}
-#   annotations:
-#     cert-manager.io/cluster-issuer: letsencrypt
-#     traefik.ingress.kubernetes.io/router.entrypoints: websecure
-#     traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectschemefipv@kubernetescrd
-# spec:
-#   tls:
-#     - hosts:
-#         - "xn--fachinformatiker-prfungsvorbereitung-w0d.de"
-#         - "fi.lna-dev.net"
-#       secretName: fi-pv-cert-fipv
-#   rules:
-#     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
-#       http:
-#         paths:
-#           - path: /
-#             pathType: Prefix
-#             backend:
-#               service:
-#                 name: fi-pv-service
-#                 port:
-#                   number: 80
-#     - host: fi.lna-dev.net
-#       http:
-#         paths:
-#           - path: /
-#             pathType: Prefix
-#             backend:
-#               service:
-#                 name: fi-pv-service
-#                 port:
-#                   number: 80
+{{- if .Values.production }}
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fi-pv-redirection-ingress
+  namespace: {{ .Values.namespace }}
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectschemefipv@kubernetescrd
+spec:
+  tls:
+    - hosts:
+        - "xn--fachinformatiker-prfungsvorbereitung-w0d.de"
+        - "fi.lna-dev.net"
+      secretName: fi-pv-cert-fipv
+  rules:
+    - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: fi.lna-dev.net
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
 
-# ---
-# apiVersion: networking.k8s.io/v1
-# kind: Ingress
-# metadata:
-#   name: fi-pv-redirection-ingress-http
-#   namespace: {{ .Values.namespace }}
-#   annotations:
-#     traefik.ingress.kubernetes.io/router.entrypoints: web
-#     traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectschemefipv@kubernetescrd
-# spec:
-#   rules:
-#     - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
-#       http:
-#         paths:
-#           - path: /
-#             pathType: Prefix
-#             backend:
-#               service:
-#                 name: fi-pv-service
-#                 port:
-#                   number: 80
-#     - host: fi.lna-dev.net
-#       http:
-#         paths:
-#           - path: /
-#             pathType: Prefix
-#             backend:
-#               service:
-#                 name: fi-pv-service
-#                 port:
-#                   number: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fi-pv-redirection-ingress-http
+  namespace: {{ .Values.namespace }}
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+    traefik.ingress.kubernetes.io/router.middlewares: {{ .Values.namespace }}-redirectschemefipv@kubernetescrd
+spec:
+  rules:
+    - host: xn--fachinformatiker-prfungsvorbereitung-w0d.de
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
+    - host: fi.lna-dev.net
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fi-pv-service
+                port:
+                  number: 80
 
-# {{- end }}
+{{- end }}
