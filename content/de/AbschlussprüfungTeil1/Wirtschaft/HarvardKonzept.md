@@ -13,7 +13,7 @@ description: "Das Harvard-Konzept ist eine Methode des sachgerechten Verhandelns
   Bedürfnisse beider Seiten müssen bekannt sein. Motivation hinter Position.
 - Optionen finden, die beiden Seiten dienen: Gibt es eine Win-Win Situation für beide?
 - Auf objektive Kriterien bestehen: Fairness. An Qualitätsstandards halten, etc.
-- Machen Sie sich Ihrer BATNA bewusst! Best Alternative To Negociated Agreement. Plan B. Was ist zu verlieren wenn
+- Machen Sie sich Ihrer BATNA bewusst! Best Alternative To Negotiated Agreement. Plan B. Was ist zu verlieren wenn
   die Verhandlung scheitert? Sollte die Verhandlung besser abgebrochen werden?
 
 ## Nachteile
