@@ -16,7 +16,7 @@ jobs:
 
     steps:
       # Checkout the repository
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Install Hugo
       - name: Hugo setup
@@ -71,7 +71,7 @@ jobs:
           encodedString: ${{ secrets.KUBECTL_CONFIG }}
 
       # Checkout the repository
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Deploy Kubernetes YAML
       - run: helm upgrade --install fi-pv-dev ./helm --kubeconfig ${{ steps.write_file.outputs.filePath }} --set runNumber=dev,domain=dev.fachinformatikerpruefungsvorbereitung.de,namespace=fi-pv-dev,production=false
