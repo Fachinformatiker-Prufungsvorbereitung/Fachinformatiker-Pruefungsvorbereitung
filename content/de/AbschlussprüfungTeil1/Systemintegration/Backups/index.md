@@ -41,6 +41,10 @@ description: "Backups lassen sich in verschiedene Arten mit unterschiedlichen Ei
 | + **Dauer des Backups:** Sicherungsvorgang nimmt von allen am wenigsten Zeit in Anspruch | - **Dauer der Wiederherstellung:** aufwendigste Backup-Art in der Wiederherstellung |
 |   + **Speicherplatzverbrauch:** pro Backup wird am wenigsten Speicherplatz beansprucht   |                                                                                     |
 
+## Übersicht der drei Backuparten
+
+![Backuparten](./Backuparten.svg)
+
 ## Klonen
 
 - Es wird eine 1-zu-1-Kopie in einer Datenträger-Abbild-Datei, dem sogenannten Image, erstellt. Diese enthält alle wichtigen Informationen des ursprünglichen Mediums, einschließlich des Dateisystems und der Benutzereinstellungen.
