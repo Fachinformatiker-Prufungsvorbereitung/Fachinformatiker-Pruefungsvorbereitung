@@ -74,3 +74,5 @@ Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möc
 - [AlphaLEXray](https://github.com/AlphaLEXray)
 - [Jan Osing](https://github.com/JanUwU42)
 - [Leon Kaesmann](https://github.com/leonkaesmann)
+- [Philipp Knecht](https://github.com/pkt2007)
+- [Rossuar](https://github.com/Rossuar)
