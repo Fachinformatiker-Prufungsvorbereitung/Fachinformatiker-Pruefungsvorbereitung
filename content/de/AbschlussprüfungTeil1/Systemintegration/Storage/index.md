@@ -25,7 +25,7 @@ Ein **Dateisystem** befindet sich auf dem Blockgerät, um Daten zu speichern. Si
 
 ### Beispiel Dateisystem
 
-Wie `mount/dev/sda1/mnt/somepath`
+Wie `mount /dev/sda1 /mnt/somepath`
 
 ## SAN - Storage Area Network
 
