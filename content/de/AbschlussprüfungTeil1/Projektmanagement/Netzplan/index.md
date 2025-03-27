@@ -40,7 +40,7 @@ Falls es mehrere Vorgänger gibt, wird der größte FEZ genommen.
 startet beim Projektende und ermittelt SAZ und SEZ.  
 Probe: Nach der Rückwärtsrechnung sollte beim ersten Vorgang auch der SAZ = 0 sein.
 ### Spätester Endzeitpunkt (SEZ)
-entspricht spätesten Anfangszeitpunkt des Nachfolgers
+entspricht spätesten Anfangszeitpunkt des Nachfolgers.
 Falls es mehrere Nachfolger gibt, wird der kleineste SAZ genommen.
 ### Spätester Anfangszeitpunkt (SAZ)
 **Berechnung**: SAZ = SEZ - Dauer
