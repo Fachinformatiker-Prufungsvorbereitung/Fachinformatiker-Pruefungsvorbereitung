@@ -38,36 +38,3 @@ Die Fachinformatiker Prüfungsvorbereitungs-Seite wird auf Basis eines Nginx Con
 ## Contributing ✨
 
 Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möchtest, dann lese dir die [Contributing-Guidelines](https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/blob/main/CONTRIBUTING.md) genauer durch ✨
-
-### Contributors
-
-- [Lukas Nagel](https://lna-dev.net)
-- [acul009](https://github.com/acul009)
-- [Daniel Karamyshev](https://github.com/danielkaramyshev)
-- [redinsch](https://github.com/redinsch)
-- [Björn Holtappels](https://github.com/Meadril)
-- [jolohrma](https://github.com/jolohrma)
-- [centenmann](https://github.com/centenmann)
-- [AlmightyLks](https://almightylks.github.io/Portfolio/)
-- [Zosmack](https://github.com/Zosmack)
-- [Moritz Held](https://github.com/MoritzHeld)
-- [TDelecat](https://github.com/TDelecat)
-- [Francesco](https://github.com/FrancescoCode1)
-- [kevgetz](https://github.com/kevgetz)
-- [Leon Seemann](https://github.com/leonseemann)
-- [sherm](https://github.com/snowysherm)
-- [Louis Trinczek](https://github.com/LouisTrinczek)
-- [sacul-xyz](https://github.com/sacul-xyz)
-- [Robert Reichel](https://github.com/RobertRR11)
-- [rheien](https://github.com/rheien)
-- [Tobi33Ee](https://github.com/Tobi33Ee)
-- [Samu](https://github.com/samumatic)
-- [0x796935](https://github.com/0x796935)
-- [N4rl0n](https://github.com/N4rl0n)
-- [Adrian Preuß](https://github.com/Bizarrus)
-- [TilGP](https://github.com/TilGP)
-- [AlphaLEXray](https://github.com/AlphaLEXray)
-- [Jan Osing](https://github.com/JanUwU42)
-- [Leon Kaesmann](https://github.com/leonkaesmann)
-- [Philipp Knecht](https://github.com/pkt2007)
-- [Rossuar](https://github.com/Rossuar)
