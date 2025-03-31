@@ -11,8 +11,6 @@ Bei den Prüfungsaufgaben ist meist eine Legende gegeben. Die Anordnung / Namen 
 ![Netzplan](./Netzplan.png)
 [Wikipedia Commons](https://de.wikipedia.org/wiki/Datei:NetzplanBsp.png#file)
 
-<br>
-
 ## Legende
 
 |Abkürzung|Name|
@@ -26,47 +24,49 @@ Bei den Prüfungsaufgaben ist meist eine Legende gegeben. Die Anordnung / Namen 
 
 ## Vorwärtsrechnung 
 
-beginnt beim Projektstart und ermittelt FAZ und FEZ aller Vorgänge.
-### Frühester Anfangszeitpunkt (FAZ)
-entspricht dem frühesten Endzeitpunkt des Vorgängers. 
-Falls es mehrere Vorgänger gibt, wird der größte FEZ genommen.
-### Frühester Endzeitpunkt (FEZ)
-**Berechnung**: FEZ = FAZ + Dauer
+Beginnt beim Projektstart und ermittelt FAZ und FEZ aller Vorgänge.
 
-<br>
+### Frühester Anfangszeitpunkt (FAZ)
+
+Entspricht dem frühesten Endzeitpunkt des Vorgängers. Falls es mehrere Vorgänger gibt, wird der größte FEZ genommen.
+
+### Frühester Endzeitpunkt (FEZ)
+
+**Berechnung**: FEZ = FAZ + Dauer
 
 ## Rückwärtsrechnung
 
-startet beim Projektende und ermittelt SAZ und SEZ.  
-Probe: Nach der Rückwärtsrechnung sollte beim ersten Vorgang auch der SAZ = 0 sein.
-### Spätester Endzeitpunkt (SEZ)
-entspricht spätesten Anfangszeitpunkt des Nachfolgers.
-Falls es mehrere Nachfolger gibt, wird der kleineste SAZ genommen.
-### Spätester Anfangszeitpunkt (SAZ)
-**Berechnung**: SAZ = SEZ - Dauer
+Startet beim Projektende und ermittelt SAZ und SEZ.
 
-<br>
+
+Probe: Nach der Rückwärtsrechnung sollte beim ersten Vorgang auch der SAZ = 0 sein.
+
+### Spätester Endzeitpunkt (SEZ)
+
+Entspricht spätesten Anfangszeitpunkt des Nachfolgers. Falls es mehrere Nachfolger gibt, wird der kleinste SAZ genommen.
+
+### Spätester Anfangszeitpunkt (SAZ)
+
+**Berechnung**: SAZ = SEZ - Dauer
 
 ## Was ist der freie Puffer?
 
 Der freie Puffer ist der Zeitraum, um den ein Vorgang maximal verschoben werden kann, ohne die frühesten Termine seiner nachfolgenden Vorgänge zu beeinflussen.  
-**Berechnung**: Freier Puffer = FAZ (Nachfolger) - FEZ (aktueller Vorgang)
 
-<br>
+
+**Berechnung**: Freier Puffer = FAZ (Nachfolger) - FEZ (aktueller Vorgang)
 
 ## Was ist der Gesamtpuffer?
 
 Der Gesamtpuffer ist der Zeitraum, um den ein Vorgang maximal verschoben werden kann, ohne die spätesten Termine seiner nachfolgenden Vorgänge zu beeinflussen.  
-**Berechnung**: Gesamtpuffer = SEZ - FEZ (oder Gesamtpuffer = SAZ - FAZ)
 
-<br>
+
+**Berechnung**: Gesamtpuffer = SEZ - FEZ (oder Gesamtpuffer = SAZ - FAZ)
 
 ## Was ist der kritische Pfad?
 
 Der kritische Pfad ist der Weg vom ersten bis zum letzten Vorgang eines Netzplans, auf dem die Pufferzeiten minimal (meist alle 0) sind.  
 Verzögerung der Vorgänge auf dem kritischen Pfad wirken sich so meist unmittelbar auf die Gesamtlänge des Projektes aus.
-
-<br>
 
 ## Links
 
