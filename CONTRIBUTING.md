@@ -4,11 +4,10 @@
 
 1. Forke das Projekt
 2. Clone das Projekt
-3. Wechsle auf den `dev` branch
-4. Mache dein Änderung wie in den nächsten Kapiteln besprochen
-5. Commite deine Änderung
-6. Pushe deine Änderung
-7. Mache einen PullRequest zu diesem Original Repository
+3. Mache dein Änderung wie in den nächsten Kapiteln besprochen
+4. Commite deine Änderung
+5. Pushe deine Änderung
+6. Mache einen PullRequest zu diesem Original Repository
 
 ## Contribute mit Hugo-Installation (Empfohlen)
 
