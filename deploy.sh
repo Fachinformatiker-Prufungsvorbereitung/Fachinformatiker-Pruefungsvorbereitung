@@ -1,0 +1,1 @@
+hugo && rsync -avz --delete public/ root@lna-dev.net:/home/lnadev/services/fipv/site
