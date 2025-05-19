@@ -35,37 +35,6 @@ Diese Markdown Dateien werden dann mit der Hilfe von Hugo, einem Static-Site-Gen
 Docker wird komplett von mir verwaltet und um am Projekt teilzuhaben wird kein Wissen in diesem Bereich benötigt. Wer allerdings sich am Deployment und / oder an den Docker-Container beteiligen möchte, kann das natürlich gerne tun.  
 Die Fachinformatiker Prüfungsvorbereitungs-Seite wird auf Basis eines Nginx Containers zu einem neuen Container gebaut. Dieser Container wird dann automatisch über GitHub Actions Pipelines auf Docker-Hub veröffentlicht.
 
-### Kubernetes 🛞
-
-Hier gilt das gleiche wie auch schon bei Docker: Ich übernehme dieses Gebiet komplett, aber wenn jemand tatsächliche Verbesserungsvorschläge hat, kann er diese natürlich gerne anbringen und auch umsetzen.  
-Um die Seite auch richtig zu veröffentlichen, wird mithilfe eines Kubernetes Deployments die Seite in mein Cluster gepublished. Dieses Cluster wird von mir selbst verwaltet. Das Deployment erfolgt automatisch über eine GitHub Actions Pipeline.
-
 ## Contributing ✨
 
 Wenn du Teil der Fachinformatiker Prüfungsvorbereitung Contributors werden möchtest, dann lese dir die [Contributing-Guidelines](https://github.com/LNA-DEV/Fachinformatiker-Pruefungsvorbereitung/blob/main/CONTRIBUTING.md) genauer durch ✨
-
-### Contributors
-
-- [Lukas Nagel](https://lna-dev.net)
-- [acul009](https://github.com/acul009)
-- [Daniel Karamyshev](https://github.com/danielkaramyshev)
-- [redinsch](https://github.com/redinsch)
-- [Björn Holtappels](https://github.com/Meadril)
-- [jolohrma](https://github.com/jolohrma)
-- [centenmann](https://github.com/centenmann)
-- [AlmightyLks](https://almightylks.github.io/Portfolio/)
-- [Zosmack](https://github.com/Zosmack)
-- [Moritz Held](https://github.com/MoritzHeld)
-- [TDelecat](https://github.com/TDelecat)
-- [Francesco](https://github.com/FrancescoCode1)
-- [kevgetz](https://github.com/kevgetz)
-- [Leon Seemann](https://github.com/leonseemann)
-- [sherm](https://github.com/snowysherm)
-- [Louis Trinczek](https://github.com/LouisTrinczek)
-- [sacul-xyz](https://github.com/sacul-xyz)
-- [Robert Reichel](https://github.com/RobertRR11)
-- [rheien](https://github.com/rheien)
-- [Tobi33Ee](https://github.com/Tobi33Ee)
-- [Samu](https://github.com/samumatic)
-- [0x796935](https://github.com/0x796935)
-- [N4rl0n](https://github.com/N4rl0n)

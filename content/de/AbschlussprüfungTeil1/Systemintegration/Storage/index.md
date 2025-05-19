@@ -11,7 +11,9 @@ Als erstes sollte der Unterschied zwischen einem Blockgerät und einem Dateisyst
 
 ## Block-Gerät
 
-Ein **Block-Gerät** ist ein Handle für RAW-Festplatten.  
+Ein Block-Gerät ist eine Art von Gerätedatei unter Unix- und Linux-Systemen, die den Zugriff auf Speichergeräte wie Festplatten, SSDs, USB-Sticks oder andere blockorientierte Hardware ermöglicht.
+
+Der Begriff "Block" bezieht sich darauf, dass diese Geräte Daten in festen Blöcken (z. B. 512 Bytes oder 4096 Bytes) lesen und schreiben — im Gegensatz zu Zeichen-Geräten, die Daten Byte für Byte verarbeiten (wie z. B. serielle Schnittstellen oder Terminals). 
 
 ### Beispiel Block-Gerät
 
@@ -23,7 +25,7 @@ Ein **Dateisystem** befindet sich auf dem Blockgerät, um Daten zu speichern. Si
 
 ### Beispiel Dateisystem
 
-Wie `mount/dev/sda1/mnt/somepath`
+Wie `mount /dev/sda1 /mnt/somepath`
 
 ## SAN - Storage Area Network
 
