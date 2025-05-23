@@ -17,7 +17,7 @@ description: "Netzwerktopologien sind die physische und logische Struktur eines 
 | **Bus**                                     | Alle Stationen sind parallel auf einer gemeinsamen Leitung. Heute nicht mehr üblich in LANs. Zugriffssteuerung CSMA/CD.                                                                                                                                                                                                      | ![Bus Bild](./bus.png)                             |
 | **Ring**                                    | Jede Station hat eine Vorgängerstation und eine Nachfolgerstation. Daten werden nur in eine Richtung verschickt. Vorteile sind sichere Datenübertragung und berechenbare Wartezeit, bis gesendet werden darf. Nachteile sind ein schwieriger Aufbau und eine komplizierte Fehlersuche. Zugriffssteuerung über Token Passing. | ![Ring Bild](./ring.png)                           |
 
-## Hinweis 🛈
+## Hinweis
 
 Man unterscheidet:
 
