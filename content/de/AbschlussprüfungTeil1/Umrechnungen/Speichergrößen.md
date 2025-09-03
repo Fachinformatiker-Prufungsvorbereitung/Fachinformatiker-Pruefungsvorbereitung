@@ -1,5 +1,5 @@
 ---
-title: "Old Umrechnungen"
+title: "Speichergrößen"
 date: 2022-08-24T23:03:06-06:00
 draft: false
 type: docs
@@ -22,7 +22,7 @@ x giByte * 1024^3 = x Byte
 ```txt
 243 kiByte * 1024 = 248.832 Byte
 50 miByte * 1024^2 = 52.428.800 Byte
-23 giByte * 1024^3 = 24.696.061.952 Byte 
+23 giByte * 1024^3 = 24.696.061.952 Byte
 ```
 
 ## Dezimales System in binäres System
@@ -30,7 +30,7 @@ x giByte * 1024^3 = x Byte
 Kilo-, Mega- oder Gigabyte rechnet man erst in Byte um und dann durch  
 1024 für KiByte  
 1024^2 für MiByte  
-1024^3 für GiByte etc.  
+1024^3 für GiByte etc.
 
 ```txt
 x kB * 1000 / 1024 = x KiByte
@@ -41,7 +41,7 @@ x mB * 1000^2 / 1024^2 = x MiByte
 
 ```txt
 450 Gigabyte in Gibibyte
-450 * 1000^3 / 1024^3 = 419,095 giByte  
+450 * 1000^3 / 1024^3 = 419,095 giByte
 ```
 
 ## Umrechnungen innerhalb des binären System
