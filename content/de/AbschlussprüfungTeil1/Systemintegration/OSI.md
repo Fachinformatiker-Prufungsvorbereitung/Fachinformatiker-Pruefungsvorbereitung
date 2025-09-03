@@ -27,8 +27,9 @@ Alle Pfarrer saufen Tequila nach der Predigt
 ```
 
 #### Von 7 bis 1 (Deutsch)
-
-    Alle deutschen Studenten trinken verschiedene Sorten Bier
+```
+Alle deutschen Studenten trinken verschiedene Sorten Bier
+```
 
 #### Von 1 bis 7 (Englisch)
 
