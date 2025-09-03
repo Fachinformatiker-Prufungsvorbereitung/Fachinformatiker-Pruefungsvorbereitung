@@ -1,6 +1,6 @@
 ---
 title: "Zahlensysteme"
-date: 2025-09-03T00:00:00+02:00
+date: 2022-08-24T23:03:06-06:00
 draft: false
 type: docs
 description: "Umrechnungen sind Bestandteil der Gestreckten-Abschlussprüfung-Teil-1 und somit wichtig für deine Prüfungsvorbereitung"
@@ -25,8 +25,6 @@ Umrechnungen zwischen den Zahlensystemen Dezimal, Binär und Hexadezimal werden 
 
 ### Dezimal in Binär
 
-Gehe nach folgendem Verfahren vor:
-
 1. Teile die Zahl mit Rest durch 2.
 2. Der Divisionsrest ist die nächste Ziffer (von rechts nach links).
 3. Falls der (ganzzahlige) Quotient 0 ist, bist du fertig,
@@ -47,8 +45,6 @@ Gehe nach folgendem Verfahren vor:
 ```
 
 ### Dezimal nach Hexadezimal
-
-Gehe nach folgendem Verfahren vor:
 
 1. Teile die Zahl mit Rest durch 16.
 2. Der Divisionsrest ist die nächste Ziffer (von rechts nach links).
