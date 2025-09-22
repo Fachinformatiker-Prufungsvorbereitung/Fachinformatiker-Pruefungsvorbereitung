@@ -3,6 +3,8 @@ title: "Zahlensysteme"
 draft: false
 type: docs
 description: "Umrechnungen sind Bestandteil der Gestreckten-Abschlussprüfung-Teil-1 und somit wichtig für deine Prüfungsvorbereitung"
+aliases:
+  - /abschlussprüfungteil1/zahlensysteme/umrechnungen/
 ---
 
 - Umrechnungen innerhalb der Zahlensysteme Dezimal, Binär und Hexadezimal
