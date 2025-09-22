@@ -1,70 +1,74 @@
 ---
 title: "Speichergrößen"
-date: 2022-08-24T23:03:06-06:00
 draft: false
 type: docs
 description: "Umrechnungen sind Bestandteil der Gestreckten-Abschlussprüfung-Teil-1 und somit wichtig für deine Prüfungsvorbereitung"
 ---
 
-- Zum wechsel von MiB nach MB rechnet man runter auf Byte und dann im Dezimalsystem wieder hoch auf MB
-- Zum Wechsel von MB nach MiB macht man das ganze genau anders herum
+- Zum Wechsel von MiB nach MB rechnet man runter auf Byte und dann im Dezimalsystem wieder hoch auf MB
+- Zum Wechsel von MB nach MiB macht man das Ganze genau anders herum
 
 ## Binäres System in dezimales System
 
 ```txt
-x kiByte * 1024 = x Byte
-x miByte * 1024^2 = x Byte
-x giByte * 1024^3 = x Byte
+x KiB * 1024   = x Byte
+x MiB * 1024^2 = x Byte
+x GiB * 1024^3 = x Byte
 ```
 
 ### Beispiel
 
 ```txt
-243 kiByte * 1024 = 248.832 Byte
-50 miByte * 1024^2 = 52.428.800 Byte
-23 giByte * 1024^3 = 24.696.061.952 Byte
+243 KiB * 1024   = 248.832 Byte
+50 MiB * 1024^2  = 52.428.800 Byte
+23 GiB * 1024^3  = 24.696.061.952 Byte
 ```
 
 ## Dezimales System in binäres System
 
-Kilo-, Mega- oder Gigabyte rechnet man erst in Byte um und dann durch  
-1024 für KiByte  
-1024^2 für MiByte  
-1024^3 für GiByte etc.
+Kilo-, Mega- oder Gigabyte rechnet man erst in Byte um und dann durch
+1024 für KiB
+1024^2 für MiB
+1024^3 für GiB etc.
 
 ```txt
-x kB * 1000 / 1024 = x KiByte
-x mB * 1000^2 / 1024^2 = x MiByte
+x KB * 1000   / 1024^1 = x KiB
+x MB * 1000^2 / 1024^2 = x MiB
+x GB * 1000^3 / 1024^3 = x GiB
 ```
 
 ### Beispiel
 
 ```txt
-450 Gigabyte in Gibibyte
-450 * 1000^3 / 1024^3 = 419,095 giByte
+450 GB in GiB
+450 * 1000^3 / 1024^3 = 419,095 GiB
 ```
 
-## Umrechnungen innerhalb des binären System
+## Umrechnungen innerhalb des binären Systems
 
 ```txt
-Byte = kiByte / 1024
-Byte = miByte / 1024^2
+Byte     = KiB * 1024
+Byte     = MiB * 1024^2
+Byte     = GiB * 1024^3
 usw.
 
-Kibibyte = Byte * 1024
-Mibibyte = Byte * 1024^2
+KiB = Byte / 1024
+MiB = Byte / 1024^2
+GiB = Byte / 1024^3
 usw.
 ```
 
-## Umrechnungen innerhalb des dezimalen System
+## Umrechnungen innerhalb des dezimalen Systems
 
 ```txt
-Byte = Kilobyte / 1000
-Byte = Megabyte / 1000^2
+Byte     = KB * 1000
+Byte     = MB * 1000^2
+Byte     = GB * 1000^3
 usw.
 
-Kilobyte = Byte * 1000
-Megabyte = Byte * 1000^2
+KB = Byte / 1000
+MB = Byte / 1000^2
+GB = Byte / 1000^3
 usw.
 ```
 
