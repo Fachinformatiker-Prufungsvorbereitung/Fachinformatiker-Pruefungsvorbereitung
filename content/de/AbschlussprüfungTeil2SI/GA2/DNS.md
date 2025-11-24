@@ -31,6 +31,7 @@ Eine [DNS-Zone](https://www.cloudflare.com/learning/dns/glossary/dns-zone/) ist 
 | CNAME | Ein CNAME ist ein Alias für eine andere Domain. Er referenziert auf eine Domain anstatt auf eine IP-Adresse. |
 | MX    | Der Mail-Exchange-Record verweist auf einen Mail-Server.                                                     |
 | A     | Einer der simpelsten Record-Types. Er wandelt eine Domain in eine IPv4-Adresse um.                           |
+| AAAA  | Ähnlich dem A-Record-Type. Er wandelt eine Domain in eine IPv6-Adresse um.                                   |
 | NS    | Ein Name-Server Eintrag verweist auf weitere DNS-Server welche bei der Auflösung unterstützen.               |
 
 Weitere Records: [Click](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
