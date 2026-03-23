@@ -42,6 +42,49 @@ AES ist ein symmetrischer Verschlüsselungsalgorithmus, der 2001 als Nachfolger 
 
 RSA ist ein asymmetrischer Verschlüsselungsalgorithmus, der 1977 entwickelt wurde. Er verwendet ein Schlüsselpaar, bestehend aus einem Public- und einem Private-Key. Im Verhältnis zu AES unsicherer.
 
+## Digitale Signaturen
+
+Digitale Signaturen dienen dazu, die Authentizität und Integrität einer Nachricht zu gewährleisten. Sie beweisen, dass eine Nachricht wirklich vom angegebenen Absender stammt und nicht manipuliert wurde.
+
+### Funktionsweise
+
+Eine digitale Signatur basiert auf asymmetrischer Verschlüsselung, allerdings **umgekehrt** zur normalen Verschlüsselung:
+
+1. **Signierung (Sender):**
+   - Der Sender erstellt einen Hash-Wert der Nachricht (z.B. mit SHA-256)
+   - Dieser Hash wird mit dem **Private Key** des Senders verschlüsselt
+   - Die verschlüsselte Hash bildet die digitale Signatur
+   - Nachricht und Signatur werden gemeinsam versendet
+
+2. **Verifikation (Empfänger):**
+   - Der Empfänger entschlüsselt die Signatur mit dem **Public Key** des Senders
+   - Er erstellt selbst einen Hash der empfangenen Nachricht
+   - Beide Hash-Werte werden verglichen
+   - Stimmen sie überein, ist die Signatur gültig
+
+### Unterschied zur Verschlüsselung
+
+| Verschlüsselung                                      | Signatur                                                                              |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| Verschlüsseln mit Public Key des Empfängers          | Verschlüsseln mit Private Key des Senders                                             |
+| Entschlüsseln mit Private Key des Empfängers         | Entschlüsseln mit Public Key des Senders                                              |
+| Ziel: **Vertraulichkeit** (nur Empfänger kann lesen) | Ziel: **Authentizität** und **Integrität** (Absender beweisen, Manipulation erkennen) |
+
+### Eigenschaften digitaler Signaturen
+
+- **Authentizität:** Bestätigt die Identität des Absenders
+- **Integrität:** Erkennt nachträgliche Veränderungen der Nachricht
+- **Verbindlichkeit (Non-Repudiation):** Der Absender kann nicht abstreiten, die Nachricht signiert zu haben
+- **Keine Vertraulichkeit:** Die Nachricht bleibt lesbar (dafür muss zusätzlich verschlüsselt werden)
+
+### Anwendungsbeispiele
+
+- Signierung von E-Mails (S/MIME, PGP)
+- Signierung von Software-Updates (Code Signing)
+- Elektronische Signaturen bei Verträgen
+- Transaktionen in Blockchain-Systemen
+- Git-Commits signieren
+
 ## Digitale Zertifikate
 
 Digitale Zertifikate sind ein elektronischer Echtheitsnachweis, der von einer Zertifizierungsstelle ausgestellt wurde.
