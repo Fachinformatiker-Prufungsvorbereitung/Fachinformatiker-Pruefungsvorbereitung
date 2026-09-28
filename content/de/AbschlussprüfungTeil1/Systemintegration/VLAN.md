@@ -29,7 +29,7 @@ Beim Tagging wird ein 4 Byte großes Feld in den Ethernet-Frame eingefügt.
 |----|-----|---------|
 |TPID|16 Bit|Kennung 0x8100 markiert den Frame als getaggt|
 |PCP|3 Bit|Priorität nach IEEE 802.1p (0-7)|
-|DEI|1 Bit|Kennzeichnung verwerfbarer Frames|
+|DEI (früher CFI)|1 Bit|Kennzeichnung verwerfbarer Frames|
 |VID|12 Bit|VLAN-ID (0-4095)|
 
 - Nutzbare VLAN-IDs: 1 bis 4094 (0 und 4095 sind reserviert)
@@ -39,14 +39,17 @@ Beim Tagging wird ein 4 Byte großes Feld in den Ethernet-Frame eingefügt.
 
 |Typ|Beschreibung|
 |---|------------|
-|Access-Port|Gehört zu genau einem VLAN, Frames werden ungetaggt übertragen (Endgeräte)|
-|Trunk-Port|Überträgt mehrere VLANs getaggt, Verbindung zwischen Switches|
-|Native VLAN|VLAN, das auf einem Trunk ungetaggt übertragen wird|
+|Access-Port (untagged)|Gehört zu genau einem VLAN, Frames werden ungetaggt übertragen (Endgeräte)|
+|Trunk-Port (tagged)|Überträgt mehrere VLANs getaggt, Verbindung zwischen Switches|
+
+- „Access“ und „Trunk“ sind Cisco-Begriffe, andere Hersteller sprechen von untagged und tagged Ports
+- Das Native VLAN ist das VLAN, dessen Frames auf einem Trunk-Port ungetaggt übertragen werden
 
 ## Prüfungsrelevant
 
 - VLANs trennen Broadcast-Domänen, **nicht** Kollisionsdomänen – Kollisionsdomänen werden bereits durch jeden Switch-Port getrennt
-- Ein unterschiedlich konfiguriertes Native VLAN auf beiden Trunk-Enden ermöglicht VLAN Hopping
+- VLAN Hopping: Ein Angreifer schleust Frames in ein fremdes VLAN ein, z. B. per Switch Spoofing (Trunk wird per DTP ausgehandelt) oder Double Tagging (Angreifer sitzt im Native VLAN des Trunks). Gegenmaßnahmen: DTP deaktivieren, ungenutztes VLAN als Native VLAN verwenden
+- Unterschiedliche Native VLANs auf beiden Trunk-Enden sind eine Fehlkonfiguration: ungetaggter Verkehr landet im falschen VLAN
 - VLAN 1 ist der Standard und sollte aus Sicherheitsgründen nicht für Nutzdaten verwendet werden
 
 ## Links 🔗
