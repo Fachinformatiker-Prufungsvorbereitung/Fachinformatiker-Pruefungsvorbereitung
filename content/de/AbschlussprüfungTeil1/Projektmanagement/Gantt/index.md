@@ -18,8 +18,6 @@ description: "Ein Gantt-Diagramm oder Balkenplan ist ein Instrument des Projektm
 
 ![GANTT Diagramm](./GanttChart.svg)
 
-<br>
-
 ## Links
 
 [GANTT Diagramm erstellen für phänomenales Projektmanagement (einfache Erklärung) 📊🚀](https://www.youtube.com/watch?v=rpUsuZQsiFs)

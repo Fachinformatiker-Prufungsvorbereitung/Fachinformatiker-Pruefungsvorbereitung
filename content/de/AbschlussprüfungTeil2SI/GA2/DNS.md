@@ -14,13 +14,9 @@ aliases:
 example.com <= => 14.34.56.123
 ```
 
-<br>
-
 ## Was ist eine DNS-Zone?
 
 Eine [DNS-Zone](https://www.cloudflare.com/learning/dns/glossary/dns-zone/) ist ein Bereich im DNS-Namensraum. Die DNS-Zone beinhaltet mindestens eine Domain und kann eine oder mehrere Subdomains enthalten. (Subdomains können auch als eigene Zonen realisiert werden)
-
-<br>
 
 ## DNS-Records
 
@@ -48,8 +44,6 @@ Name        TTL  Class Type    Value
 de          3600   IN  CNAME   rr.example.net.
 ```
 
-<br>
-
 ## Top Level Domains (TLDs)
 
 TlDs sind die Domains in der DNS-Root Zone. Eine volle Liste kann hier gefunden werden: [Click](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
@@ -63,8 +57,6 @@ TlDs sind die Domains in der DNS-Root Zone. Eine volle Liste kann hier gefunden 
 | net     | **net**work                                       |
 | z.B. de | Länderspezifisch. In diesem Fall: **De**utschland |
 
-<br>
-
 ## Iterative vs Rekursive DNS-Auflösung
 
 ### Iterative DNS-Auflösung
@@ -74,8 +66,6 @@ Bei der [Iterativen DNS-Auflösung](https://de.wikipedia.org/wiki/Rekursive_und_
 ### Rekursive DNS-Auflösung
 
 Im Gegensatz zur Iterativen-Auflösung holt sich der Server bei der [Rekursiven DNS-Auflösung](https://de.wikipedia.org/wiki/Rekursive_und_iterative_Namensaufl%C3%B6sung) die erforderlichen Daten selbst und schickt nicht nur einen Verweis zurück sondern das Ergebnis seiner Anfrage.
-
-<br>
 
 ## DNS-Server Arten
 

@@ -50,8 +50,6 @@ description: "Mit dem Klassendiagramm aus dem UML Standard, können Klassen in e
 | 0...\*        | \*                       | Null oder beliebig viele      |
 | 1...\*        |                          | Beliebig viele - Mindestens 1 |
 
-<br>
-
 ![Multiplizitäten](./UML-Multiplizitäten.svg)
 
 ## Erklärungsvideo Klassendiagramm 📹

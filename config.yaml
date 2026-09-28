@@ -9,7 +9,7 @@ module:
     - path: github.com/imfing/hextra
 
 # Language
-languageCode: de
+locale: de
 defaultContentLanguage: de
 defaultContentLanguageInSubdir: false
 contentDir: "content/de"

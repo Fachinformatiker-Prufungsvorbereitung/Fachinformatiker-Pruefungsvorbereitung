@@ -14,4 +14,4 @@ Der zweite Teil der gestreckten Abschlussprüfung besteht aus:
 - Wirtschafts- und Sozialkunde (10% der Gesamtnote)
 - Abschlussprojekt Systemintegration (50% der Gesamtnote)
 
-<strong>Bitte sei dir bewusst, dass wir auf dieser Seite teilweise nur grob auf gewisse Themen eingehen, lerne zusätzlich mit alten Prüfungen.</strong>
+**Bitte sei dir bewusst, dass wir auf dieser Seite teilweise nur grob auf gewisse Themen eingehen, lerne zusätzlich mit alten Prüfungen.**

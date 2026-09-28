@@ -30,5 +30,3 @@ Bei dem Fachinformatiker Anwendungsentwicklung beträgt die Dauer des Projektes 
 ## Links 🔗
 
 [Beispiele für Abschlussprojekte](https://it-berufe-podcast.de/vorbereitung-auf-die-ihk-abschlusspruefung-der-it-berufe/beispiele-fuer-ihk-abschlussprojekte-in-den-it-berufen/)  
-
-<br>
